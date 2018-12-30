@@ -1,0 +1,41 @@
+contact_point = (b,n,d) where a = b+n*d  -> (a,b)
+
+
+algorithm find contacts.
+
+pairs = get_AABB_couple(); //SAP
+
+for each pair {
+
+	if(overlap(pair) == false && /*pair is not a new one*/ contact(pair) exist)
+	{
+ 		//keep old contact point and update it
+ 		update_old(pair);
+ 		
+ 		if(distance > THRESHOLD_OLD || translation > TRANSLATION_THRESHOLD)
+ 			delete contact; 
+	}
+	
+ 	if(overlap(pair) == false && /*pair is new*/ contact(pair) !exist)
+ 	{
+ 	 if(distance(pair) < THRESHOLD_NEW)
+ 	 	generate_single_contact_point();
+ 	}
+ 			
+ 	if(overlap(pair) == true)
+ 		//generate new manifold and compare with old one (if any)
+
+	check old contact point not used in any above point: update (delete?) them;
+}
+
+
+
+update old contact point
+
+
+update_old(pair){
+
+new distance for old contact point;
+new translation for old contact point;
+
+}

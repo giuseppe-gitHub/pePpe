@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Contents  name="it.gius.pePpe.mains.ClothMain at PC-giuseppe [ PID: 5068 ]">
+<Agent name="org.eclipse.tptp.jvmti" type="Profiler" runtimeId="a94f3c7d-2c2c-41d1-ae5c-fc179612c905" startTime="1.336332985177E9" stopTime="1.3363334845193768E9" collectionMode="EXECUTION_NO_INSTANCES">
+<process pid="5068" id="556b339f-f0dc-42ee-aab8-588d237c6bd9" startTime="1.6637442111968994" lastEventTime="499.34236884117126" baseTime="544.9886863231659" cumulativeTime="2375.84046792984" calls="2240537" totalSize="0" totalInstances="0"/>
+<threads name="main" id="5" startTime="2.5634405612945557" stopTime="12.045818567276001" maxStackDepth="12"/>
+<threads name="AWT-EventQueue-0" id="10" startTime="10.927779197692871" stopTime="496.7190546989441" maxStackDepth="5"/>
+<threads name="Animation Thread" id="12" startTime="11.304048538208008" stopTime="498.15205550193787" maxStackDepth="14"/>
+<packages name="it.gius.pePpe.mains" baseTime="0.14589858055114746" cumulativeTime="9.2862548828125" calls="2" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="ClothMain" id="309" loadTime="2.759505033493042" baseTime="0.14588165283203125" cumulativeTime="9.2862548828125" calls="1" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="ClothMain.java"">
+      <methods name="main" id="70104" signature="(java.lang.String[]) void" baseTime="0.14588165283203125" cumulativeTime="9.2862548828125" calls="1"/>
+    </classes>
+    <classes name="SimpleNotifier" id="1681" loadTime="10.078873872756958" baseTime="1.6927719116210938E-5" cumulativeTime="1.6927719116210938E-5" calls="1" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="SimpleNotifier.java"">
+      <methods name="SimpleNotifier" id="85846" signature="()" baseTime="1.6927719116210938E-5" cumulativeTime="1.6927719116210938E-5" calls="1"/>
+    </classes>
+</packages>
+<packages name="it.gius.pePpe" baseTime="69.30899906158447" cumulativeTime="110.43630194664001" calls="498290" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="PhysicEngine" id="342" loadTime="2.7688965797424316" baseTime="0.7351527214050293" cumulativeTime="86.09375500679016" calls="23382" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="PhysicEngine.java"">
+      <methods name="PhysicEngine" id="70422" signature="()" baseTime="0.18752574920654297" cumulativeTime="3.8156511783599854" calls="1"/>
+      <methods name="init" id="70423" signature="() void" baseTime="1.494884490966797E-4" cumulativeTime="0.012455463409423828" calls="1"/>
+      <methods name="setGravity" id="70429" signature="(float, float) void" baseTime="0.06213068962097168" cumulativeTime="0.06213068962097168" calls="1"/>
+      <methods name="createBody" id="70436" signature="(it.gius.pePpe.data.physic.BodyInit) it.gius.pePpe.Body" baseTime="0.0031375885009765625" cumulativeTime="0.04164767265319824" calls="100"/>
+      <methods name="createBind" id="70438" signature="(it.gius.pePpe.data.physic.BindInit) it.gius.pePpe.Bind" baseTime="0.08141207695007324" cumulativeTime="1.724428653717041" calls="100"/>
+      <methods name="getNodefromBind" id="70430" signature="(it.gius.pePpe.Bind) it.gius.pePpe.data.physic.BindAABBNode" baseTime="0.0035965442657470703" cumulativeTime="0.0277252197265625" calls="100"/>
+      <methods name="addForce" id="70433" signature="(it.gius.pePpe.forces.IForce) void" baseTime="0.10085892677307129" cumulativeTime="0.3971073627471924" calls="182"/>
+      <methods name="getGravityModule" id="70427" signature="() float" baseTime="6.4373016357421875E-6" cumulativeTime="6.4373016357421875E-6" calls="1"/>
+      <methods name="setLocked" id="70441" signature="(boolean) void" baseTime="0.007559776306152344" cumulativeTime="0.007559776306152344" calls="630"/>
+      <methods name="step" id="70442" signature="(float) void" baseTime="0.013175249099731445" cumulativeTime="80.02357530593872" calls="210"/>
+      <methods name="getGlobalData" id="70432" signature="() it.gius.pePpe.data.GlobalData" baseTime="0.007135152816772461" cumulativeTime="0.007135152816772461" calls="846"/>
+      <methods name="getGravity" id="70426" signature="() org.jbox2d.common.Vec2" baseTime="0.26293349266052246" cumulativeTime="0.26293349266052246" calls="21000"/>
+      <methods name="getForcesList" id="70435" signature="() it.gius.pePpe.data.structures.IdList" baseTime="0.0055315494537353516" cumulativeTime="0.007414817810058594" calls="210"/>
+    </classes>
+    <classes name="Body" id="1446" loadTime="6.682404279708862" baseTime="68.5520601272583" cumulativeTime="68.99161171913147" calls="474508" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="Body.java"">
+      <methods name="Body" id="82538" signature="(it.gius.pePpe.data.physic.BodyInit)" baseTime="0.00803518295288086" cumulativeTime="0.03851008415222168" calls="100"/>
+      <methods name="addBind" id="82561" signature="(it.gius.pePpe.Bind) short" baseTime="0.0031595230102539062" cumulativeTime="0.05814862251281738" calls="100"/>
+      <methods name="recomputePhysicData" id="82565" signature="() void" baseTime="0.006237030029296875" cumulativeTime="0.047733306884765625" calls="100"/>
+      <methods name="recomputeRadius" id="82564" signature="() void" baseTime="0.0023734569549560547" cumulativeTime="0.0036725997924804688" calls="100"/>
+      <methods name="getTransform" id="82549" signature="() org.jbox2d.common.Transform" baseTime="33.8399703502655" cumulativeTime="33.8399703502655" calls="173140"/>
+      <methods name="containsLocal" id="82545" signature="(org.jbox2d.common.Vec2) boolean" baseTime="0.5707187652587891" cumulativeTime="0.658527135848999" calls="962"/>
+      <methods name="addForceId" id="82559" signature="(short) void" baseTime="0.006036043167114258" cumulativeTime="0.2809257507324219" calls="362"/>
+      <methods name="getGlobalCenter" id="82552" signature="() org.jbox2d.common.Vec2" baseTime="1.2874603271484375E-5" cumulativeTime="1.2874603271484375E-5" calls="2"/>
+      <methods name="getLocalCenter" id="82553" signature="() org.jbox2d.common.Vec2" baseTime="1.1444091796875E-5" cumulativeTime="1.1444091796875E-5" calls="2"/>
+      <methods name="clearForces" id="82540" signature="() void" baseTime="0.19130969047546387" cumulativeTime="0.19130969047546387" calls="21000"/>
+      <methods name="getPointVelocity" id="82544" signature="(org.jbox2d.common.Vec2, org.jbox2d.common.Vec2) void" baseTime="11.956520795822144" cumulativeTime="11.956520795822144" calls="76020"/>
+      <methods name="applyForce" id="82543" signature="(org.jbox2d.common.Vec2, org.jbox2d.common.Vec2) void" baseTime="15.08053994178772" cumulativeTime="15.08053994178772" calls="76020"/>
+      <methods name="applyForce" id="82541" signature="(org.jbox2d.common.Vec2) void" baseTime="0.18740010261535645" cumulativeTime="0.18740010261535645" calls="21000"/>
+      <methods name="getForce" id="82547" signature="() org.jbox2d.common.Vec2" baseTime="0.34327268600463867" cumulativeTime="0.34327268600463867" calls="21000"/>
+      <methods name="getTorque" id="82548" signature="() float" baseTime="0.24138283729553223" cumulativeTime="0.24138283729553223" calls="21000"/>
+      <methods name="getBodyPosition" id="82558" signature="() it.gius.pePpe.data.physic.BodyPosition" baseTime="0.20103192329406738" cumulativeTime="0.20103192329406738" calls="21000"/>
+      <methods name="synchronizeTransform" id="82563" signature="() void" baseTime="0.19234943389892578" cumulativeTime="0.19234943389892578" calls="21000"/>
+      <methods name="getAngle" id="82551" signature="() float" baseTime="1.8784289360046387" cumulativeTime="1.8784289360046387" calls="21000"/>
+      <methods name="containsGlobal" id="82546" signature="(org.jbox2d.common.Vec2) boolean" baseTime="3.843269109725952" cumulativeTime="4.426052808761597" calls="600"/>
+    </classes>
+    <classes name="Bind" id="1472" loadTime="6.686950922012329" baseTime="0.021786212921142578" cumulativeTime="0.062098026275634766" calls="400" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="Bind.java"">
+      <methods name="Bind" id="82763" signature="(it.gius.pePpe.data.physic.BindInit)" baseTime="7.009506225585938E-4" cumulativeTime="7.009506225585938E-4" calls="100"/>
+      <methods name="setId" id="82762" signature="(short) void" baseTime="6.144046783447266E-4" cumulativeTime="6.144046783447266E-4" calls="100"/>
+      <methods name="getPhysicData" id="82765" signature="(it.gius.pePpe.data.physic.PhysicData) void" baseTime="0.0014693737030029297" cumulativeTime="0.03955960273742676" calls="100"/>
+      <methods name="getAABoundaryBox" id="82766" signature="(it.gius.pePpe.data.aabb.AABoundaryBox) void" baseTime="0.019001483917236328" cumulativeTime="0.021223068237304688" calls="100"/>
+    </classes>
+</packages>
+<packages name="it.gius" baseTime="0.0" cumulativeTime="0.0" calls="0" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+</packages>
+<packages name="it" baseTime="0.0" cumulativeTime="0.0" calls="0" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+</packages>
+<packages name="it.gius.pePpe.data" baseTime="0.009172916412353516" cumulativeTime="0.012681007385253906" calls="1" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="GlobalData" id="417" loadTime="2.9410510063171387" baseTime="0.009172916412353516" cumulativeTime="0.012681007385253906" calls="1" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="GlobalData.java"">
+      <methods name="GlobalData" id="71012" signature="(int)" baseTime="0.009172916412353516" cumulativeTime="0.012681007385253906" calls="1"/>
+    </classes>
+</packages>
+<packages name="it.gius.pePpe.data.structures" baseTime="0.7386946678161621" cumulativeTime="1.0187737941741943" calls="27630" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="IdDoubleArrayList" id="419" loadTime="2.950218439102173" baseTime="0.19946694374084473" cumulativeTime="0.22435498237609863" calls="15932" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="IdDoubleArrayList.java"">
+      <methods name="IdDoubleArrayList" id="71015" signature="(java.lang.Class, int, int)" baseTime="0.008455514907836914" cumulativeTime="0.031084537506103516" calls="102"/>
+      <methods name="size" id="71023" signature="() int" baseTime="0.03685903549194336" cumulativeTime="0.03685903549194336" calls="1794"/>
+      <methods name="toLongerArray" id="71024" signature="() it.gius.pePpe.data.structures.IdGetSet[]" baseTime="0.052556514739990234" cumulativeTime="0.052556514739990234" calls="1793"/>
+      <methods name="add" id="71018" signature="(it.gius.pePpe.data.structures.IdGetSet) short" baseTime="0.008608102798461914" cumulativeTime="0.01338505744934082" calls="382"/>
+      <methods name="nextFree" id="71017" signature="() short" baseTime="0.002427816390991211" cumulativeTime="0.002427816390991211" calls="382"/>
+      <methods name="get" id="71020" signature="(short) it.gius.pePpe.data.structures.IdGetSet" baseTime="0.0904698371887207" cumulativeTime="0.0904698371887207" calls="11475"/>
+      <methods name="resizeArrays" id="71016" signature="() void" baseTime="9.012222290039062E-5" cumulativeTime="9.012222290039062E-5" calls="4"/>
+    </classes>
+    <classes name="IdDoubleArrayList$IdDoubleArrayListIterator" id="423" loadTime="2.9535775184631348" baseTime="0.0226290225982666" cumulativeTime="0.0226290225982666" calls="816" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="IdDoubleArrayList.java"">
+      <methods name="IdDoubleArrayList$IdDoubleArrayListIterator" id="71044" signature="(it.gius.pePpe.data.structures.IdDoubleArrayList, it.gius.pePpe.data.structures.IdDoubleArrayList$IdDoubleArrayListIterator)" baseTime="0.0058498382568359375" cumulativeTime="0.0226290225982666" calls="408"/>
+      <methods name="IdDoubleArrayList$IdDoubleArrayListIterator" id="71038" signature="(it.gius.pePpe.data.structures.IdDoubleArrayList)" baseTime="0.016779184341430664" cumulativeTime="0.016779184341430664" calls="408"/>
+    </classes>
+    <classes name="HashSet" id="1307" loadTime="5.774547100067139" baseTime="0.35677003860473633" cumulativeTime="0.7926318645477295" calls="7301" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="HashSet.java"">
+      <methods name="HashSet" id="80267" signature="(java.lang.Class)" baseTime="6.909370422363281E-4" cumulativeTime="6.909370422363281E-4" calls="104"/>
+      <methods name="clear" id="80268" signature="() void" baseTime="1.5497207641601562E-5" cumulativeTime="1.5497207641601562E-5" calls="2"/>
+      <methods name="find" id="80272" signature="(java.lang.Object) java.lang.Object" baseTime="0.1993417739868164" cumulativeTime="0.517035722732544" calls="2025"/>
+      <methods name="getHash" id="80271" signature="(java.lang.Object) int" baseTime="0.028535127639770508" cumulativeTime="0.30635523796081543" calls="2025"/>
+      <methods name="find" id="80273" signature="(java.lang.Object, int) java.lang.Object" baseTime="0.015619277954101562" cumulativeTime="0.015619277954101562" calls="2387"/>
+      <methods name="add" id="80274" signature="(java.lang.Object) java.lang.Object" baseTime="0.08840036392211914" cumulativeTime="0.2748897075653076" calls="362"/>
+      <methods name="resize" id="80269" signature="() void" baseTime="0.02304244041442871" cumulativeTime="0.10824942588806152" calls="198"/>
+      <methods name="nextPowerOfTwo" id="80270" signature="(int) int" baseTime="0.0011246204376220703" cumulativeTime="0.0011246204376220703" calls="198"/>
+    </classes>
+    <classes name="HashSetShort" id="1308" loadTime="5.776456356048584" baseTime="0.09402298927307129" cumulativeTime="0.09466910362243652" calls="1613" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="HashSetShort.java"">
+      <methods name="HashSetShort" id="80279" signature="()" baseTime="0.001786947250366211" cumulativeTime="0.0024330615997314453" calls="101"/>
+      <methods name="getHash" id="80281" signature="(java.lang.Object) int" baseTime="0.023932456970214844" cumulativeTime="0.09223604202270508" calls="756"/>
+      <methods name="getHash" id="80280" signature="(java.lang.Short) int" baseTime="0.06830358505249023" cumulativeTime="0.06830358505249023" calls="756"/>
+    </classes>
+    <classes name="HashSet$ListElement" id="1476" loadTime="8.46306848526001" baseTime="0.06580567359924316" cumulativeTime="0.06580567359924316" calls="1968" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="HashSet.java"">
+      <methods name="HashSet$ListElement" id="82773" signature="(it.gius.pePpe.data.structures.HashSet$ListElement)" baseTime="0.05984687805175781" cumulativeTime="0.06580567359924316" calls="984"/>
+      <methods name="HashSet$ListElement" id="82771" signature="()" baseTime="0.0059587955474853516" cumulativeTime="0.0059587955474853516" calls="984"/>
+    </classes>
+</packages>
+<packages name="it.gius.pePpe.configuration" baseTime="3.549168109893799" cumulativeTime="3.6152267456054688" calls="9" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="ConfigurationFactory" id="425" loadTime="2.9616880416870117" baseTime="3.549168109893799" cumulativeTime="3.6152267456054688" calls="9" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="ConfigurationFactory.java"">
+      <methods name="-clinit-" id="71047" signature="()" baseTime="1.4066696166992188E-5" cumulativeTime="1.4066696166992188E-5" calls="1"/>
+      <methods name="getDefaultInstance" id="71048" signature="() it.gius.pePpe.configuration.ConfigurationFactory" baseTime="7.104873657226562E-5" cumulativeTime="3.615191698074341" calls="2"/>
+      <methods name="ConfigurationFactory" id="71049" signature="()" baseTime="1.1682510375976562E-5" cumulativeTime="1.1682510375976562E-5" calls="1"/>
+      <methods name="init" id="71050" signature="() boolean" baseTime="2.752556085586548" cumulativeTime="3.6151089668273926" calls="1"/>
+      <methods name="realInit" id="71052" signature="() void" baseTime="0.7964942455291748" cumulativeTime="0.8461654186248779" calls="1"/>
+      <methods name="getDefaultDistance" id="71056" signature="() it.gius.pePpe.distance.IDistance" baseTime="7.3909759521484375E-6" cumulativeTime="7.3909759521484375E-6" calls="1"/>
+      <methods name="getDefaultAABBManager" id="71055" signature="() it.gius.pePpe.aabb.IAABBManager" baseTime="7.3909759521484375E-6" cumulativeTime="7.3909759521484375E-6" calls="1"/>
+      <methods name="getDefaultSimulator" id="71053" signature="() it.gius.pePpe.simulator.ISimulator" baseTime="6.198883056640625E-6" cumulativeTime="6.198883056640625E-6" calls="1"/>
+    </classes>
+</packages>
+<packages name="javax.xml.parsers" baseTime="0.01459360122680664" cumulativeTime="0.01459360122680664" calls="53" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="DocumentBuilderFactory" id="895" loadTime="4.430138111114502" baseTime="0.004511356353759766" cumulativeTime="0.01457071304321289" calls="19" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="DocumentBuilderFactory.java"">
+      <methods name="newInstance" id="75987" signature="() javax.xml.parsers.DocumentBuilderFactory" baseTime="0.0043659210205078125" cumulativeTime="0.014448404312133789" calls="1"/>
+      <methods name="DocumentBuilderFactory" id="75986" signature="()" baseTime="2.3126602172851562E-5" cumulativeTime="2.3126602172851562E-5" calls="1"/>
+      <methods name="setNamespaceAware" id="75989" signature="(boolean) void" baseTime="1.3113021850585938E-5" cumulativeTime="1.3113021850585938E-5" calls="2"/>
+      <methods name="setValidating" id="75990" signature="(boolean) void" baseTime="6.67572021484375E-6" cumulativeTime="6.67572021484375E-6" calls="1"/>
+      <methods name="isValidating" id="75996" signature="() boolean" baseTime="3.600120544433594E-5" cumulativeTime="3.600120544433594E-5" calls="4"/>
+      <methods name="isNamespaceAware" id="75995" signature="() boolean" baseTime="1.3589859008789062E-5" cumulativeTime="1.3589859008789062E-5" calls="2"/>
+      <methods name="isIgnoringElementContentWhitespace" id="75997" signature="() boolean" baseTime="1.3113021850585938E-5" cumulativeTime="1.3113021850585938E-5" calls="2"/>
+      <methods name="isExpandEntityReferences" id="75998" signature="() boolean" baseTime="1.33514404296875E-5" cumulativeTime="1.33514404296875E-5" calls="2"/>
+      <methods name="isIgnoringComments" id="75999" signature="() boolean" baseTime="1.3113021850585938E-5" cumulativeTime="1.3113021850585938E-5" calls="2"/>
+      <methods name="isCoalescing" id="76000" signature="() boolean" baseTime="1.33514404296875E-5" cumulativeTime="1.33514404296875E-5" calls="2"/>
+    </classes>
+    <classes name="FactoryFinder" id="896" loadTime="4.434471607208252" baseTime="0.0045888423919677734" cumulativeTime="0.010082483291625977" calls="7" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="FactoryFinder.java"">
+      <methods name="-clinit-" id="76016" signature="()" baseTime="0.0015919208526611328" cumulativeTime="0.002406597137451172" calls="1"/>
+      <methods name="find" id="76014" signature="(java.lang.String, java.lang.String) java.lang.Object" baseTime="1.804828643798828E-4" cumulativeTime="0.007675886154174805" calls="1"/>
+      <methods name="dPrint" id="76011" signature="(java.lang.String) void" baseTime="1.5497207641601562E-5" cumulativeTime="1.5497207641601562E-5" calls="2"/>
+      <methods name="findJarServiceProvider" id="76015" signature="(java.lang.String) java.lang.Object" baseTime="7.462501525878906E-5" cumulativeTime="0.003725767135620117" calls="1"/>
+      <methods name="newInstance" id="76013" signature="(java.lang.String, java.lang.ClassLoader, boolean) java.lang.Object" baseTime="0.0010700225830078125" cumulativeTime="0.0027894973754882812" calls="1"/>
+      <methods name="getProviderClass" id="76012" signature="(java.lang.String, java.lang.ClassLoader, boolean) java.lang.Class" baseTime="0.0016562938690185547" cumulativeTime="0.0016963481903076172" calls="1"/>
+    </classes>
+    <classes name="SecuritySupport" id="897" loadTime="4.436026096343994" baseTime="0.003343820571899414" cumulativeTime="0.0054705142974853516" calls="9" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="SecuritySupport.java"">
+      <methods name="SecuritySupport" id="76017" signature="()" baseTime="1.2159347534179688E-5" cumulativeTime="1.2159347534179688E-5" calls="1"/>
+      <methods name="getSystemProperty" id="76019" signature="(java.lang.String) java.lang.String" baseTime="8.263587951660156E-4" cumulativeTime="8.847713470458984E-4" calls="3"/>
+      <methods name="doesFileExist" id="76022" signature="(java.io.File) boolean" baseTime="7.855892181396484E-4" cumulativeTime="8.823871612548828E-4" calls="1"/>
+      <methods name="getContextClassLoader" id="76018" signature="() java.lang.ClassLoader" baseTime="8.366107940673828E-4" cumulativeTime="8.788108825683594E-4" calls="2"/>
+      <methods name="getResourceAsStream" id="76021" signature="(java.lang.ClassLoader, java.lang.String) java.io.InputStream" baseTime="8.831024169921875E-4" cumulativeTime="0.0028123855590820312" calls="2"/>
+    </classes>
+    <classes name="SecuritySupport$2" id="898" loadTime="4.436802625656128" baseTime="5.841255187988281E-5" cumulativeTime="5.841255187988281E-5" calls="6" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="SecuritySupport.java"">
+      <methods name="SecuritySupport$2" id="76023" signature="(javax.xml.parsers.SecuritySupport, java.lang.String)" baseTime="2.6941299438476562E-5" cumulativeTime="2.6941299438476562E-5" calls="3"/>
+      <methods name="run" id="76024" signature="() java.lang.Object" baseTime="3.147125244140625E-5" cumulativeTime="3.147125244140625E-5" calls="3"/>
+    </classes>
+    <classes name="SecuritySupport$5" id="899" loadTime="4.437850475311279" baseTime="9.679794311523438E-5" cumulativeTime="9.679794311523438E-5" calls="2" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="SecuritySupport.java"">
+      <methods name="SecuritySupport$5" id="76025" signature="(javax.xml.parsers.SecuritySupport, java.io.File)" baseTime="1.3828277587890625E-5" cumulativeTime="1.3828277587890625E-5" calls="1"/>
+      <methods name="run" id="76026" signature="() java.lang.Object" baseTime="8.296966552734375E-5" cumulativeTime="8.296966552734375E-5" calls="1"/>
+    </classes>
+    <classes name="SecuritySupport$1" id="900" loadTime="4.438819885253906" baseTime="4.220008850097656E-5" cumulativeTime="4.220008850097656E-5" calls="4" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="SecuritySupport.java"">
+      <methods name="SecuritySupport$1" id="76027" signature="(javax.xml.parsers.SecuritySupport)" baseTime="1.9073486328125E-5" cumulativeTime="1.9073486328125E-5" calls="2"/>
+      <methods name="run" id="76028" signature="() java.lang.Object" baseTime="2.3126602172851562E-5" cumulativeTime="2.3126602172851562E-5" calls="2"/>
+    </classes>
+    <classes name="SecuritySupport$4" id="901" loadTime="4.439725160598755" baseTime="0.0019292831420898438" cumulativeTime="0.0019292831420898438" calls="4" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="SecuritySupport.java"">
+      <methods name="SecuritySupport$4" id="76029" signature="(javax.xml.parsers.SecuritySupport, java.lang.ClassLoader, java.lang.String)" baseTime="2.0503997802734375E-5" cumulativeTime="2.0503997802734375E-5" calls="2"/>
+      <methods name="run" id="76030" signature="() java.lang.Object" baseTime="0.0019087791442871094" cumulativeTime="0.0019087791442871094" calls="2"/>
+    </classes>
+    <classes name="DocumentBuilder" id="905" loadTime="4.451438903808594" baseTime="2.288818359375E-5" cumulativeTime="2.288818359375E-5" calls="2" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="DocumentBuilder.java"">
+      <methods name="DocumentBuilder" id="76057" signature="()" baseTime="2.288818359375E-5" cumulativeTime="2.288818359375E-5" calls="2"/>
+    </classes>
+</packages>
+<packages name="javax.xml" baseTime="0.0" cumulativeTime="0.0" calls="0" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+</packages>
+<packages name="javax" baseTime="0.0" cumulativeTime="0.0" calls="0" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+</packages>
+<packages name="javax.xml.datatype" baseTime="0.0017938613891601562" cumulativeTime="0.0017938613891601562" calls="12" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="DatatypeFactory" id="1077" loadTime="4.9272613525390625" baseTime="0.0017938613891601562" cumulativeTime="0.0017938613891601562" calls="12" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="DatatypeFactory.java"">
+      <methods name="-clinit-" id="77689" signature="()" baseTime="0.0016748905181884766" cumulativeTime="0.0016748905181884766" calls="1"/>
+      <methods name="DatatypeFactory" id="77672" signature="()" baseTime="1.1897087097167969E-4" cumulativeTime="1.1897087097167969E-4" calls="11"/>
+    </classes>
+</packages>
+<packages name="it.gius.pePpe.aabb" baseTime="0.9624273777008057" cumulativeTime="1.5726377964019775" calls="2534" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="AABBSweepAndPrune" id="1302" loadTime="5.75872540473938" baseTime="0.9241859912872314" cumulativeTime="1.5726377964019775" calls="506" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="AABBSweepAndPrune.java"">
+      <methods name="AABBSweepAndPrune" id="80223" signature="()" baseTime="0.007504940032958984" cumulativeTime="0.017781972885131836" calls="1"/>
+      <methods name="init" id="80224" signature="(it.gius.pePpe.data.GlobalData) void" baseTime="0.0021390914916992188" cumulativeTime="0.002239704132080078" calls="1"/>
+      <methods name="sweep" id="80225" signature="() void" baseTime="2.1696090698242188E-5" cumulativeTime="2.956390380859375E-5" calls="1"/>
+      <methods name="addAABB" id="80235" signature="(it.gius.pePpe.data.aabb.AABoundaryBox, short) void" baseTime="0.009679794311523438" cumulativeTime="1.5526161193847656" calls="100"/>
+      <methods name="updateXEndPoint" id="80236" signature="(it.gius.pePpe.data.aabb.EndPoint, int) int" baseTime="0.018566131591796875" cumulativeTime="0.025067567825317383" calls="200"/>
+      <methods name="updateYEndPointAndPairs" id="80239" signature="(it.gius.pePpe.data.aabb.EndPoint, it.gius.pePpe.data.aabb.AABoundaryBox, int) int" baseTime="0.886221170425415" cumulativeTime="1.5152347087860107" calls="200"/>
+      <methods name="resizeEndArrays" id="80226" signature="() void" baseTime="5.316734313964844E-5" cumulativeTime="5.316734313964844E-5" calls="3"/>
+    </classes>
+    <classes name="PairManager" id="1304" loadTime="5.764329671859741" baseTime="0.03824138641357422" cumulativeTime="0.5553207397460938" calls="2028" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="PairManager.java"">
+      <methods name="-clinit-" id="80242" signature="()" baseTime="2.8848648071289062E-5" cumulativeTime="2.8848648071289062E-5" calls="1"/>
+      <methods name="PairManager" id="80243" signature="()" baseTime="0.010164022445678711" cumulativeTime="0.010200023651123047" calls="1"/>
+      <methods name="clear" id="80244" signature="() void" baseTime="3.910064697265625E-5" cumulativeTime="4.673004150390625E-5" calls="1"/>
+      <methods name="removePair" id="80247" signature="(short, short) void" baseTime="0.028009414672851562" cumulativeTime="0.5450451374053955" calls="2025"/>
+    </classes>
+</packages>
+<packages name="it.gius.pePpe.data.aabb" baseTime="0.2827877998352051" cumulativeTime="0.2827877998352051" calls="2629" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="Pair" id="1306" loadTime="5.767717123031616" baseTime="0.277846097946167" cumulativeTime="0.277846097946167" calls="2027" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="Pair.java"">
+      <methods name="Pair" id="80260" signature="()" baseTime="2.5987625122070312E-5" cumulativeTime="2.5987625122070312E-5" calls="2"/>
+      <methods name="hashCode" id="80264" signature="() int" baseTime="0.2778201103210449" cumulativeTime="0.2778201103210449" calls="2025"/>
+    </classes>
+    <classes name="AABoundaryBox" id="1452" loadTime="6.526901960372925" baseTime="0.002360820770263672" cumulativeTime="0.002360820770263672" calls="202" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="AABoundaryBox.java"">
+      <methods name="AABoundaryBox" id="82609" signature="()" baseTime="0.00152587890625" cumulativeTime="0.002360820770263672" calls="101"/>
+      <methods name="AABoundaryBox" id="82610" signature="(org.jbox2d.common.Vec2, org.jbox2d.common.Vec2)" baseTime="8.349418640136719E-4" cumulativeTime="8.349418640136719E-4" calls="101"/>
+    </classes>
+    <classes name="EndPoint" id="1459" loadTime="6.689432144165039" baseTime="0.002580881118774414" cumulativeTime="0.002580881118774414" calls="400" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="EndPoint.java"">
+      <methods name="EndPoint" id="82646" signature="()" baseTime="0.002580881118774414" cumulativeTime="0.002580881118774414" calls="400"/>
+    </classes>
+</packages>
+<packages name="it.gius.pePpe.distance" baseTime="0.016051769256591797" cumulativeTime="0.0368804931640625" calls="3" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="GjkDistanceImpl" id="1348" loadTime="5.895428419113159" baseTime="0.011999368667602539" cumulativeTime="0.0368804931640625" calls="2" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="GjkDistanceImpl.java"">
+      <methods name="GjkDistanceImpl" id="80667" signature="()" baseTime="0.006097078323364258" cumulativeTime="0.02683115005493164" calls="1"/>
+      <methods name="init" id="80668" signature="(it.gius.pePpe.data.GlobalData) void" baseTime="0.005902290344238281" cumulativeTime="0.01004934310913086" calls="1"/>
+    </classes>
+    <classes name="CacheManager" id="1460" loadTime="6.592782497406006" baseTime="0.004052400588989258" cumulativeTime="0.004147052764892578" calls="1" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="CacheManager.java"">
+      <methods name="CacheManager" id="82650" signature="(it.gius.pePpe.data.GlobalData)" baseTime="0.004052400588989258" cumulativeTime="0.004147052764892578" calls="1"/>
+    </classes>
+</packages>
+<packages name="it.gius.pePpe.algorithm.gjk" baseTime="0.020734071731567383" cumulativeTime="0.020734071731567383" calls="9" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="GjkEpaAlgorithm" id="1350" loadTime="5.901515245437622" baseTime="0.014074563980102539" cumulativeTime="0.020734071731567383" calls="1" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="GjkEpaAlgorithm.java"">
+      <methods name="GjkEpaAlgorithm" id="80673" signature="()" baseTime="0.014074563980102539" cumulativeTime="0.020734071731567383" calls="1"/>
+    </classes>
+    <classes name="GjkUtilsFunctions" id="1352" loadTime="5.909948348999023" baseTime="3.981590270996094E-5" cumulativeTime="3.981590270996094E-5" calls="2" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="GjkUtilsFunctions.java"">
+      <methods name="GjkUtilsFunctions" id="80677" signature="()" baseTime="3.981590270996094E-5" cumulativeTime="3.981590270996094E-5" calls="2"/>
+    </classes>
+    <classes name="EpaAlgorithm" id="1353" loadTime="5.912710666656494" baseTime="0.0057566165924072266" cumulativeTime="0.006598711013793945" calls="2" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="EpaAlgorithm.java"">
+      <methods name="-clinit-" id="80684" signature="()" baseTime="3.075599670410156E-5" cumulativeTime="4.2438507080078125E-5" calls="1"/>
+      <methods name="EpaAlgorithm" id="80685" signature="()" baseTime="0.005725860595703125" cumulativeTime="0.006556272506713867" calls="1"/>
+    </classes>
+    <classes name="Simplex" id="1354" loadTime="5.918506383895874" baseTime="8.304119110107422E-4" cumulativeTime="8.304119110107422E-4" calls="2" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="Simplex.java"">
+      <methods name="Simplex" id="80688" signature="(int)" baseTime="8.189678192138672E-4" cumulativeTime="8.304119110107422E-4" calls="1"/>
+      <methods name="correctType" id="80687" signature="(int) boolean" baseTime="1.1444091796875E-5" cumulativeTime="1.1444091796875E-5" calls="1"/>
+    </classes>
+    <classes name="SimplexSolution" id="1356" loadTime="5.9221906661987305" baseTime="3.266334533691406E-5" cumulativeTime="3.266334533691406E-5" calls="2" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="SimplexSolution.java"">
+      <methods name="SimplexSolution" id="80695" signature="()" baseTime="3.266334533691406E-5" cumulativeTime="3.266334533691406E-5" calls="2"/>
+    </classes>
+</packages>
+<packages name="it.gius.pePpe.algorithm" baseTime="0.0" cumulativeTime="0.0" calls="0" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+</packages>
+<packages name="it.gius.pePpe.simulator.processing" baseTime="0.7703649997711182" cumulativeTime="482.38444232940674" calls="247" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="ProcessingSimulator" id="1357" loadTime="5.928731441497803" baseTime="0.47232651710510254" cumulativeTime="2.9669418334960938" calls="6" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="ProcessingSimulator.java"">
+      <methods name="ProcessingSimulator" id="80701" signature="()" baseTime="1.8596649169921875E-5" cumulativeTime="1.8596649169921875E-5" calls="1"/>
+      <methods name="setManualStart" id="80700" signature="(boolean) void" baseTime="8.106231689453125E-6" cumulativeTime="8.106231689453125E-6" calls="1"/>
+      <methods name="setProcessingDrawContext" id="80703" signature="(it.gius.pePpe.simulator.processing.ProcessingDrawContext) void" baseTime="7.867813110351562E-6" cumulativeTime="7.867813110351562E-6" calls="1"/>
+      <methods name="init" id="80706" signature="(it.gius.pePpe.PhysicEngine, it.gius.pePpe.simulator.SimulationInfo) void" baseTime="0.47222280502319336" cumulativeTime="1.0000970363616943" calls="1"/>
+      <methods name="addEndListener" id="80705" signature="(it.gius.pePpe.simulator.IEndListener) void" baseTime="3.4809112548828125E-5" cumulativeTime="6.508827209472656E-5" calls="1"/>
+      <methods name="start" id="80707" signature="() void" baseTime="3.4332275390625E-5" cumulativeTime="1.966745138168335" calls="1"/>
+    </classes>
+    <classes name="ProcessingDrawContext" id="1388" loadTime="6.45258903503418" baseTime="0.004348278045654297" cumulativeTime="1.971236228942871" calls="9" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="ProcessingDrawContext.java"">
+      <methods name="ProcessingDrawContext" id="81003" signature="()" baseTime="2.384185791015625E-5" cumulativeTime="2.384185791015625E-5" calls="1"/>
+      <methods name="setFrameRate" id="81005" signature="(float) void" baseTime="9.298324584960938E-6" cumulativeTime="9.298324584960938E-6" calls="1"/>
+      <methods name="setxSize" id="81007" signature="(int) void" baseTime="8.106231689453125E-6" cumulativeTime="8.106231689453125E-6" calls="1"/>
+      <methods name="setySize" id="81009" signature="(int) void" baseTime="9.059906005859375E-6" cumulativeTime="9.059906005859375E-6" calls="1"/>
+      <methods name="setDrawers" id="81010" signature="(it.gius.pePpe.drawer.processing.IProcessingDrawer[]) void" baseTime="2.913475036621094E-4" cumulativeTime="3.5381317138671875E-4" calls="1"/>
+      <methods name="init" id="81012" signature="(it.gius.processing.util.PAppletManager, it.gius.pePpe.simulator.processing.ProcessingDrawingApplet, it.gius.pePpe.PhysicEngine, it.gius.pePpe.simulator.SimulationInfo) void" baseTime="0.0038967132568359375" cumulativeTime="0.0040853023529052734" calls="1"/>
+      <methods name="drawerSet" id="81016" signature="() java.lang.String[]" baseTime="5.7220458984375E-6" cumulativeTime="5.7220458984375E-6" calls="1"/>
+      <methods name="addEndListener" id="81013" signature="(it.gius.pePpe.simulator.IEndListener) void" baseTime="3.0279159545898438E-5" cumulativeTime="3.0279159545898438E-5" calls="1"/>
+      <methods name="start" id="81014" signature="() void" baseTime="7.390975952148438E-5" cumulativeTime="1.9667108058929443" calls="1"/>
+    </classes>
+    <classes name="ProcessingDrawingApplet" id="1437" loadTime="9.89253854751587" baseTime="0.29369020462036133" cumulativeTime="479.5923635959625" calls="232" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="ProcessingDrawingApplet.java"">
+      <methods name="ProcessingDrawingApplet" id="82465" signature="()" baseTime="8.597373962402344E-4" cumulativeTime="0.17512989044189453" calls="1"/>
+      <methods name="init" id="82466" signature="(it.gius.pePpe.PhysicEngine, it.gius.pePpe.simulator.SimulationInfo) void" baseTime="7.867813110351562E-6" cumulativeTime="7.867813110351562E-6" calls="1"/>
+      <methods name="setDrawer" id="82473" signature="(it.gius.pePpe.drawer.IDrawer) void" baseTime="5.9604644775390625E-6" cumulativeTime="5.9604644775390625E-6" calls="1"/>
+      <methods name="setxSize" id="82469" signature="(int) void" baseTime="5.7220458984375E-6" cumulativeTime="5.7220458984375E-6" calls="1"/>
+      <methods name="setySize" id="82470" signature="(int) void" baseTime="5.4836273193359375E-6" cumulativeTime="5.4836273193359375E-6" calls="1"/>
+      <methods name="setMyFrameRate" id="82472" signature="(float) void" baseTime="5.7220458984375E-6" cumulativeTime="5.7220458984375E-6" calls="1"/>
+      <methods name="setDrawContext" id="82467" signature="(it.gius.pePpe.simulator.IDrawContext) void" baseTime="9.5367431640625E-5" cumulativeTime="1.010894775390625E-4" calls="1"/>
+      <methods name="setEndListeners" id="82468" signature="(java.util.List) void" baseTime="5.4836273193359375E-6" cumulativeTime="5.4836273193359375E-6" calls="1"/>
+      <methods name="setup" id="82475" signature="() void" baseTime="3.981590270996094E-4" cumulativeTime="0.5794110298156738" calls="1"/>
+      <methods name="draw" id="82481" signature="() void" baseTime="0.2822749614715576" cumulativeTime="474.40153193473816" calls="210"/>
+      <methods name="mousePressed" id="82476" signature="() void" baseTime="0.009933948516845703" cumulativeTime="4.43606162071228" calls="6"/>
+      <methods name="mouseReleased" id="82478" signature="() void" baseTime="7.700920104980469E-5" cumulativeTime="7.700920104980469E-5" calls="6"/>
+      <methods name="mouseDragged" id="82477" signature="() void" baseTime="1.4781951904296875E-5" cumulativeTime="1.4781951904296875E-5" calls="1"/>
+    </classes>
+</packages>
+<packages name="it.gius.pePpe.simulator" baseTime="0.002614259719848633" cumulativeTime="0.002614259719848633" calls="4" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="SimulationInfo" id="1387" loadTime="9.07479190826416" baseTime="0.0025129318237304688" cumulativeTime="0.002614259719848633" calls="1" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="SimulationInfo.java"">
+      <methods name="SimulationInfo" id="81002" signature="()" baseTime="0.0025129318237304688" cumulativeTime="0.002614259719848633" calls="1"/>
+    </classes>
+    <classes name="SimulationInfo$SimulationType" id="1477" loadTime="9.077281713485718" baseTime="1.0132789611816406E-4" cumulativeTime="1.0132789611816406E-4" calls="3" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="SimulationInfo.java"">
+      <methods name="-clinit-" id="82774" signature="()" baseTime="7.510185241699219E-5" cumulativeTime="1.0132789611816406E-4" calls="1"/>
+      <methods name="SimulationInfo$SimulationType" id="82775" signature="(java.lang.String, int)" baseTime="2.6226043701171875E-5" cumulativeTime="2.6226043701171875E-5" calls="2"/>
+    </classes>
+</packages>
+<packages name="it.gius.pePpe.drawer.processing" baseTime="30.43245553970337" cumulativeTime="393.683963060379" calls="59449" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="ProcessingStandardDrawer" id="1443" loadTime="6.480944633483887" baseTime="30.4280104637146" cumulativeTime="393.6794011592865" calls="59433" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="ProcessingStandardDrawer.java"">
+      <methods name="ProcessingStandardDrawer" id="82502" signature="()" baseTime="6.437301635742188E-5" cumulativeTime="7.772445678710938E-5" calls="1"/>
+      <methods name="getName" id="82503" signature="() java.lang.String" baseTime="1.4543533325195312E-5" cumulativeTime="1.4543533325195312E-5" calls="1"/>
+      <methods name="setApplet" id="82505" signature="(it.gius.processing.util.MyAbstractPApplet) void" baseTime="6.67572021484375E-6" cumulativeTime="6.67572021484375E-6" calls="1"/>
+      <methods name="setEngine" id="82504" signature="(it.gius.pePpe.PhysicEngine) void" baseTime="5.4836273193359375E-6" cumulativeTime="5.4836273193359375E-6" calls="1"/>
+      <methods name="draw" id="82506" signature="() void" baseTime="17.996145486831665" cumulativeTime="393.4487798213959" calls="210"/>
+      <methods name="drawEllipse" id="82511" signature="(it.gius.pePpe.data.shapes.Ellipse, it.gius.pePpe.Body) void" baseTime="4.765456438064575" cumulativeTime="127.57456493377686" calls="21000"/>
+      <methods name="drawSpring" id="82508" signature="(it.gius.pePpe.forces.SpringBodyForce) void" baseTime="7.431781530380249" cumulativeTime="245.4665675163269" calls="37799"/>
+      <methods name="drawSpring" id="82507" signature="(it.gius.pePpe.forces.SpringPointForce) void" baseTime="0.23453593254089355" cumulativeTime="2.6253998279571533" calls="420"/>
+    </classes>
+    <classes name="ProcessingAABBDrawer" id="1451" loadTime="6.52393913269043" baseTime="0.0029850006103515625" cumulativeTime="0.0030565261840820312" calls="4" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="ProcessingAABBDrawer.java"">
+      <methods name="ProcessingAABBDrawer" id="82603" signature="()" baseTime="0.0029611587524414062" cumulativeTime="0.003032684326171875" calls="1"/>
+      <methods name="getName" id="82605" signature="() java.lang.String" baseTime="1.33514404296875E-5" cumulativeTime="1.33514404296875E-5" calls="1"/>
+      <methods name="setApplet" id="82604" signature="(it.gius.processing.util.MyAbstractPApplet) void" baseTime="5.245208740234375E-6" cumulativeTime="5.245208740234375E-6" calls="1"/>
+      <methods name="setEngine" id="82606" signature="(it.gius.pePpe.PhysicEngine) void" baseTime="5.245208740234375E-6" cumulativeTime="5.245208740234375E-6" calls="1"/>
+    </classes>
+    <classes name="ProcessingAllDistancesDrawer" id="1453" loadTime="6.539787292480469" baseTime="0.0013630390167236328" cumulativeTime="0.0013909339904785156" calls="4" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="ProcessingAllDistancesDrawer.java"">
+      <methods name="ProcessingAllDistancesDrawer" id="82615" signature="()" baseTime="0.0013403892517089844" cumulativeTime="0.0013682842254638672" calls="1"/>
+      <methods name="getName" id="82620" signature="() java.lang.String" baseTime="1.049041748046875E-5" cumulativeTime="1.049041748046875E-5" calls="1"/>
+      <methods name="setApplet" id="82616" signature="(it.gius.processing.util.MyAbstractPApplet) void" baseTime="6.198883056640625E-6" cumulativeTime="6.198883056640625E-6" calls="1"/>
+      <methods name="setEngine" id="82617" signature="(it.gius.pePpe.PhysicEngine) void" baseTime="5.9604644775390625E-6" cumulativeTime="5.9604644775390625E-6" calls="1"/>
+    </classes>
+    <classes name="ProcessingShapeCircleBoundDrawer" id="1455" loadTime="6.552333116531372" baseTime="4.887580871582031E-5" cumulativeTime="5.7220458984375E-5" calls="4" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="ProcessingShapeCircleBoundDrawer.java"">
+      <methods name="ProcessingShapeCircleBoundDrawer" id="82622" signature="()" baseTime="2.1696090698242188E-5" cumulativeTime="3.0040740966796875E-5" calls="1"/>
+      <methods name="getName" id="82625" signature="() java.lang.String" baseTime="1.33514404296875E-5" cumulativeTime="1.33514404296875E-5" calls="1"/>
+      <methods name="setApplet" id="82623" signature="(it.gius.processing.util.MyAbstractPApplet) void" baseTime="6.9141387939453125E-6" cumulativeTime="6.9141387939453125E-6" calls="1"/>
+      <methods name="setEngine" id="82624" signature="(it.gius.pePpe.PhysicEngine) void" baseTime="6.9141387939453125E-6" cumulativeTime="6.9141387939453125E-6" calls="1"/>
+    </classes>
+    <classes name="ProcessingBodyCircleBoundDrawer" id="1456" loadTime="6.564874649047852" baseTime="4.8160552978515625E-5" cumulativeTime="5.7220458984375E-5" calls="4" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="ProcessingBodyCircleBoundDrawer.java"">
+      <methods name="ProcessingBodyCircleBoundDrawer" id="82628" signature="()" baseTime="2.3603439331054688E-5" cumulativeTime="3.266334533691406E-5" calls="1"/>
+      <methods name="getName" id="82631" signature="() java.lang.String" baseTime="1.0728836059570312E-5" cumulativeTime="1.0728836059570312E-5" calls="1"/>
+      <methods name="setApplet" id="82629" signature="(it.gius.processing.util.MyAbstractPApplet) void" baseTime="6.9141387939453125E-6" cumulativeTime="6.9141387939453125E-6" calls="1"/>
+      <methods name="setEngine" id="82630" signature="(it.gius.pePpe.PhysicEngine) void" baseTime="6.9141387939453125E-6" cumulativeTime="6.9141387939453125E-6" calls="1"/>
+    </classes>
+</packages>
+<packages name="it.gius.pePpe.drawer" baseTime="0.0064923763275146484" cumulativeTime="393.68578910827637" calls="229" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="AbstractDrawer" id="1444" loadTime="6.480996608734131" baseTime="1.709461212158203E-4" cumulativeTime="1.709461212158203E-4" calls="17" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="AbstractDrawer.java"">
+      <methods name="AbstractDrawer" id="82512" signature="()" baseTime="6.318092346191406E-5" cumulativeTime="6.318092346191406E-5" calls="6"/>
+      <methods name="setEnable" id="82514" signature="(boolean) void" baseTime="8.344650268554688E-5" cumulativeTime="8.344650268554688E-5" calls="6"/>
+      <methods name="isEnable" id="82513" signature="() boolean" baseTime="2.4318695068359375E-5" cumulativeTime="2.4318695068359375E-5" calls="5"/>
+    </classes>
+    <classes name="SetDrawer" id="1680" loadTime="10.076706647872925" baseTime="0.006321430206298828" cumulativeTime="393.6856338977814" calls="212" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="SetDrawer.java"">
+      <methods name="SetDrawer" id="85839" signature="()" baseTime="2.5033950805664062E-5" cumulativeTime="4.076957702636719E-5" calls="1"/>
+      <methods name="addDrawer" id="85842" signature="(it.gius.pePpe.drawer.IDrawer) void" baseTime="3.814697265625E-5" cumulativeTime="3.814697265625E-5" calls="1"/>
+      <methods name="draw" id="85845" signature="() void" baseTime="0.006258249282836914" cumulativeTime="393.6855549812317" calls="210"/>
+    </classes>
+</packages>
+<packages name="it.gius.pePpe.data.distance" baseTime="1.9788742065429688E-5" cumulativeTime="1.9788742065429688E-5" calls="1" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="DistanceSolution" id="1454" loadTime="6.541130781173706" baseTime="1.9788742065429688E-5" cumulativeTime="1.9788742065429688E-5" calls="1" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="DistanceSolution.java"">
+      <methods name="DistanceSolution" id="82621" signature="()" baseTime="1.9788742065429688E-5" cumulativeTime="1.9788742065429688E-5" calls="1"/>
+    </classes>
+</packages>
+<packages name="it.gius.pePpe.forces" baseTime="18.486536979675293" cumulativeTime="62.41127920150757" calls="40422" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="ForceManager" id="1457" loadTime="6.581620216369629" baseTime="14.450345039367676" cumulativeTime="62.31054496765137" calls="814" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="ForceManager.java"">
+      <methods name="ForceManager" id="82634" signature="()" baseTime="4.220008850097656E-5" cumulativeTime="1.9812583923339844E-4" calls="1"/>
+      <methods name="init" id="82635" signature="(it.gius.pePpe.PhysicEngine) void" baseTime="9.5367431640625E-6" cumulativeTime="9.5367431640625E-6" calls="1"/>
+      <methods name="addForce" id="82636" signature="(it.gius.pePpe.forces.IForce) void" baseTime="0.006011962890625" cumulativeTime="0.2962484359741211" calls="182"/>
+      <methods name="clearForces" id="82641" signature="() void" baseTime="3.576768398284912" cumulativeTime="3.7698922157287598" calls="210"/>
+      <methods name="applyForces" id="82642" signature="() void" baseTime="10.86562967300415" cumulativeTime="58.242313385009766" calls="210"/>
+      <methods name="getForceList" id="82640" signature="() it.gius.pePpe.data.structures.IdList" baseTime="0.0018832683563232422" cumulativeTime="0.0018832683563232422" calls="210"/>
+    </classes>
+    <classes name="SpringInit" id="1474" loadTime="8.458436250686646" baseTime="1.3113021850585938E-5" cumulativeTime="1.3113021850585938E-5" calls="1" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="SpringInit.java"">
+      <methods name="SpringInit" id="82768" signature="()" baseTime="1.3113021850585938E-5" cumulativeTime="1.3113021850585938E-5" calls="1"/>
+    </classes>
+    <classes name="SpringBodyForce" id="1447" loadTime="8.459144592285156" baseTime="3.999530792236328" cumulativeTime="46.905982971191406" calls="38340" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="SpringBodyForce.java"">
+      <methods name="SpringBodyForce" id="82566" signature="(it.gius.pePpe.Body, org.jbox2d.common.Vec2, it.gius.pePpe.Body, org.jbox2d.common.Vec2, it.gius.pePpe.forces.SpringInit)" baseTime="0.017610788345336914" cumulativeTime="0.0932610034942627" calls="180"/>
+      <methods name="setId" id="82567" signature="(short) void" baseTime="9.593963623046875E-4" cumulativeTime="9.593963623046875E-4" calls="180"/>
+      <methods name="added" id="82569" signature="() void" baseTime="0.0033063888549804688" cumulativeTime="0.2834744453430176" calls="180"/>
+      <methods name="apply" id="82571" signature="() void" baseTime="3.977654218673706" cumulativeTime="46.52828812599182" calls="37800"/>
+    </classes>
+    <classes name="SpringPointForce" id="1448" loadTime="9.073342084884644" baseTime="0.03662681579589844" cumulativeTime="0.4008634090423584" calls="1266" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="SpringPointForce.java"">
+      <methods name="SpringPointForce" id="82572" signature="(org.jbox2d.common.Vec2, it.gius.pePpe.Body, org.jbox2d.common.Vec2, it.gius.pePpe.forces.SpringInit)" baseTime="6.246566772460938E-5" cumulativeTime="1.556873321533203E-4" calls="2"/>
+      <methods name="setId" id="82575" signature="(short) void" baseTime="1.33514404296875E-5" cumulativeTime="1.33514404296875E-5" calls="2"/>
+      <methods name="added" id="82577" signature="() void" baseTime="2.8133392333984375E-5" cumulativeTime="7.8582763671875E-4" calls="2"/>
+      <methods name="apply" id="82579" signature="() void" baseTime="0.029239654541015625" cumulativeTime="0.3926253318786621" calls="420"/>
+      <methods name="getBody" id="82573" signature="() it.gius.pePpe.Body" baseTime="0.0037572383880615234" cumulativeTime="0.0037572383880615234" calls="420"/>
+      <methods name="getLocalBodyPoint" id="82574" signature="() org.jbox2d.common.Vec2" baseTime="0.003525972366333008" cumulativeTime="0.003525972366333008" calls="420"/>
+    </classes>
+    <classes name="MouseForce" id="1449" loadTime="10.067636728286743" baseTime="2.1219253540039062E-5" cumulativeTime="2.1219253540039062E-5" calls="1" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="MouseForce.java"">
+      <methods name="MouseForce" id="82580" signature="()" baseTime="2.1219253540039062E-5" cumulativeTime="2.1219253540039062E-5" calls="1"/>
+    </classes>
+</packages>
+<packages name="it.gius.pePpe.integrator" baseTime="17.018391609191895" cumulativeTime="17.998233556747437" calls="212" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="EulerIntegrator" id="1458" loadTime="6.584507942199707" baseTime="17.018391609191895" cumulativeTime="17.998233556747437" calls="212" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="EulerIntegrator.java"">
+      <methods name="EulerIntegrator" id="82643" signature="()" baseTime="3.170967102050781E-5" cumulativeTime="3.170967102050781E-5" calls="1"/>
+      <methods name="init" id="82644" signature="(it.gius.pePpe.PhysicEngine) void" baseTime="7.3909759521484375E-6" cumulativeTime="7.3909759521484375E-6" calls="1"/>
+      <methods name="step" id="82645" signature="(float) void" baseTime="17.018352508544922" cumulativeTime="17.998194456100464" calls="210"/>
+    </classes>
+</packages>
+<packages name="it.gius.pePpe.distance.gjk" baseTime="5.984306335449219E-5" cumulativeTime="6.937980651855469E-5" calls="3" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="GjkPairNode" id="1463" loadTime="6.594818353652954" baseTime="3.8623809814453125E-5" cumulativeTime="4.8160552978515625E-5" calls="1" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="GjkPairNode.java"">
+      <methods name="GjkPairNode" id="82654" signature="()" baseTime="3.8623809814453125E-5" cumulativeTime="4.8160552978515625E-5" calls="1"/>
+    </classes>
+    <classes name="GjkShapeProxy" id="1464" loadTime="6.596827983856201" baseTime="2.1219253540039062E-5" cumulativeTime="2.1219253540039062E-5" calls="2" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="GjkShapeProxy.java"">
+      <methods name="GjkShapeProxy" id="82657" signature="()" baseTime="2.1219253540039062E-5" cumulativeTime="2.1219253540039062E-5" calls="2"/>
+    </classes>
+</packages>
+<packages name="it.gius.pePpe.data.shapes" baseTime="8.711466550827026" cumulativeTime="8.711466550827026" calls="43565" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="Ellipse" id="341" loadTime="6.660489559173584" baseTime="8.692967891693115" cumulativeTime="8.711466550827026" calls="43464" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="Ellipse.java"">
+      <methods name="Ellipse" id="70409" signature="(float, float, org.jbox2d.common.Vec2, float)" baseTime="0.002973794937133789" cumulativeTime="0.022490262985229492" calls="101"/>
+      <methods name="computeFoci" id="70410" signature="() void" baseTime="0.0010178089141845703" cumulativeTime="0.0010178089141845703" calls="101"/>
+      <methods name="clone" id="70411" signature="() it.gius.pePpe.data.shapes.Ellipse" baseTime="0.0014166831970214844" cumulativeTime="0.0070188045501708984" calls="100"/>
+      <methods name="getPhysicsData" id="70413" signature="(it.gius.pePpe.data.physic.PhysicData, float) void" baseTime="0.03809022903442383" cumulativeTime="0.03809022903442383" calls="100"/>
+      <methods name="computeBox" id="70417" signature="(it.gius.pePpe.data.aabb.AABoundaryBox, org.jbox2d.common.Transform) void" baseTime="0.0015075206756591797" cumulativeTime="0.0015075206756591797" calls="100"/>
+      <methods name="contains" id="70412" signature="(org.jbox2d.common.Vec2) boolean" baseTime="0.011750936508178711" cumulativeTime="0.011750936508178711" calls="962"/>
+      <methods name="getTransform" id="70416" signature="() org.jbox2d.common.Transform" baseTime="6.639819622039795" cumulativeTime="6.639819622039795" calls="21000"/>
+      <methods name="getAngle" id="70415" signature="() float" baseTime="1.9963912963867188" cumulativeTime="1.9963912963867188" calls="21000"/>
+    </classes>
+    <classes name="Shape" id="340" loadTime="6.660534381866455" baseTime="0.018498659133911133" cumulativeTime="0.018498659133911133" calls="101" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="Shape.java"">
+      <methods name="Shape" id="70402" signature="()" baseTime="0.018498659133911133" cumulativeTime="0.018498659133911133" calls="101"/>
+    </classes>
+</packages>
+<packages name="it.gius.pePpe.data.physic" baseTime="0.0027043819427490234" cumulativeTime="0.0027043819427490234" calls="402" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="BindInit" id="1469" loadTime="6.6790771484375" baseTime="1.3828277587890625E-5" cumulativeTime="1.3828277587890625E-5" calls="1" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="BindInit.java"">
+      <methods name="BindInit" id="82754" signature="()" baseTime="1.3828277587890625E-5" cumulativeTime="1.3828277587890625E-5" calls="1"/>
+    </classes>
+    <classes name="BodyInit" id="1470" loadTime="6.680685997009277" baseTime="2.0265579223632812E-5" cumulativeTime="2.0265579223632812E-5" calls="1" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="BodyInit.java"">
+      <methods name="BodyInit" id="82756" signature="()" baseTime="2.0265579223632812E-5" cumulativeTime="2.0265579223632812E-5" calls="1"/>
+    </classes>
+    <classes name="BodyPosition" id="1471" loadTime="6.684206485748291" baseTime="6.694793701171875E-4" cumulativeTime="6.694793701171875E-4" calls="100" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="BodyPosition.java"">
+      <methods name="BodyPosition" id="82758" signature="()" baseTime="6.694793701171875E-4" cumulativeTime="6.694793701171875E-4" calls="100"/>
+    </classes>
+    <classes name="PhysicData" id="1473" loadTime="6.68833589553833" baseTime="7.212162017822266E-4" cumulativeTime="7.212162017822266E-4" calls="100" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="PhysicData.java"">
+      <methods name="PhysicData" id="82767" signature="()" baseTime="7.212162017822266E-4" cumulativeTime="7.212162017822266E-4" calls="100"/>
+    </classes>
+    <classes name="BindAABBNode" id="422" loadTime="6.688835859298706" baseTime="0.001279592514038086" cumulativeTime="0.001279592514038086" calls="200" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="BindAABBNode.java"">
+      <methods name="BindAABBNode" id="71035" signature="()" baseTime="6.077289581298828E-4" cumulativeTime="6.077289581298828E-4" calls="100"/>
+      <methods name="setId" id="71037" signature="(short) void" baseTime="6.718635559082031E-4" cumulativeTime="6.718635559082031E-4" calls="100"/>
+    </classes>
+</packages>
+<packages name="processing.core" baseTime="394.3737132549286" cumulativeTime="538.0604801177979" calls="1564597" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="PApplet" id="1424" loadTime="9.54416799545288" baseTime="233.2373297214508" cumulativeTime="537.887086391449" calls="459486" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="<Unknown>"">
+      <methods name="-clinit-" id="81962" signature="()" baseTime="0.34817075729370117" cumulativeTime="0.34817075729370117" calls="1"/>
+      <methods name="PApplet" id="81298" signature="()" baseTime="0.17420411109924316" cumulativeTime="0.17420411109924316" calls="1"/>
+      <methods name="runSketch" id="81708" signature="(java.lang.String[], processing.core.PApplet) void" baseTime="1.842815637588501" cumulativeTime="1.9592807292938232" calls="1"/>
+      <methods name="subset" id="81598" signature="(java.lang.String[], int) java.lang.String[]" baseTime="3.1948089599609375E-5" cumulativeTime="4.696846008300781E-5" calls="1"/>
+      <methods name="subset" id="81599" signature="(java.lang.String[], int, int) java.lang.String[]" baseTime="1.5020370483398438E-5" cumulativeTime="1.5020370483398438E-5" calls="1"/>
+      <methods name="init" id="81299" signature="() void" baseTime="0.0018913745880126953" cumulativeTime="0.11274003982543945" calls="1"/>
+      <methods name="sketchWidth" id="81300" signature="() int" baseTime="6.9141387939453125E-6" cumulativeTime="6.9141387939453125E-6" calls="1"/>
+      <methods name="sketchHeight" id="81301" signature="() int" baseTime="6.198883056640625E-6" cumulativeTime="6.198883056640625E-6" calls="1"/>
+      <methods name="sketchRenderer" id="81302" signature="() java.lang.String" baseTime="7.867813110351562E-6" cumulativeTime="7.867813110351562E-6" calls="1"/>
+      <methods name="makeGraphics" id="81332" signature="(int, int, java.lang.String, java.lang.String, boolean) processing.core.PGraphics" baseTime="0.062078237533569336" cumulativeTime="0.0929110050201416" calls="1"/>
+      <methods name="addListeners" id="81342" signature="() void" baseTime="0.01753520965576172" cumulativeTime="0.017551183700561523" calls="1"/>
+      <methods name="paint" id="81336" signature="(java.awt.Graphics) void" baseTime="1.9969475269317627" cumulativeTime="1.9969475269317627" calls="216"/>
+      <methods name="start" id="81303" signature="() void" baseTime="3.1638145446777344E-4" cumulativeTime="3.1638145446777344E-4" calls="1"/>
+      <methods name="run" id="81337" signature="() void" baseTime="0.0323023796081543" cumulativeTime="480.72806191444397" calls="1"/>
+      <methods name="handleDraw" id="81338" signature="() void" baseTime="2.636551856994629" cumulativeTime="485.1104757785797" calls="211"/>
+      <methods name="size" id="81327" signature="(int, int) void" baseTime="3.457069396972656E-5" cumulativeTime="0.12419843673706055" calls="1"/>
+      <methods name="size" id="81329" signature="(int, int, java.lang.String, java.lang.String) void" baseTime="0.028944730758666992" cumulativeTime="0.12416386604309082" calls="1"/>
+      <methods name="resizeRenderer" id="81326" signature="(int, int) void" baseTime="5.1975250244140625E-5" cumulativeTime="0.09511184692382812" calls="2"/>
+      <methods name="cursor" id="81400" signature="(int) void" baseTime="0.006884574890136719" cumulativeTime="0.006884574890136719" calls="1"/>
+      <methods name="smooth" id="81775" signature="() void" baseTime="3.838539123535156E-5" cumulativeTime="6.866455078125E-5" calls="1"/>
+      <methods name="text" id="81801" signature="(java.lang.String, float, float) void" baseTime="3.361701965332031E-5" cumulativeTime="0.4468204975128174" calls="1"/>
+      <methods name="createDefaultFont" id="81484" signature="(float) processing.core.PFont" baseTime="4.1961669921875E-5" cumulativeTime="0.4186110496520996" calls="1"/>
+      <methods name="createFont" id="81487" signature="(java.lang.String, float, boolean, char[]) processing.core.PFont" baseTime="0.005702018737792969" cumulativeTime="0.41856908798217773" calls="1"/>
+      <methods name="background" id="81904" signature="(int) void" baseTime="0.007790803909301758" cumulativeTime="0.4015364646911621" calls="211"/>
+      <methods name="frameRate" id="81381" signature="(float) void" baseTime="7.152557373046875E-6" cumulativeTime="7.152557373046875E-6" calls="1"/>
+      <methods name="update" id="81335" signature="(java.awt.Graphics) void" baseTime="3.0267348289489746" cumulativeTime="4.967671155929565" calls="209"/>
+      <methods name="setupFrameResizeListener" id="81707" signature="() void" baseTime="0.0036008358001708984" cumulativeTime="0.003616809844970703" calls="1"/>
+      <methods name="displayable" id="81929" signature="() boolean" baseTime="4.076957702636719E-5" cumulativeTime="4.673004150390625E-5" calls="1"/>
+      <methods name="pushMatrix" id="81811" signature="() void" baseTime="24.181058168411255" cumulativeTime="24.843544721603394" calls="59220"/>
+      <methods name="translate" id="81813" signature="(float, float) void" baseTime="9.520384073257446" cumulativeTime="9.914628267288208" calls="42000"/>
+      <methods name="rotate" id="81815" signature="(float) void" baseTime="15.040764570236206" cumulativeTime="15.511953115463257" calls="42000"/>
+      <methods name="noFill" id="81878" signature="() void" baseTime="4.772056579589844" cumulativeTime="4.966614484786987" calls="21000"/>
+      <methods name="stroke" id="81865" signature="(int) void" baseTime="7.649869441986084" cumulativeTime="31.350893020629883" calls="21000"/>
+      <methods name="ellipse" id="81757" signature="(float, float, float, float) void" baseTime="49.24270272254944" cumulativeTime="96.17179894447327" calls="97440"/>
+      <methods name="popMatrix" id="81812" signature="() void" baseTime="23.669989109039307" cumulativeTime="24.886881351470947" calls="59220"/>
+      <methods name="fill" id="81883" signature="(float, float, float) void" baseTime="15.227645874023438" cumulativeTime="53.470155239105225" calls="38220"/>
+      <methods name="stroke" id="81869" signature="(float, float, float) void" baseTime="19.05325484275818" cumulativeTime="54.46384954452515" calls="38220"/>
+      <methods name="line" id="81748" signature="(float, float, float, float) void" baseTime="9.41845989227295" cumulativeTime="19.170599699020386" calls="38220"/>
+      <methods name="mouseEntered" id="81350" signature="(java.awt.event.MouseEvent) void" baseTime="0.48243117332458496" cumulativeTime="0.48291468620300293" calls="9"/>
+      <methods name="checkMouseEvent" id="81346" signature="(java.awt.event.MouseEvent) void" baseTime="1.6328792572021484" cumulativeTime="2.2246899604797363" calls="331"/>
+      <methods name="enqueueMouseEvent" id="81343" signature="(java.awt.event.MouseEvent) void" baseTime="0.5918107032775879" cumulativeTime="0.5918107032775879" calls="331"/>
+      <methods name="mouseMoved" id="81353" signature="(java.awt.event.MouseEvent) void" baseTime="35.83773231506348" cumulativeTime="38.060664653778076" calls="295"/>
+      <methods name="focusGained" id="81370" signature="(java.awt.event.FocusEvent) void" baseTime="0.2565906047821045" cumulativeTime="0.25671839714050293" calls="7"/>
+      <methods name="focusGained" id="81369" signature="() void" baseTime="1.277923583984375E-4" cumulativeTime="1.277923583984375E-4" calls="7"/>
+      <methods name="dequeueMouseEvents" id="81344" signature="() void" baseTime="0.0069043636322021484" cumulativeTime="6.346120834350586" calls="210"/>
+      <methods name="handleMouseEvent" id="81345" signature="(java.awt.event.MouseEvent) void" baseTime="0.030178308486938477" cumulativeTime="6.339216470718384" calls="331"/>
+      <methods name="mouseMoved" id="81358" signature="() void" baseTime="1.6952917575836182" cumulativeTime="1.6952917575836182" calls="295"/>
+      <methods name="dequeueKeyEvents" id="81360" signature="() void" baseTime="0.0020132064819335938" cumulativeTime="0.0020132064819335938" calls="210"/>
+      <methods name="mouseExited" id="81351" signature="(java.awt.event.MouseEvent) void" baseTime="0.10551214218139648" cumulativeTime="0.10591626167297363" calls="9"/>
+      <methods name="focusLost" id="81372" signature="(java.awt.event.FocusEvent) void" baseTime="4.076100826263428" cumulativeTime="4.1752119064331055" calls="7"/>
+      <methods name="focusLost" id="81371" signature="() void" baseTime="0.09911108016967773" cumulativeTime="0.09911108016967773" calls="7"/>
+      <methods name="mousePressed" id="81347" signature="(java.awt.event.MouseEvent) void" baseTime="0.21648287773132324" cumulativeTime="0.21677350997924805" calls="6"/>
+      <methods name="mouseReleased" id="81348" signature="(java.awt.event.MouseEvent) void" baseTime="0.1088097095489502" cumulativeTime="0.10909581184387207" calls="6"/>
+      <methods name="mouseClicked" id="81349" signature="(java.awt.event.MouseEvent) void" baseTime="0.12614107131958008" cumulativeTime="0.1263899803161621" calls="5"/>
+      <methods name="mouseClicked" id="81356" signature="() void" baseTime="6.222724914550781E-5" cumulativeTime="6.222724914550781E-5" calls="5"/>
+      <methods name="mouseDragged" id="81352" signature="(java.awt.event.MouseEvent) void" baseTime="3.0040740966796875E-5" cumulativeTime="7.43865966796875E-5" calls="1"/>
+      <methods name="dispose" id="81393" signature="() void" baseTime="1.4734268188476562E-4" cumulativeTime="1.7595291137695312E-4" calls="2"/>
+    </classes>
+    <classes name="PApplet$RegisteredMethods" id="1667" loadTime="11.191532850265503" baseTime="0.43036651611328125" cumulativeTime="0.43036651611328125" calls="1602" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="<Unknown>"">
+      <methods name="PApplet$RegisteredMethods" id="85660" signature="(processing.core.PApplet)" baseTime="4.9114227294921875E-5" cumulativeTime="4.9114227294921875E-5" calls="7"/>
+      <methods name="handle" id="85661" signature="() void" baseTime="0.24088549613952637" cumulativeTime="0.25278663635253906" calls="632"/>
+      <methods name="handle" id="85662" signature="(java.lang.Object[]) void" baseTime="0.18943190574645996" cumulativeTime="0.18943190574645996" calls="963"/>
+    </classes>
+    <classes name="PImage" id="1493" loadTime="11.253895282745361" baseTime="9.393692016601562E-5" cumulativeTime="9.393692016601562E-5" calls="6" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="<Unknown>"">
+      <methods name="-clinit-" id="83230" signature="()" baseTime="1.7881393432617188E-5" cumulativeTime="1.7881393432617188E-5" calls="1"/>
+      <methods name="PImage" id="83155" signature="()" baseTime="1.0728836059570312E-5" cumulativeTime="1.0728836059570312E-5" calls="1"/>
+      <methods name="PImage" id="83157" signature="(int, int, int)" baseTime="4.673004150390625E-5" cumulativeTime="6.532669067382812E-5" calls="2"/>
+      <methods name="init" id="83158" signature="(int, int, int) void" baseTime="1.8596649169921875E-5" cumulativeTime="1.8596649169921875E-5" calls="2"/>
+    </classes>
+    <classes name="PGraphics" id="1662" loadTime="11.25396466255188" baseTime="52.28449058532715" cumulativeTime="145.32971906661987" calls="530529" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="<Unknown>"">
+      <methods name="-clinit-" id="85602" signature="()" baseTime="0.001522064208984375" cumulativeTime="0.001522064208984375" calls="1"/>
+      <methods name="PGraphics" id="85303" signature="()" baseTime="0.0052487850189208984" cumulativeTime="0.005311489105224609" calls="1"/>
+      <methods name="setParent" id="85304" signature="(processing.core.PApplet) void" baseTime="1.3589859008789062E-5" cumulativeTime="1.3589859008789062E-5" calls="1"/>
+      <methods name="setPrimary" id="85305" signature="(boolean) void" baseTime="1.0251998901367188E-5" cumulativeTime="1.0251998901367188E-5" calls="1"/>
+      <methods name="reapplySettings" id="85316" signature="() void" baseTime="2.1195411682128906E-4" cumulativeTime="0.0014345645904541016" calls="2"/>
+      <methods name="checkSettings" id="85314" signature="() void" baseTime="0.0018000602722167969" cumulativeTime="0.0030984878540039062" calls="211"/>
+      <methods name="defaultSettings" id="85315" signature="() void" baseTime="2.512931823730469E-4" cumulativeTime="0.0012984275817871094" calls="1"/>
+      <methods name="colorMode" id="85544" signature="(int, float) void" baseTime="2.8848648071289062E-5" cumulativeTime="4.100799560546875E-5" calls="1"/>
+      <methods name="colorMode" id="85546" signature="(int, float, float, float, float) void" baseTime="1.9311904907226562E-5" cumulativeTime="1.9311904907226562E-5" calls="2"/>
+      <methods name="fill" id="85504" signature="(int) void" baseTime="7.033348083496094E-5" cumulativeTime="2.346038818359375E-4" calls="2"/>
+      <methods name="colorCalc" id="85547" signature="(int) void" baseTime="10.651180982589722" cumulativeTime="14.623939275741577" calls="21217"/>
+      <methods name="colorCalc" id="85549" signature="(float) void" baseTime="0.8241157531738281" cumulativeTime="3.9727330207824707" calls="21213"/>
+      <methods name="colorCalc" id="85550" signature="(float, float) void" baseTime="3.1486172676086426" cumulativeTime="3.1486172676086426" calls="21213"/>
+      <methods name="fillFromCalc" id="85510" signature="() void" baseTime="0.6106269359588623" cumulativeTime="0.6106269359588623" calls="38222"/>
+      <methods name="stroke" id="85488" signature="(int) void" baseTime="1.179969310760498" cumulativeTime="23.70118522644043" calls="21002"/>
+      <methods name="strokeFromCalc" id="85494" signature="() void" baseTime="0.8502585887908936" cumulativeTime="0.8502585887908936" calls="59222"/>
+      <methods name="strokeWeight" id="85484" signature="(float) void" baseTime="1.2874603271484375E-5" cumulativeTime="1.2874603271484375E-5" calls="2"/>
+      <methods name="strokeJoin" id="85485" signature="(int) void" baseTime="1.0967254638671875E-5" cumulativeTime="1.0967254638671875E-5" calls="2"/>
+      <methods name="strokeCap" id="85486" signature="(int) void" baseTime="1.1205673217773438E-5" cumulativeTime="1.1205673217773438E-5" calls="2"/>
+      <methods name="rectMode" id="85352" signature="(int) void" baseTime="7.3909759521484375E-6" cumulativeTime="7.3909759521484375E-6" calls="1"/>
+      <methods name="ellipseMode" id="85360" signature="(int) void" baseTime="7.867813110351562E-6" cumulativeTime="7.867813110351562E-6" calls="1"/>
+      <methods name="background" id="85533" signature="(int) void" baseTime="0.06781792640686035" cumulativeTime="0.39502978324890137" calls="213"/>
+      <methods name="colorCalcARGB" id="85553" signature="(int, float) void" baseTime="2.5272369384765625E-5" cumulativeTime="2.5272369384765625E-5" calls="4"/>
+      <methods name="backgroundFromCalc" id="85539" signature="() void" baseTime="0.004759073257446289" cumulativeTime="0.29360032081604004" calls="213"/>
+      <methods name="colorMode" id="85545" signature="(int, float, float, float) void" baseTime="1.33514404296875E-5" cumulativeTime="2.0503997802734375E-5" calls="1"/>
+      <methods name="noTint" id="85495" signature="() void" baseTime="5.9604644775390625E-6" cumulativeTime="5.9604644775390625E-6" calls="1"/>
+      <methods name="textMode" id="85404" signature="(int) void" baseTime="3.2901763916015625E-5" cumulativeTime="3.933906555175781E-5" calls="1"/>
+      <methods name="textAlign" id="85398" signature="(int, int) void" baseTime="5.7220458984375E-6" cumulativeTime="5.7220458984375E-6" calls="1"/>
+      <methods name="text" id="85415" signature="(java.lang.String, float, float) void" baseTime="7.534027099609375E-5" cumulativeTime="0.44678688049316406" calls="1"/>
+      <methods name="defaultFontOrDeath" id="85581" signature="(java.lang.String) void" baseTime="3.147125244140625E-5" cumulativeTime="0.41867804527282715" calls="1"/>
+      <methods name="defaultFontOrDeath" id="85582" signature="(java.lang.String, float) void" baseTime="3.552436828613281E-5" cumulativeTime="0.41864657402038574" calls="1"/>
+      <methods name="text" id="85416" signature="(char[], int, int, float, float) void" baseTime="1.1682510375976562E-4" cumulativeTime="0.02803349494934082" calls="1"/>
+      <methods name="textLineAlignImpl" id="85427" signature="(char[], int, int, float, float) void" baseTime="1.3399124145507812E-4" cumulativeTime="0.027916669845581055" calls="9"/>
+      <methods name="displayable" id="85583" signature="() boolean" baseTime="5.9604644775390625E-6" cumulativeTime="5.9604644775390625E-6" calls="1"/>
+      <methods name="noFill" id="85503" signature="() void" baseTime="0.19455790519714355" cumulativeTime="0.19455790519714355" calls="21000"/>
+      <methods name="ellipse" id="85361" signature="(float, float, float, float) void" baseTime="3.1405744552612305" cumulativeTime="46.92909622192383" calls="97440"/>
+      <methods name="fill" id="85508" signature="(float, float, float) void" baseTime="1.5153977870941162" cumulativeTime="38.24250936508179" calls="38220"/>
+      <methods name="colorCalc" id="85551" signature="(float, float, float) void" baseTime="27.53876042366028" cumulativeTime="28.735484838485718" calls="76440"/>
+      <methods name="colorCalc" id="85552" signature="(float, float, float, float) void" baseTime="1.1967244148254395" cumulativeTime="1.1967244148254395" calls="76440"/>
+      <methods name="stroke" id="85492" signature="(float, float, float) void" baseTime="1.351412296295166" cumulativeTime="35.41059470176697" calls="38220"/>
+      <methods name="dispose" id="85309" signature="() void" baseTime="8.344650268554688E-6" cumulativeTime="8.344650268554688E-6" calls="1"/>
+    </classes>
+    <classes name="PGraphicsJava2D" id="1936" loadTime="11.255524635314941" baseTime="107.8350100517273" cumulativeTime="109.30415058135986" calls="572940" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="<Unknown>"">
+      <methods name="-clinit-" id="89242" signature="()" baseTime="1.2636184692382812E-5" cumulativeTime="1.2636184692382812E-5" calls="1"/>
+      <methods name="PGraphicsJava2D" id="89150" signature="()" baseTime="0.023656606674194336" cumulativeTime="0.028968095779418945" calls="1"/>
+      <methods name="setSize" id="89151" signature="(int, int) void" baseTime="1.285076141357422E-4" cumulativeTime="0.09534811973571777" calls="2"/>
+      <methods name="allocate" id="89152" signature="() void" baseTime="0.09378504753112793" cumulativeTime="0.09378504753112793" calls="2"/>
+      <methods name="canDraw" id="89153" signature="() boolean" baseTime="0.0018241405487060547" cumulativeTime="0.0018241405487060547" calls="211"/>
+      <methods name="beginDraw" id="89154" signature="() void" baseTime="0.008451223373413086" cumulativeTime="0.017711877822875977" calls="211"/>
+      <methods name="noSmooth" id="89186" signature="() void" baseTime="7.534027099609375E-5" cumulativeTime="7.534027099609375E-5" calls="2"/>
+      <methods name="fillFromCalc" id="89227" signature="() void" baseTime="20.026972770690918" cumulativeTime="20.63759970664978" calls="38222"/>
+      <methods name="strokeFromCalc" id="89225" signature="() void" baseTime="28.494003295898438" cumulativeTime="29.34426188468933" calls="59222"/>
+      <methods name="strokeWeight" id="89223" signature="(float) void" baseTime="1.4400482177734375E-4" cumulativeTime="2.219676971435547E-4" calls="2"/>
+      <methods name="strokeImpl" id="89224" signature="() void" baseTime="9.560585021972656E-5" cumulativeTime="9.560585021972656E-5" calls="6"/>
+      <methods name="strokeJoin" id="89222" signature="(int) void" baseTime="5.602836608886719E-5" cumulativeTime="8.249282836914062E-5" calls="2"/>
+      <methods name="strokeCap" id="89221" signature="(int) void" baseTime="5.555152893066406E-5" cumulativeTime="8.177757263183594E-5" calls="2"/>
+      <methods name="backgroundImpl" id="89228" signature="() void" baseTime="0.27382588386535645" cumulativeTime="0.28884124755859375" calls="213"/>
+      <methods name="pushMatrix" id="89194" signature="() void" baseTime="0.6645488739013672" cumulativeTime="0.6645488739013672" calls="59433"/>
+      <methods name="resetMatrix" id="89207" signature="() void" baseTime="0.00825953483581543" cumulativeTime="0.00825953483581543" calls="424"/>
+      <methods name="popMatrix" id="89195" signature="() void" baseTime="1.227747917175293" cumulativeTime="1.227747917175293" calls="59433"/>
+      <methods name="textModeCheck" id="89190" signature="(int) boolean" baseTime="6.4373016357421875E-6" cumulativeTime="6.4373016357421875E-6" calls="1"/>
+      <methods name="smooth" id="89185" signature="() void" baseTime="3.0279159545898438E-5" cumulativeTime="3.0279159545898438E-5" calls="1"/>
+      <methods name="textLineImpl" id="89193" signature="(char[], int, int, float, float) void" baseTime="0.016982316970825195" cumulativeTime="0.027782678604125977" calls="9"/>
+      <methods name="textWidthImpl" id="89192" signature="(char[], int, int) float" baseTime="0.010698080062866211" cumulativeTime="0.01075124740600586" calls="9"/>
+      <methods name="endDraw" id="89155" signature="() void" baseTime="2.5775556564331055" cumulativeTime="2.5775556564331055" calls="211"/>
+      <methods name="translate" id="89196" signature="(float, float) void" baseTime="0.3942441940307617" cumulativeTime="0.3942441940307617" calls="42000"/>
+      <methods name="rotate" id="89197" signature="(float) void" baseTime="0.4711885452270508" cumulativeTime="0.4711885452270508" calls="42000"/>
+      <methods name="ellipseImpl" id="89176" signature="(float, float, float, float) void" baseTime="34.19718599319458" cumulativeTime="43.7885217666626" calls="97440"/>
+      <methods name="drawShape" id="89180" signature="(java.awt.Shape) void" baseTime="9.591335773468018" cumulativeTime="9.591335773468018" calls="97440"/>
+      <methods name="line" id="89172" signature="(float, float, float, float) void" baseTime="1.229689359664917" cumulativeTime="9.752139806747437" calls="38220"/>
+      <methods name="strokeShape" id="89179" signature="(java.awt.Shape) void" baseTime="8.52245044708252" cumulativeTime="8.52245044708252" calls="38220"/>
+    </classes>
+    <classes name="PMatrix3D" id="1670" loadTime="11.260821342468262" baseTime="5.1975250244140625E-5" cumulativeTime="5.1975250244140625E-5" calls="2" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="<Unknown>"">
+      <methods name="PMatrix3D" id="85707" signature="(float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float)" baseTime="3.2901763916015625E-5" cumulativeTime="5.1975250244140625E-5" calls="1"/>
+      <methods name="set" id="85715" signature="(float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float) void" baseTime="1.9073486328125E-5" cumulativeTime="1.9073486328125E-5" calls="1"/>
+    </classes>
+    <classes name="PApplet$2" id="1950" loadTime="11.303149700164795" baseTime="9.989738464355469E-5" cumulativeTime="9.989738464355469E-5" calls="2" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="<Unknown>"">
+      <methods name="PApplet$2" id="89466" signature="(processing.core.PApplet)" baseTime="1.5974044799804688E-5" cumulativeTime="1.5974044799804688E-5" calls="1"/>
+      <methods name="componentResized" id="89467" signature="(java.awt.event.ComponentEvent) void" baseTime="8.392333984375E-5" cumulativeTime="8.392333984375E-5" calls="1"/>
+    </classes>
+    <classes name="PApplet$1" id="1952" loadTime="11.307788372039795" baseTime="0.1732771396636963" cumulativeTime="0.1732771396636963" calls="2" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="<Unknown>"">
+      <methods name="PApplet$1" id="89473" signature="(processing.core.PApplet, int, int)" baseTime="2.6226043701171875E-5" cumulativeTime="2.6226043701171875E-5" calls="1"/>
+      <methods name="run" id="89474" signature="() void" baseTime="0.17325091361999512" cumulativeTime="0.17325091361999512" calls="1"/>
+    </classes>
+    <classes name="PFont" id="1669" loadTime="11.44300389289856" baseTime="0.40500569343566895" cumulativeTime="0.41296935081481934" calls="23" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="<Unknown>"">
+      <methods name="-clinit-" id="85704" signature="()" baseTime="5.76019287109375E-4" cumulativeTime="5.76019287109375E-4" calls="1"/>
+      <methods name="findFont" id="85703" signature="(java.lang.String) java.awt.Font" baseTime="8.344650268554688E-5" cumulativeTime="0.3505103588104248" calls="1"/>
+      <methods name="loadFonts" id="85702" signature="() void" baseTime="0.35042691230773926" cumulativeTime="0.35042691230773926" calls="1"/>
+      <methods name="PFont" id="85675" signature="(java.awt.Font, boolean, char[], boolean)" baseTime="3.0517578125E-5" cumulativeTime="0.061780691146850586" calls="1"/>
+      <methods name="PFont" id="85674" signature="(java.awt.Font, boolean, char[])" baseTime="0.053786516189575195" cumulativeTime="0.061750173568725586" calls="1"/>
+      <methods name="getFont" id="85683" signature="() java.awt.Font" baseTime="1.0228157043457031E-4" cumulativeTime="1.0228157043457031E-4" calls="18"/>
+    </classes>
+    <classes name="PFont$Glyph" id="2049" loadTime="11.847952365875244" baseTime="0.007898330688476562" cumulativeTime="0.00796365737915039" calls="2" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="<Unknown>"">
+      <methods name="PFont$Glyph" id="90208" signature="(processing.core.PFont, char)" baseTime="0.007898330688476562" cumulativeTime="0.00796365737915039" calls="2"/>
+    </classes>
+    <classes name="PApplet$10" id="2073" loadTime="11.897408246994019" baseTime="1.4543533325195312E-5" cumulativeTime="1.4543533325195312E-5" calls="1" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="<Unknown>"">
+      <methods name="PApplet$10" id="90422" signature="()" baseTime="1.4543533325195312E-5" cumulativeTime="1.4543533325195312E-5" calls="1"/>
+    </classes>
+    <classes name="PApplet$8" id="2074" loadTime="11.90105676651001" baseTime="7.486343383789062E-5" cumulativeTime="7.486343383789062E-5" calls="2" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="<Unknown>"">
+      <methods name="PApplet$8" id="90424" signature="(processing.core.PApplet)" baseTime="1.5974044799804688E-5" cumulativeTime="1.5974044799804688E-5" calls="1"/>
+      <methods name="componentResized" id="90425" signature="(java.awt.event.ComponentEvent) void" baseTime="5.888938903808594E-5" cumulativeTime="5.888938903808594E-5" calls="1"/>
+    </classes>
+</packages>
+<packages name="processing" baseTime="0.0" cumulativeTime="0.0" calls="0" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+</packages>
+<packages name="it.gius.processing.util" baseTime="0.13344573974609375" cumulativeTime="2.2670998573303223" calls="232" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="MyAbstractPApplet" id="1423" loadTime="9.89259147644043" baseTime="2.9397010803222656E-4" cumulativeTime="0.1744980812072754" calls="4" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="MyAbstractPApplet.java"">
+      <methods name="MyAbstractPApplet" id="81293" signature="()" baseTime="4.482269287109375E-5" cumulativeTime="0.17424893379211426" calls="1"/>
+      <methods name="setGoStop" id="81294" signature="(it.gius.processing.util.GoStop) void" baseTime="7.3909759521484375E-6" cumulativeTime="7.3909759521484375E-6" calls="1"/>
+      <methods name="addWindowAdapter" id="81295" signature="(java.awt.event.WindowAdapter) void" baseTime="2.0265579223632812E-5" cumulativeTime="2.0265579223632812E-5" calls="1"/>
+      <methods name="setup" id="81296" signature="() void" baseTime="2.2149085998535156E-4" cumulativeTime="2.2149085998535156E-4" calls="1"/>
+    </classes>
+    <classes name="PAppletManager" id="1439" loadTime="10.072893619537354" baseTime="0.007681608200073242" cumulativeTime="1.967043399810791" calls="10" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="PAppletManager.java"">
+      <methods name="PAppletManager" id="82483" signature="(boolean, boolean)" baseTime="3.6334991455078125E-4" cumulativeTime="3.7932395935058594E-4" calls="1"/>
+      <methods name="startAndAddApplet" id="82485" signature="(java.lang.String[], it.gius.processing.util.MyAbstractPApplet, int) java.util.concurrent.Semaphore" baseTime="3.695487976074219E-5" cumulativeTime="1.9666259288787842" calls="1"/>
+      <methods name="startAndAddApplet" id="82486" signature="(java.lang.String[], it.gius.processing.util.MyAbstractPApplet, int, it.gius.processing.util.WindowClosedListener) java.util.concurrent.Semaphore" baseTime="0.007235050201416016" cumulativeTime="1.9665889739990234" calls="1"/>
+      <methods name="correctType" id="82484" signature="(int) boolean" baseTime="8.106231689453125E-6" cumulativeTime="8.106231689453125E-6" calls="1"/>
+      <methods name="access$0" id="82487" signature="(it.gius.processing.util.PAppletManager) java.lang.Object" baseTime="7.867813110351562E-6" cumulativeTime="7.867813110351562E-6" calls="1"/>
+      <methods name="access$1" id="82488" signature="(it.gius.processing.util.PAppletManager) it.gius.processing.util.GoStop" baseTime="5.9604644775390625E-6" cumulativeTime="5.9604644775390625E-6" calls="1"/>
+      <methods name="access$2" id="82489" signature="(it.gius.processing.util.PAppletManager) java.util.List" baseTime="6.198883056640625E-6" cumulativeTime="6.198883056640625E-6" calls="1"/>
+      <methods name="access$3" id="82490" signature="(it.gius.processing.util.PAppletManager) java.lang.Integer" baseTime="6.4373016357421875E-6" cumulativeTime="6.4373016357421875E-6" calls="1"/>
+      <methods name="access$4" id="82491" signature="(it.gius.processing.util.PAppletManager, java.lang.Integer) void" baseTime="5.9604644775390625E-6" cumulativeTime="5.9604644775390625E-6" calls="1"/>
+      <methods name="access$5" id="82492" signature="(it.gius.processing.util.PAppletManager) boolean" baseTime="5.7220458984375E-6" cumulativeTime="5.7220458984375E-6" calls="1"/>
+    </classes>
+    <classes name="GoStop" id="1674" loadTime="10.073255777359009" baseTime="0.0019021034240722656" cumulativeTime="0.0019021034240722656" calls="214" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="GoStop.java"">
+      <methods name="GoStop" id="85815" signature="(boolean)" baseTime="1.5974044799804688E-5" cumulativeTime="1.5974044799804688E-5" calls="1"/>
+      <methods name="addApplet" id="85816" signature="(it.gius.processing.util.MyAbstractPApplet) void" baseTime="1.1205673217773438E-5" cumulativeTime="1.1205673217773438E-5" calls="1"/>
+      <methods name="isGo" id="85818" signature="() boolean" baseTime="0.001847982406616211" cumulativeTime="0.001847982406616211" calls="211"/>
+      <methods name="removeApplet" id="85817" signature="(it.gius.processing.util.MyAbstractPApplet) void" baseTime="2.6941299438476562E-5" cumulativeTime="2.6941299438476562E-5" calls="1"/>
+    </classes>
+    <classes name="PAppletManager$ClosingWindowAdapter" id="1678" loadTime="10.086155652999878" baseTime="0.12356805801391602" cumulativeTime="0.12380242347717285" calls="4" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="PAppletManager.java"">
+      <methods name="PAppletManager$ClosingWindowAdapter" id="85834" signature="(it.gius.processing.util.PAppletManager, it.gius.processing.util.MyAbstractPApplet, java.util.concurrent.Semaphore, int)" baseTime="1.7404556274414062E-5" cumulativeTime="1.7404556274414062E-5" calls="1"/>
+      <methods name="setFrame" id="85832" signature="(java.awt.Frame) void" baseTime="8.821487426757812E-6" cumulativeTime="8.821487426757812E-6" calls="1"/>
+      <methods name="windowClosing" id="85835" signature="(java.awt.event.WindowEvent) void" baseTime="1.4734268188476562E-4" cumulativeTime="0.12377619743347168" calls="1"/>
+      <methods name="disposeOrExit" id="85836" signature="(int) void" baseTime="0.12339448928833008" cumulativeTime="0.12362885475158691" calls="1"/>
+    </classes>
+</packages>
+<packages name="it.gius.processing" baseTime="0.0" cumulativeTime="0.0" calls="0" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+</packages>
+<packages name="javax.swing" baseTime="9.918212890625E-5" cumulativeTime="9.918212890625E-5" calls="2" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0">
+    <classes name="SwingUtilities" id="1953" loadTime="11.334788799285889" baseTime="9.918212890625E-5" cumulativeTime="9.918212890625E-5" calls="2" totalSize="0" totalInstances="0" collectedSize="0" collectedInstances="0" loadedBy="0" sourceInfo="SwingUtilities.java"">
+      <methods name="-clinit-" id="89536" signature="()" baseTime="3.9577484130859375E-5" cumulativeTime="3.9577484130859375E-5" calls="1"/>
+      <methods name="invokeLater" id="89507" signature="(java.lang.Runnable) void" baseTime="5.9604644775390625E-5" cumulativeTime="5.9604644775390625E-5" calls="1"/>
+    </classes>
+</packages>
+</Agent>
+</Contents>

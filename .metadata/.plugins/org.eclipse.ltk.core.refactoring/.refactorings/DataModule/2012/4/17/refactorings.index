@@ -1,0 +1,9 @@
+1335206452029	Rename package 'it.gius.pePpe.aabb'
+1335206459881	Copy package
+1335206467157	Delete element
+1335206486064	Rename package 'it.gius.pePpe.shapes'
+1335206852960	Rename package 'it.gius.pePpe.shapes.witness'
+1335207402868	Rename type 'ShapePhysicData'
+1335289531859	Rename field 'globalCenterOfMass'
+1335438975849	Rename package 'it.gius.pePpe.distance.data'
+1335439118932	Rename method 'getBoundaryBox'

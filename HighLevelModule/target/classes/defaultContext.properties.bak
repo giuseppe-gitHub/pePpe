@@ -1,0 +1,48 @@
+
+#simulation properties
+framerate=60
+width=700
+height=${width}
+manualStart=true
+
+enableMonitor=true
+
+#simulator: noViewSimulator, processingSimulator
+simulator=processingSimulator
+
+processingSimulator.drawers.standard.enable=true
+processingSimulator.drawers.AABB.enable=false
+processingSimulator.drawers.distances.enable=false
+processingSimulator.drawers.shapesCircle.enable=false
+processingSimulator.drawers.bodiesCircle.enable=false
+processingSimulator.drawers.overlap.enable=false
+processingSimulator.drawers.contacts.enable=false
+
+colors.background= 0x0A
+colors.fill.shapes= 0x4682B4
+colors.stroke.shapes= 0xAFEEEE
+colors.springs= 0x00F100
+colors.aabb= 0xFF8C00
+colors.bound.circles= 0xFF8C00
+colors.distances= 0xF00000
+
+#singleStepIntegrator: rk4Integrator, eulerIntegrator
+singleStepIntegrator=rk4Integrator
+
+doubleStepIntegrator=eulerIntegrator
+
+aabbManager=sapAABBManager
+
+#disance: gjkMinkDiffCacheDistance, distanceWitnessCacheStrategy
+distance=distanceWitnessCacheStrategy
+
+distance2=distanceStateless
+
+#contactManager initialization data
+contactManagerInit.caching=true
+contactManagerInit.warmStart=true
+contactManagerInit.translationThreshold=0.4
+contactManagerInit.removeOldPointsInUpdate=false
+
+#collision initalization data
+collisionInit.maxContactDistance=10

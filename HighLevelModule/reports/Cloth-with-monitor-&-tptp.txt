@@ -1,0 +1,16 @@
+8-mag-2012 5.09.24 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [appContext-pePpe.xml]
+k: 647.1995
+
+[Applet] average step time: 10952.658536585366
+[Applet] max step time: 31434.0
+[Applet] min step time: 1030.0
+[Applet] deviation step time: 8803.51456455209
+[Applet] step iterations: 41
+
+[Applet] average draw time: 4923.268292682927
+[Applet] max draw time: 18720.0
+[Applet] min draw time: 453.0
+[Applet] deviation draw time: 4484.065848956184
+[Applet] draw iterations: 41
+[Notifier]: Simulation ended!

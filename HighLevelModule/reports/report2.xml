@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<View name="Execution Statistics - it.gius.pePpe.mains.MovingDistanceMain at PC-giuseppe [ PID: 7800 ]">
+<data Package="it.gius.pePpe.configuration" Base_Time_.seconds.="11,622710" Average_Base_Time_.seconds.="1,291412" Cumulative_Time_.seconds.="11,891589" Calls="9"/>
+<data Package="it.gius.processing.util" Base_Time_.seconds.="4,952127" Average_Base_Time_.seconds.="0,215310" Cumulative_Time_.seconds.="4,952127" Calls="23"/>
+<data Package="it.gius.pePpe.simulator.processing" Base_Time_.seconds.="3,886719" Average_Base_Time_.seconds.="0,047399" Cumulative_Time_.seconds.="11,988836" Calls="82"/>
+<data Package="org.jbox2d.common" Base_Time_.seconds.="1,116404" Average_Base_Time_.seconds.="0,000026" Cumulative_Time_.seconds.="1,116404" Calls="43.411">
+  <data Package="Vec2" Base_Time_.seconds.="0,529283" Average_Base_Time_.seconds.="0,000016" Cumulative_Time_.seconds.="0,559119" Calls="32.516"/>
+  <data Package="MathUtils" Base_Time_.seconds.="0,252468" Average_Base_Time_.seconds.="0,000082" Cumulative_Time_.seconds.="0,252637" Calls="3.071"/>
+  <data Package="Transform" Base_Time_.seconds.="0,195712" Average_Base_Time_.seconds.="0,000055" Cumulative_Time_.seconds.="0,505420" Calls="3.580"/>
+  <data Package="Mat22" Base_Time_.seconds.="0,138772" Average_Base_Time_.seconds.="0,000033" Cumulative_Time_.seconds.="0,396937" Calls="4.243"/>
+  <data Package="Settings" Base_Time_.seconds.="0,000169" Average_Base_Time_.seconds.="0,000169" Cumulative_Time_.seconds.="0,000169" Calls="1"/>
+</data>
+<data Package="it.gius.pePpe.algorithm.gjk" Base_Time_.seconds.="0,872509" Average_Base_Time_.seconds.="0,000131" Cumulative_Time_.seconds.="2,554815" Calls="6.638">
+  <data Package="GjkEpaAlgorithm" Base_Time_.seconds.="0,406202" Average_Base_Time_.seconds.="0,001685" Cumulative_Time_.seconds.="2,548478" Calls="241">
+    <data Package="distance(it.gius.pePpe.algorithm.gjk.IGjkAlgorithmShape, org.jbox2d.common.Vec2, it.gius.pePpe.data.distance.DistanceSolution) void" Base_Time_.seconds.="0,362462" Average_Base_Time_.seconds.="0,001510" Cumulative_Time_.seconds.="2,444092" Calls="240"/>
+    <data Package="GjkEpaAlgorithm()" Base_Time_.seconds.="0,043740" Average_Base_Time_.seconds.="0,043740" Cumulative_Time_.seconds.="0,104386" Calls="1"/>
+  </data>
+  <data Package="GjkUtilsFunctions" Base_Time_.seconds.="0,348991" Average_Base_Time_.seconds.="0,000094" Cumulative_Time_.seconds.="0,617294" Calls="3.699">
+    <data Package="triangle(org.jbox2d.common.Vec2[], org.jbox2d.common.Vec2, it.gius.pePpe.algorithm.gjk.SimplexSolution) void" Base_Time_.seconds.="0,100961" Average_Base_Time_.seconds.="0,000297" Cumulative_Time_.seconds.="0,222001" Calls="340"/>
+    <data Package="g(org.jbox2d.common.Vec2, org.jbox2d.common.Vec2, org.jbox2d.common.Vec2) float" Base_Time_.seconds.="0,092806" Average_Base_Time_.seconds.="0,000085" Cumulative_Time_.seconds.="0,188092" Calls="1.095"/>
+    <data Package="segment(org.jbox2d.common.Vec2[], org.jbox2d.common.Vec2, it.gius.pePpe.algorithm.gjk.SimplexSolution) void" Base_Time_.seconds.="0,061811" Average_Base_Time_.seconds.="0,000120" Cumulative_Time_.seconds.="0,122560" Calls="515"/>
+    <data Package="GjkUtilsFunctions()" Base_Time_.seconds.="0,039445" Average_Base_Time_.seconds.="0,019722" Cumulative_Time_.seconds.="0,039836" Calls="2"/>
+    <data Package="nearestPointSimplex2D(it.gius.pePpe.algorithm.gjk.Simplex, org.jbox2d.common.Vec2, it.gius.pePpe.algorithm.gjk.SimplexSolution) void" Base_Time_.seconds.="0,034934" Average_Base_Time_.seconds.="0,000032" Cumulative_Time_.seconds.="0,389366" Calls="1.095"/>
+    <data Package="point(org.jbox2d.common.Vec2, it.gius.pePpe.algorithm.gjk.SimplexSolution) void" Base_Time_.seconds.="0,019034" Average_Base_Time_.seconds.="0,000029" Cumulative_Time_.seconds.="0,027004" Calls="652"/>
+  </data>
+  <data Package="SimplexSolution" Base_Time_.seconds.="0,095511" Average_Base_Time_.seconds.="0,000036" Cumulative_Time_.seconds.="0,127598" Calls="2.650">
+    <data Package="set(it.gius.pePpe.algorithm.gjk.SimplexSolution) void" Base_Time_.seconds.="0,042716" Average_Base_Time_.seconds.="0,000050" Cumulative_Time_.seconds.="0,056969" Calls="855"/>
+    <data Package="getSolutionPoint(org.jbox2d.common.Vec2) void" Base_Time_.seconds.="0,032837" Average_Base_Time_.seconds.="0,000030" Cumulative_Time_.seconds.="0,046750" Calls="1.095"/>
+    <data Package="equals(java.lang.Object) boolean" Base_Time_.seconds.="0,019761" Average_Base_Time_.seconds.="0,000028" Cumulative_Time_.seconds.="0,023381" Calls="698"/>
+    <data Package="SimplexSolution()" Base_Time_.seconds.="0,000197" Average_Base_Time_.seconds.="0,000099" Cumulative_Time_.seconds.="0,000498" Calls="2"/>
+  </data>
+  <data Package="EpaAlgorithm" Base_Time_.seconds.="0,016659" Average_Base_Time_.seconds.="0,008329" Cumulative_Time_.seconds.="0,020395" Calls="2"/>
+  <data Package="Simplex" Base_Time_.seconds.="0,005147" Average_Base_Time_.seconds.="0,000112" Cumulative_Time_.seconds.="0,009739" Calls="46"/>
+</data>
+<data Package="it.gius.pePpe.algorithm.gjk.shapes" Base_Time_.seconds.="0,746635" Average_Base_Time_.seconds.="0,000105" Cumulative_Time_.seconds.="1,390677" Calls="7.141">
+  <data Package="GjkMinkDiffShape" Base_Time_.seconds.="0,321772" Average_Base_Time_.seconds.="0,000083" Cumulative_Time_.seconds.="1,349907" Calls="3.889"/>
+  <data Package="GjkPolygon" Base_Time_.seconds.="0,236832" Average_Base_Time_.seconds.="0,000110" Cumulative_Time_.seconds.="0,356970" Calls="2.150">
+    <data Package="supportPoint(org.jbox2d.common.Vec2, org.jbox2d.common.Vec2) it.gius.pePpe.data.shapes.witness.Witness" Base_Time_.seconds.="0,170651" Average_Base_Time_.seconds.="0,000126" Cumulative_Time_.seconds.="0,265482" Calls="1.350"/>
+    <data Package="getStartingPoint(it.gius.pePpe.data.shapes.witness.Witness, org.jbox2d.common.Vec2) void" Base_Time_.seconds.="0,023376" Average_Base_Time_.seconds.="0,000065" Cumulative_Time_.seconds.="0,051484" Calls="360"/>
+    <data Package="getDim() int" Base_Time_.seconds.="0,014714" Average_Base_Time_.seconds.="0,000041" Cumulative_Time_.seconds.="0,019051" Calls="360"/>
+    <data Package="GjkPolygon(it.gius.pePpe.data.shapes.Polygon)" Base_Time_.seconds.="0,014285" Average_Base_Time_.seconds.="0,002381" Cumulative_Time_.seconds.="0,020533" Calls="6"/>
+    <data Package="updateRotatedVertices(org.jbox2d.common.Mat22, float) void" Base_Time_.seconds.="0,013386" Average_Base_Time_.seconds.="0,000216" Cumulative_Time_.seconds.="0,023375" Calls="62"/>
+    <data Package="GjkPolygon(it.gius.pePpe.Bind)" Base_Time_.seconds.="0,000322" Average_Base_Time_.seconds.="0,000054" Cumulative_Time_.seconds.="0,020856" Calls="6"/>
+    <data Package="getWitnessInstance() it.gius.pePpe.data.shapes.witness.Witness" Base_Time_.seconds.="0,000097" Average_Base_Time_.seconds.="0,000016" Cumulative_Time_.seconds.="0,000097" Calls="6"/>
+  </data>
+  <data Package="GjkEllipse" Base_Time_.seconds.="0,181490" Average_Base_Time_.seconds.="0,000167" Cumulative_Time_.seconds.="0,477276" Calls="1.086"/>
+  <data Package="GjkShapesFactory" Base_Time_.seconds.="0,006057" Average_Base_Time_.seconds.="0,000757" Cumulative_Time_.seconds.="0,040770" Calls="8"/>
+  <data Package="GjkSingleShape" Base_Time_.seconds.="0,000484" Average_Base_Time_.seconds.="0,000060" Cumulative_Time_.seconds.="0,003411" Calls="8"/>
+</data>
+<data Package="it.gius.pePpe.drawer.processing" Base_Time_.seconds.="0,327997" Average_Base_Time_.seconds.="0,000360" Cumulative_Time_.seconds.="3,139484" Calls="912"/>
+<data Package="it.gius.pePpe.mains" Base_Time_.seconds.="0,314728" Average_Base_Time_.seconds.="0,062946" Cumulative_Time_.seconds.="19,782874" Calls="5"/>
+<data Package="it.gius.pePpe" Base_Time_.seconds.="0,236665" Average_Base_Time_.seconds.="0,000034" Cumulative_Time_.seconds.="12,328756" Calls="6.945">
+  <data Package="PhysicEngine" Base_Time_.seconds.="0,119450" Average_Base_Time_.seconds.="0,000216" Cumulative_Time_.seconds.="12,177859" Calls="552"/>
+  <data Package="Body" Base_Time_.seconds.="0,105449" Average_Base_Time_.seconds.="0,000017" Cumulative_Time_.seconds.="0,145122" Calls="6.138"/>
+  <data Package="Bind" Base_Time_.seconds.="0,011630" Average_Base_Time_.seconds.="0,000046" Cumulative_Time_.seconds.="0,079699" Calls="254"/>
+  <data Package="SystemCostants" Base_Time_.seconds.="0,000135" Average_Base_Time_.seconds.="0,000135" Cumulative_Time_.seconds.="0,000190" Calls="1"/>
+</data>
+<data Package="it.gius.pePpe.data.shapes" Base_Time_.seconds.="0,208303" Average_Base_Time_.seconds.="0,000028" Cumulative_Time_.seconds.="0,562302" Calls="7.512"/>
+</View>

@@ -1,0 +1,56 @@
+<project name="archApp" default="uml" basedir=".">
+
+<property file="C:\Users\giuseppe\pePpe-workspace\SimulatorModule\ant\build.properties" />
+
+
+<target name="uml" >
+       <property name="dest.uml.dir" value="${dest.dir}"/>
+       <property name="src.uml.dir" value="${src.dir}/uml"/>
+       
+       <mkdir dir="${dest.uml.dir}"/>
+       <mkdir dir="${dest.uml.dir}/${views.dir}"/>
+       <mkdir dir="${dest.uml.dir}/${sequences.dir}"/>
+       
+       <path id="uml.source.path">
+           <pathelement path="${src.uml.dir}/"/>
+           <pathelement path="${src.java.dir}"/>
+         </path>
+         
+       <javadoc sourcepathref="uml.source.path" packagenames="*" package="true">
+           <doclet name="org.umlgraph.doclet.UmlGraph" path="UmlGraph.jar">
+               <param name="-d" value="${dest.uml.dir}/${views.dir}"/>
+               <param name="-output" value="myGraph.dot"/>
+               <param name="-views"/>
+           </doclet>
+       </javadoc>
+       
+       <apply executable="dot" dest="${dest.uml.dir}/${views.dir}" parallel="false">
+         <arg value="-Tpng"/>
+         <arg value="-o"/>
+         <targetfile/>
+         <srcfile/>
+         <fileset dir="${dest.uml.dir}/${views.dir}" includes="*.dot"/>
+         <mapper type="glob" from="*.dot" to="*.png"/>
+       </apply>
+       
+       
+       
+       <apply executable="pic2plot" dir="${src.uml.dir}/${sequences.dir}">
+       	<arg value="-Tgif"/>
+       	<arg value="--font-size"/>
+       	<arg value="0.025"/>
+        <srcfile/>
+        
+        <fileset dir="${src.uml.dir}/${sequences.dir}" includes="*.pic"  excludes="sequence.pic"/>
+        
+        <redirector>
+        	<outputmapper id="out" type="glob" from="*.pic" to="${dest.uml.dir}/${sequences.dir}/*.gif"/>
+        </redirector>
+       	</apply>
+       	
+       
+   </target>
+
+       
+
+</project>

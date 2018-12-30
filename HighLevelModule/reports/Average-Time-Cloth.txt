@@ -1,0 +1,3 @@
+average draw (method draw) time: 14.620810405202597 ms
+
+Time is stable on 14.62 in every simulation.

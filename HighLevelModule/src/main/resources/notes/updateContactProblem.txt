@@ -1,0 +1,5 @@
+Problem of old contactPoint with max depth that doesn't get cancelled
+caused by add policy.
+It happens when the contact normal change, for example if shapes are rotating.
+Solution (1): keeping a little translationThreshold should cancel the contact point.
+Solution (2): delete all old contact point during update.

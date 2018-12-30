@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?> <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key for="node" id="d0" yfiles.type="nodegraphics"/> 
+  <key for="edge" id="d1" yfiles.type="edgegraphics"/> 
+<graph id="dependencies" edgedefault="directed">
+<node id="-1397037312"><data key="d0"><y:ShapeNode><y:NodeLabel>it.gius:SapModule:jar:1.0-SNAPSHOT</y:NodeLabel></y:ShapeNode></data></node>
+<node id="-1468567618"><data key="d0"><y:ShapeNode><y:NodeLabel>it.gius:ProcessingUtilsModule:jar:1.0-SNAPSHOT:test (scope not updated to compile)</y:NodeLabel></y:ShapeNode></data></node>
+<node id="-1377566605"><data key="d0"><y:ShapeNode><y:NodeLabel>org.processing:processing.core:jar:1.5.1:test</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="-1468567618" target="-1377566605"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>test</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="-1397037312" target="-1468567618"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>test</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1516569918"><data key="d0"><y:ShapeNode><y:NodeLabel>it.gius:DataModule:jar:1.0-SNAPSHOT:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="-681456543"><data key="d0"><y:ShapeNode><y:NodeLabel>org.jbox2d-modified:jbox2d.common-modified:jar:1.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1516569918" target="-681456543"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="-1397037312" target="1516569918"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="-177622340"><data key="d0"><y:ShapeNode><y:NodeLabel>it.gius:HighLevelModule:jar:1.0-SNAPSHOT:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="-974800301"><data key="d0"><y:ShapeNode><y:NodeLabel>org.springframework:spring-core:jar:3.0.0.RELEASE:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="361409253"><data key="d0"><y:ShapeNode><y:NodeLabel>org.springframework:spring-asm:jar:3.0.0.RELEASE:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="-974800301" target="361409253"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="-1765162532"><data key="d0"><y:ShapeNode><y:NodeLabel>commons-logging:commons-logging:jar:1.1.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="-974800301" target="-1765162532"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="-177622340" target="-974800301"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1348961512"><data key="d0"><y:ShapeNode><y:NodeLabel>org.springframework:spring-beans:jar:3.0.0.RELEASE:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="-177622340" target="1348961512"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="-1397037312" target="-177622340"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1463118657"><data key="d0"><y:ShapeNode><y:NodeLabel>junit:junit:jar:3.8.1:test</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="-1397037312" target="1463118657"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>test</y:EdgeLabel></y:PolyLineEdge></data></edge>
+</graph></graphml>

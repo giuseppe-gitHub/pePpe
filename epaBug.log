@@ -1,0 +1,35 @@
+Simplex not more convex: [(-23.919037,-13.091705), (-29.806442,-67.69893), (27.15213,11.2339325), (-51.780746,68.192474)]
+Simplex not more convex, insertion index: 1
+Simplex not more convex, insertion point: (-29.806442,-67.69893)
+Simplex not more convex: [(-23.919037,-13.091705), (-29.806442,-67.69893), (13.779358,-26.464478), (27.15213,11.2339325), (-51.780746,68.192474)]
+Simplex not more convex, insertion index: 2
+Simplex not more convex, insertion point: (13.779358,-26.464478)
+Simplex not more convex: [(-23.69571,-13.364166), (-29.673126,-67.75046), (27.316437,11.084991), (-51.519012,68.074554)]
+Simplex not more convex, insertion index: 1
+Simplex not more convex, insertion point: (-29.673126,-67.75046)
+Simplex not more convex: [(-23.69571,-13.364166), (-29.673126,-67.75046), (14.034943,-26.64566), (27.316437,11.084991), (-51.519012,68.074554)]
+Simplex not more convex, insertion index: 2
+Simplex not more convex, insertion point: (14.034943,-26.64566)
+Simplex not more convex: [(-23.471252,-13.6392975), (-29.537064,-67.800125), (27.478882,10.938843), (-51.260086,67.95477)]
+Simplex not more convex, insertion index: 1
+Simplex not more convex, insertion point: (-29.537064,-67.800125)
+Simplex not more convex: [(-23.471252,-13.6392975), (-29.537064,-67.800125), (14.292877,-26.825302), (27.478882,10.938843), (-51.260086,67.95477)]
+Simplex not more convex, insertion index: 2
+Simplex not more convex, insertion point: (14.292877,-26.825302)
+Simplex not more convex: [(-23.471252,-13.6392975), (-108.27602,-10.784149), (-29.537064,-67.800125), (14.292877,-26.825302), (27.478882,10.938843), (-51.260086,67.95477)]
+Simplex not more convex, insertion index: 1
+Simplex not more convex, insertion point: (-108.27602,-10.784149)
+2013-06-16 01:22:03 - ERROR - [SimpleNotifier]: Simulation simpleDistance ended by exception
+java.lang.RuntimeException: distance < 0: -14.421341, normal.x: 0.033648245, normal.y: 0.99943376, qa.x: -23.471252, qa.y: -13.6392975, simplex.dim:6
+	at it.gius.pePpe.algorithm.GjkEpaUtilsFunctions.nearestEdgeInsidePointSimplex2D(GjkEpaUtilsFunctions.java:91)
+	at it.gius.pePpe.algorithm.epa.EpaAlgorithm.penetrationNormalAndDepth(EpaAlgorithm.java:82)
+	at it.gius.pePpe.distance.strategy2.GJKStandardDistance2.overlap(GJKStandardDistance2.java:102)
+	at it.gius.pePpe.distance.strategy2.GJKStandardDistance2.overlap(GJKStandardDistance2.java:131)
+	at it.gius.pePpe.distance.GjkDistanceStatelessImpl.overlap(GjkDistanceStatelessImpl.java:52)
+	at it.gius.pePpe.drawer.processing.ProcessingOverlapDrawer.draw(ProcessingOverlapDrawer.java:67)
+	at it.gius.pePpe.drawer.DrawerSet.draw(DrawerSet.java:80)
+	at it.gius.pePpe.simulator.processing.ProcessingDrawingApplet.draw(ProcessingDrawingApplet.java:491)
+	at processing.core.PApplet.handleDraw(Unknown Source)
+	at processing.core.PApplet.run(Unknown Source)
+	at it.gius.pePpe.simulator.processing.ProcessingDrawingApplet.run(ProcessingDrawingApplet.java:425)
+	at java.lang.Thread.run(Unknown Source)

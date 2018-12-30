@@ -1,0 +1,27 @@
+1335215970368	Delete element
+1335230554582	Rename resource 'xml'
+1335233581025	Rename type 'ModulesFactory'
+1335282123325	Rename type 'BodyChange'
+1335353121398	Rename local variable 'bInit'
+1335363721861	Rename resource 'SpringConf.xml'
+1335363724076	Move file
+1335363728070	Delete element
+1335371473968	Rename resource 'appContext.xml'
+1335373171118	Rename type 'MoudlesFactoryTestMain'
+1335393167841	Delete element
+1335461617915	Move compilation unit
+1335461652812	Move compilation unit
+1335461852134	Move compilation unit
+1335461855628	Move compilation unit
+1335462165617	Move compilation unit
+1335462168784	Move compilation unit
+1335464970798	Rename type 'MovingDistanceTestMain'
+1335465336310	Rename type 'MovingDistanceMain'
+1335465884122	Rename type 'MovingDistanceMaaain'
+1335496068031	Rename type 'Drawer'
+1335500693725	Move compilation unit
+1335500821723	Move compilation unit
+1335500967318	Delete element
+1335500990702	Move compilation unit
+1335501197783	Rename field 'springFactory'
+1335508045653	Delete element

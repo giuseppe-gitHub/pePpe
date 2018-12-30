@@ -1,0 +1,1 @@
+mvn -P graph --projects TestModule,HighLevelModule,SapModule,MoveCollisionModule,SimulatorModule,DataModule,GraphUtilsModule,ProcessingUtilsModule graph:reactor -Dhide-scope=test -Dhide-optional=true -Dhide-transitive=true

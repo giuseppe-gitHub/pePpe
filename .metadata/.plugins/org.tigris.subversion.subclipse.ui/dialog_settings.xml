@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="555" key="CommitDialog.weights.0"/>
+	<item value="444" key="CommitDialog.weights.1"/>
+	<item value="0" key="CommitDialog.location.y"/>
+	<item value="378" key="CommitDialog.location.x"/>
+	<item value="525" key="CommitDialog.size.x"/>
+	<item value="703" key="CommitDialog.size.y"/>
+	<section name="NewLocationWizard">
+		<list key="ConfigurationWizardMainPage.STORE_URL_ID">
+			<item value="file:///C:/Users/giuseppe/svn-repo/trunk"/>
+			<item value="file:///C:/Users/giuseppe/svn-repo/"/>
+			<item value=""/>
+		</list>
+	</section>
+</section>

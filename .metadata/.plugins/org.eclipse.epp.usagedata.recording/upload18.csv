@@ -1,0 +1,13 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.mylyn.bugzilla.ui,3.0.5.v20090218-1800-e3x,org.eclipse.mylyn.bugzilla.ui,1334923797730
+stopped,bundle,org.eclipse.mylyn.ide.ui,3.0.5.v20090218-1800-e3x,org.eclipse.mylyn.ide.ui,1334923797730
+stopped,bundle,org.eclipse.mylyn.team.ui,3.0.5.v20090218-1800-e3x,org.eclipse.mylyn.team.ui,1334923797730
+stopped,bundle,org.eclipse.mylyn.resources.ui,3.0.5.v20090218-1800-e3x,org.eclipse.mylyn.resources.ui,1334923797730
+stopped,bundle,org.eclipse.mylyn.context.ui,3.0.5.v20090218-1800-e3x,org.eclipse.mylyn.context.ui,1334923797730
+stopped,bundle,org.eclipse.mylyn.help.ui,3.0.5.v20090218-1800-e3x,org.eclipse.mylyn.help.ui,1334923797730
+stopped,bundle,org.eclipse.mylyn.tasks.bugs,3.0.5.v20090218-1800-e3x,org.eclipse.mylyn.tasks.bugs,1334923797730
+stopped,bundle,org.eclipse.mylyn.tasks.ui,3.0.5.v20090218-1800-e3x,org.eclipse.mylyn.tasks.ui,1334923797730
+stopped,bundle,org.eclipse.rse.importexport,1.1.0.v20080604,org.eclipse.rse.importexport,1334923797730
+stopped,bundle,org.eclipse.rse.subsystems.shells.telnet,1.1.0.v20080604,org.eclipse.rse.subsystems.shells.telnet,1334923797730
+stopped,bundle,org.eclipse.rse.shells.ui,3.0.1.v20080710,org.eclipse.rse.shells.ui,1334923797746
+stopped,bundle,org.eclipse.rse.files.ui,3.0.3.v200902050040,org.eclipse.rse.files.ui,1334923797746

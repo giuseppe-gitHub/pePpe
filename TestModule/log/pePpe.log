@@ -1,0 +1,293 @@
+2013-07-24 23:40:09 - INFO - [ConfigurationFactory]: user properties file: Distance-pePpe.properties
+2013-07-24 23:40:09 - INFO - [XmlBeanDefinitionReader]: Loading XML bean definitions from class path resource [beans-pePpe.xml]
+2013-07-24 23:40:10 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [defaultContext.properties]
+2013-07-24 23:40:10 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [Distance-pePpe.properties]
+2013-07-24 23:40:10 - INFO - [ConfigurationFactory]: aabbManager: it.gius.pePpe.aabb.sap.AABBSweepAndPrune
+2013-07-24 23:40:10 - INFO - [ConfigurationFactory]: aabbUpdater: it.gius.pePpe.aabb.AABBUpdater
+2013-07-24 23:40:10 - INFO - [ConfigurationFactory]: distance: it.gius.pePpe.distance.GjkDistanceWitnessCacheStrategyImpl
+2013-07-24 23:40:10 - INFO - [ConfigurationFactory]: distance2: it.gius.pePpe.distance.GjkDistanceStatelessImpl
+2013-07-24 23:40:10 - INFO - [ConfigurationFactory]: collision: it.gius.pePpe.collision.FullDistanceCollision
+2013-07-24 23:40:10 - INFO - [ConfigurationFactory]: simulator: it.gius.pePpe.simulator.processing.ProcessingSimulator
+2013-07-24 23:40:10 - INFO - [ConfigurationFactory]: singleStepIntegrator: it.gius.pePpe.integrator.RK4Integrator
+2013-07-24 23:40:10 - INFO - [ConfigurationFactory]: doubleStepIntegrator: it.gius.pePpe.integrator.EulerIntegrator
+2013-07-24 23:40:10 - INFO - [ConfigurationFactory]: contactManager: it.gius.pePpe.contact.ContactManager
+2013-07-24 23:40:10 - INFO - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:40:10 - DEBUG - [GjkStandardAlgorithm]: max iterations: 1
+2013-07-24 23:40:12 - INFO - [SimpleNotifier]: Simulation Distance ended before time elapsed
+2013-07-24 23:40:55 - INFO - [ConfigurationFactory]: xml file: beans-pePpe.xml
+2013-07-24 23:40:55 - INFO - [ConfigurationFactory]: default properties file: defaultContext.properties
+2013-07-24 23:40:55 - INFO - [ConfigurationFactory]: user properties file: Distance-pePpe.properties
+2013-07-24 23:40:55 - INFO - [XmlBeanDefinitionReader]: Loading XML bean definitions from class path resource [beans-pePpe.xml]
+2013-07-24 23:40:55 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [defaultContext.properties]
+2013-07-24 23:40:55 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [Distance-pePpe.properties]
+2013-07-24 23:40:55 - INFO - [ConfigurationFactory]: aabbManager: it.gius.pePpe.aabb.sap.AABBSweepAndPrune
+2013-07-24 23:40:55 - INFO - [ConfigurationFactory]: aabbUpdater: it.gius.pePpe.aabb.AABBUpdater
+2013-07-24 23:40:55 - INFO - [ConfigurationFactory]: distance: it.gius.pePpe.distance.GjkDistanceWitnessCacheStrategyImpl
+2013-07-24 23:40:55 - INFO - [ConfigurationFactory]: distance2: it.gius.pePpe.distance.GjkDistanceStatelessImpl
+2013-07-24 23:40:55 - INFO - [ConfigurationFactory]: collision: it.gius.pePpe.collision.FullDistanceCollision
+2013-07-24 23:40:56 - INFO - [ConfigurationFactory]: simulator: it.gius.pePpe.simulator.processing.ProcessingSimulator
+2013-07-24 23:40:56 - INFO - [ConfigurationFactory]: singleStepIntegrator: it.gius.pePpe.integrator.RK4Integrator
+2013-07-24 23:40:56 - INFO - [ConfigurationFactory]: doubleStepIntegrator: it.gius.pePpe.integrator.EulerIntegrator
+2013-07-24 23:40:56 - INFO - [ConfigurationFactory]: contactManager: it.gius.pePpe.contact.ContactManager
+2013-07-24 23:40:56 - INFO - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:40:56 - DEBUG - [GjkStandardAlgorithm]: max iterations: 1
+2013-07-24 23:40:58 - DEBUG - [GjkStandardAlgorithm]: max iterations: 2
+2013-07-24 23:41:01 - DEBUG - [GjkStandardAlgorithm]: max iterations: 3
+2013-07-24 23:41:10 - INFO - [SimpleNotifier]: Simulation Distance ended before time elapsed
+2013-07-24 23:41:21 - INFO - [ConfigurationFactory]: xml file: beans-pePpe.xml
+2013-07-24 23:41:21 - INFO - [ConfigurationFactory]: default properties file: defaultContext.properties
+2013-07-24 23:41:21 - INFO - [ConfigurationFactory]: user properties file: Distance-pePpe.properties
+2013-07-24 23:41:21 - INFO - [XmlBeanDefinitionReader]: Loading XML bean definitions from class path resource [beans-pePpe.xml]
+2013-07-24 23:41:21 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [defaultContext.properties]
+2013-07-24 23:41:21 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [Distance-pePpe.properties]
+2013-07-24 23:41:21 - INFO - [ConfigurationFactory]: aabbManager: it.gius.pePpe.aabb.sap.AABBSweepAndPrune
+2013-07-24 23:41:21 - INFO - [ConfigurationFactory]: aabbUpdater: it.gius.pePpe.aabb.AABBUpdater
+2013-07-24 23:41:21 - INFO - [ConfigurationFactory]: distance: it.gius.pePpe.distance.GjkDistanceWitnessCacheStrategyImpl
+2013-07-24 23:41:21 - INFO - [ConfigurationFactory]: distance2: it.gius.pePpe.distance.GjkDistanceStatelessImpl
+2013-07-24 23:41:21 - INFO - [ConfigurationFactory]: collision: it.gius.pePpe.collision.FullDistanceCollision
+2013-07-24 23:41:21 - INFO - [ConfigurationFactory]: simulator: it.gius.pePpe.simulator.processing.ProcessingSimulator
+2013-07-24 23:41:21 - INFO - [ConfigurationFactory]: singleStepIntegrator: it.gius.pePpe.integrator.RK4Integrator
+2013-07-24 23:41:21 - INFO - [ConfigurationFactory]: doubleStepIntegrator: it.gius.pePpe.integrator.EulerIntegrator
+2013-07-24 23:41:21 - INFO - [ConfigurationFactory]: contactManager: it.gius.pePpe.contact.ContactManager
+2013-07-24 23:41:21 - INFO - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:41:21 - DEBUG - [GjkStandardAlgorithm]: max iterations: 1
+2013-07-24 23:41:36 - INFO - [SimpleNotifier]: Simulation Distance ended for time elapsed
+2013-07-24 23:41:52 - INFO - [ConfigurationFactory]: xml file: beans-pePpe.xml
+2013-07-24 23:41:52 - INFO - [ConfigurationFactory]: default properties file: defaultContext.properties
+2013-07-24 23:41:52 - INFO - [ConfigurationFactory]: user properties file: Distance-pePpe.properties
+2013-07-24 23:41:52 - INFO - [XmlBeanDefinitionReader]: Loading XML bean definitions from class path resource [beans-pePpe.xml]
+2013-07-24 23:41:52 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [defaultContext.properties]
+2013-07-24 23:41:53 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [Distance-pePpe.properties]
+2013-07-24 23:41:53 - INFO - [ConfigurationFactory]: aabbManager: it.gius.pePpe.aabb.sap.AABBSweepAndPrune
+2013-07-24 23:41:53 - INFO - [ConfigurationFactory]: aabbUpdater: it.gius.pePpe.aabb.AABBUpdater
+2013-07-24 23:41:53 - INFO - [ConfigurationFactory]: distance: it.gius.pePpe.distance.GjkDistanceWitnessCacheStrategyImpl
+2013-07-24 23:41:53 - INFO - [ConfigurationFactory]: distance2: it.gius.pePpe.distance.GjkDistanceStatelessImpl
+2013-07-24 23:41:53 - INFO - [ConfigurationFactory]: collision: it.gius.pePpe.collision.FullDistanceCollision
+2013-07-24 23:41:53 - INFO - [ConfigurationFactory]: simulator: it.gius.pePpe.simulator.processing.ProcessingSimulator
+2013-07-24 23:41:53 - INFO - [ConfigurationFactory]: singleStepIntegrator: it.gius.pePpe.integrator.RK4Integrator
+2013-07-24 23:41:53 - INFO - [ConfigurationFactory]: doubleStepIntegrator: it.gius.pePpe.integrator.EulerIntegrator
+2013-07-24 23:41:53 - INFO - [ConfigurationFactory]: contactManager: it.gius.pePpe.contact.ContactManager
+2013-07-24 23:41:53 - INFO - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:41:53 - DEBUG - [GjkStandardAlgorithm]: max iterations: 1
+2013-07-24 23:42:08 - INFO - [SimpleNotifier]: Simulation Distance ended for time elapsed
+2013-07-24 23:42:24 - INFO - [ConfigurationFactory]: xml file: beans-pePpe.xml
+2013-07-24 23:42:24 - INFO - [ConfigurationFactory]: default properties file: defaultContext.properties
+2013-07-24 23:42:24 - INFO - [ConfigurationFactory]: user properties file: Distance-pePpe.properties
+2013-07-24 23:42:24 - INFO - [XmlBeanDefinitionReader]: Loading XML bean definitions from class path resource [beans-pePpe.xml]
+2013-07-24 23:42:24 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [defaultContext.properties]
+2013-07-24 23:42:24 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [Distance-pePpe.properties]
+2013-07-24 23:42:24 - INFO - [ConfigurationFactory]: aabbManager: it.gius.pePpe.aabb.sap.AABBSweepAndPrune
+2013-07-24 23:42:24 - INFO - [ConfigurationFactory]: aabbUpdater: it.gius.pePpe.aabb.AABBUpdater
+2013-07-24 23:42:24 - INFO - [ConfigurationFactory]: distance: it.gius.pePpe.distance.GjkDistanceWitnessCacheStrategyImpl
+2013-07-24 23:42:24 - INFO - [ConfigurationFactory]: distance2: it.gius.pePpe.distance.GjkDistanceStatelessImpl
+2013-07-24 23:42:24 - INFO - [ConfigurationFactory]: collision: it.gius.pePpe.collision.FullDistanceCollision
+2013-07-24 23:42:24 - INFO - [ConfigurationFactory]: simulator: it.gius.pePpe.simulator.processing.ProcessingSimulator
+2013-07-24 23:42:24 - INFO - [ConfigurationFactory]: singleStepIntegrator: it.gius.pePpe.integrator.RK4Integrator
+2013-07-24 23:42:24 - INFO - [ConfigurationFactory]: doubleStepIntegrator: it.gius.pePpe.integrator.EulerIntegrator
+2013-07-24 23:42:24 - INFO - [ConfigurationFactory]: contactManager: it.gius.pePpe.contact.ContactManager
+2013-07-24 23:42:24 - INFO - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:42:24 - DEBUG - [GjkStandardAlgorithm]: max iterations: 1
+2013-07-24 23:42:31 - INFO - [SimpleNotifier]: Simulation Distance ended before time elapsed
+2013-07-24 23:42:42 - INFO - [ConfigurationFactory]: xml file: beans-pePpe.xml
+2013-07-24 23:42:42 - INFO - [ConfigurationFactory]: default properties file: defaultContext.properties
+2013-07-24 23:42:42 - INFO - [ConfigurationFactory]: user properties file: Distance-pePpe.properties
+2013-07-24 23:42:42 - INFO - [XmlBeanDefinitionReader]: Loading XML bean definitions from class path resource [beans-pePpe.xml]
+2013-07-24 23:42:42 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [defaultContext.properties]
+2013-07-24 23:42:42 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [Distance-pePpe.properties]
+2013-07-24 23:42:42 - INFO - [ConfigurationFactory]: aabbManager: it.gius.pePpe.aabb.sap.AABBSweepAndPrune
+2013-07-24 23:42:42 - INFO - [ConfigurationFactory]: aabbUpdater: it.gius.pePpe.aabb.AABBUpdater
+2013-07-24 23:42:42 - INFO - [ConfigurationFactory]: distance: it.gius.pePpe.distance.GjkDistanceWitnessCacheStrategyImpl
+2013-07-24 23:42:42 - INFO - [ConfigurationFactory]: distance2: it.gius.pePpe.distance.GjkDistanceStatelessImpl
+2013-07-24 23:42:42 - INFO - [ConfigurationFactory]: collision: it.gius.pePpe.collision.FullDistanceCollision
+2013-07-24 23:42:42 - INFO - [ConfigurationFactory]: simulator: it.gius.pePpe.simulator.processing.ProcessingSimulator
+2013-07-24 23:42:42 - INFO - [ConfigurationFactory]: singleStepIntegrator: it.gius.pePpe.integrator.RK4Integrator
+2013-07-24 23:42:42 - INFO - [ConfigurationFactory]: doubleStepIntegrator: it.gius.pePpe.integrator.EulerIntegrator
+2013-07-24 23:42:42 - INFO - [ConfigurationFactory]: contactManager: it.gius.pePpe.contact.ContactManager
+2013-07-24 23:42:42 - INFO - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:42:42 - DEBUG - [GjkStandardAlgorithm]: max iterations: 1
+2013-07-24 23:42:55 - INFO - [SimpleNotifier]: Simulation Distance ended before time elapsed
+2013-07-24 23:43:08 - INFO - [ConfigurationFactory]: xml file: beans-pePpe.xml
+2013-07-24 23:43:08 - INFO - [ConfigurationFactory]: default properties file: defaultContext.properties
+2013-07-24 23:43:08 - INFO - [ConfigurationFactory]: user properties file: Distance-pePpe.properties
+2013-07-24 23:43:08 - INFO - [XmlBeanDefinitionReader]: Loading XML bean definitions from class path resource [beans-pePpe.xml]
+2013-07-24 23:43:08 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [defaultContext.properties]
+2013-07-24 23:43:08 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [Distance-pePpe.properties]
+2013-07-24 23:43:08 - INFO - [ConfigurationFactory]: aabbManager: it.gius.pePpe.aabb.sap.AABBSweepAndPrune
+2013-07-24 23:43:08 - INFO - [ConfigurationFactory]: aabbUpdater: it.gius.pePpe.aabb.AABBUpdater
+2013-07-24 23:43:08 - INFO - [ConfigurationFactory]: distance: it.gius.pePpe.distance.GjkDistanceWitnessCacheStrategyImpl
+2013-07-24 23:43:08 - INFO - [ConfigurationFactory]: distance2: it.gius.pePpe.distance.GjkDistanceStatelessImpl
+2013-07-24 23:43:08 - INFO - [ConfigurationFactory]: collision: it.gius.pePpe.collision.FullDistanceCollision
+2013-07-24 23:43:08 - INFO - [ConfigurationFactory]: simulator: it.gius.pePpe.simulator.processing.ProcessingSimulator
+2013-07-24 23:43:08 - INFO - [ConfigurationFactory]: singleStepIntegrator: it.gius.pePpe.integrator.RK4Integrator
+2013-07-24 23:43:08 - INFO - [ConfigurationFactory]: doubleStepIntegrator: it.gius.pePpe.integrator.EulerIntegrator
+2013-07-24 23:43:08 - INFO - [ConfigurationFactory]: contactManager: it.gius.pePpe.contact.ContactManager
+2013-07-24 23:43:08 - INFO - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:43:08 - DEBUG - [GjkStandardAlgorithm]: max iterations: 1
+2013-07-24 23:43:23 - INFO - [SimpleNotifier]: Simulation Distance ended for time elapsed
+2013-07-24 23:44:57 - INFO - [ConfigurationFactory]: xml file: beans-pePpe.xml
+2013-07-24 23:44:57 - INFO - [ConfigurationFactory]: default properties file: defaultContext.properties
+2013-07-24 23:44:57 - INFO - [ConfigurationFactory]: user properties file: Distance-pePpe.properties
+2013-07-24 23:44:57 - INFO - [XmlBeanDefinitionReader]: Loading XML bean definitions from class path resource [beans-pePpe.xml]
+2013-07-24 23:44:57 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [defaultContext.properties]
+2013-07-24 23:44:57 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [Distance-pePpe.properties]
+2013-07-24 23:44:57 - INFO - [ConfigurationFactory]: aabbManager: it.gius.pePpe.aabb.sap.AABBSweepAndPrune
+2013-07-24 23:44:57 - INFO - [ConfigurationFactory]: aabbUpdater: it.gius.pePpe.aabb.AABBUpdater
+2013-07-24 23:44:57 - INFO - [ConfigurationFactory]: distance: it.gius.pePpe.distance.GjkDistanceWitnessCacheStrategyImpl
+2013-07-24 23:44:57 - INFO - [ConfigurationFactory]: distance2: it.gius.pePpe.distance.GjkDistanceStatelessImpl
+2013-07-24 23:44:57 - INFO - [ConfigurationFactory]: collision: it.gius.pePpe.collision.FullDistanceCollision
+2013-07-24 23:44:57 - INFO - [ConfigurationFactory]: simulator: it.gius.pePpe.simulator.processing.ProcessingSimulator
+2013-07-24 23:44:57 - INFO - [ConfigurationFactory]: singleStepIntegrator: it.gius.pePpe.integrator.RK4Integrator
+2013-07-24 23:44:57 - INFO - [ConfigurationFactory]: doubleStepIntegrator: it.gius.pePpe.integrator.EulerIntegrator
+2013-07-24 23:44:57 - INFO - [ConfigurationFactory]: contactManager: it.gius.pePpe.contact.ContactManager
+2013-07-24 23:44:57 - INFO - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:44:58 - DEBUG - [GjkStandardAlgorithm]: max iterations: 1
+2013-07-24 23:45:05 - INFO - [SimpleNotifier]: Simulation Distance ended before time elapsed
+2013-07-24 23:45:27 - INFO - [ConfigurationFactory]: xml file: beans-pePpe.xml
+2013-07-24 23:45:27 - INFO - [ConfigurationFactory]: default properties file: defaultContext.properties
+2013-07-24 23:45:27 - INFO - [ConfigurationFactory]: user properties file: Distance-pePpe.properties
+2013-07-24 23:45:27 - INFO - [XmlBeanDefinitionReader]: Loading XML bean definitions from class path resource [beans-pePpe.xml]
+2013-07-24 23:45:28 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [defaultContext.properties]
+2013-07-24 23:45:28 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [Distance-pePpe.properties]
+2013-07-24 23:45:28 - INFO - [ConfigurationFactory]: aabbManager: it.gius.pePpe.aabb.sap.AABBSweepAndPrune
+2013-07-24 23:45:28 - INFO - [ConfigurationFactory]: aabbUpdater: it.gius.pePpe.aabb.AABBUpdater
+2013-07-24 23:45:28 - INFO - [ConfigurationFactory]: distance: it.gius.pePpe.distance.GjkDistanceWitnessCacheStrategyImpl
+2013-07-24 23:45:28 - INFO - [ConfigurationFactory]: distance2: it.gius.pePpe.distance.GjkDistanceStatelessImpl
+2013-07-24 23:45:28 - INFO - [ConfigurationFactory]: collision: it.gius.pePpe.collision.FullDistanceCollision
+2013-07-24 23:45:28 - INFO - [ConfigurationFactory]: simulator: it.gius.pePpe.simulator.processing.ProcessingSimulator
+2013-07-24 23:45:28 - INFO - [ConfigurationFactory]: singleStepIntegrator: it.gius.pePpe.integrator.RK4Integrator
+2013-07-24 23:45:28 - INFO - [ConfigurationFactory]: doubleStepIntegrator: it.gius.pePpe.integrator.EulerIntegrator
+2013-07-24 23:45:28 - INFO - [ConfigurationFactory]: contactManager: it.gius.pePpe.contact.ContactManager
+2013-07-24 23:45:28 - INFO - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:45:28 - DEBUG - [GjkStandardAlgorithm]: max iterations: 1
+2013-07-24 23:45:31 - DEBUG - [GjkStandardAlgorithm]: max iterations: 2
+2013-07-24 23:45:31 - DEBUG - [GjkStandardAlgorithm]: max iterations: 3
+2013-07-24 23:45:42 - INFO - [SimpleNotifier]: Simulation Distance ended for time elapsed
+2013-07-24 23:51:59 - INFO - [ConfigurationFactory]: xml file: beans-pePpe.xml
+2013-07-24 23:51:59 - INFO - [ConfigurationFactory]: default properties file: defaultContext.properties
+2013-07-24 23:51:59 - INFO - [XmlBeanDefinitionReader]: Loading XML bean definitions from class path resource [beans-pePpe.xml]
+2013-07-24 23:51:59 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [defaultContext.properties]
+2013-07-24 23:51:59 - INFO - [ConfigurationFactory]: aabbManager: it.gius.pePpe.aabb.sap.AABBSweepAndPrune
+2013-07-24 23:51:59 - INFO - [ConfigurationFactory]: aabbUpdater: it.gius.pePpe.aabb.AABBUpdater
+2013-07-24 23:51:59 - INFO - [ConfigurationFactory]: distance: it.gius.pePpe.distance.GjkDistanceWitnessCacheStrategyImpl
+2013-07-24 23:51:59 - INFO - [ConfigurationFactory]: distance2: it.gius.pePpe.distance.GjkDistanceStatelessImpl
+2013-07-24 23:51:59 - INFO - [ConfigurationFactory]: collision: it.gius.pePpe.collision.FullDistanceCollision
+2013-07-24 23:51:59 - INFO - [ConfigurationFactory]: simulator: it.gius.pePpe.simulator.processing.ProcessingSimulator
+2013-07-24 23:51:59 - INFO - [ConfigurationFactory]: singleStepIntegrator: it.gius.pePpe.integrator.RK4Integrator
+2013-07-24 23:51:59 - INFO - [ConfigurationFactory]: doubleStepIntegrator: it.gius.pePpe.integrator.EulerIntegrator
+2013-07-24 23:51:59 - INFO - [ConfigurationFactory]: contactManager: it.gius.pePpe.contact.ContactManager
+2013-07-24 23:51:59 - INFO - [ProcessingSimulator]: starting simulation: Single Cloth
+2013-07-24 23:52:44 - INFO - [SimpleNotifier]: Simulation Single Cloth ended for time elapsed
+2013-07-25 00:04:23 - INFO - [ConfigurationFactory]: xml file: beans-pePpe.xml
+2013-07-25 00:04:23 - INFO - [ConfigurationFactory]: default properties file: defaultContext.properties
+2013-07-25 00:04:23 - INFO - [XmlBeanDefinitionReader]: Loading XML bean definitions from class path resource [beans-pePpe.xml]
+2013-07-25 00:04:23 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [defaultContext.properties]
+2013-07-25 00:04:23 - INFO - [ConfigurationFactory]: aabbManager: it.gius.pePpe.aabb.sap.AABBSweepAndPrune
+2013-07-25 00:04:23 - INFO - [ConfigurationFactory]: aabbUpdater: it.gius.pePpe.aabb.AABBUpdater
+2013-07-25 00:04:23 - INFO - [ConfigurationFactory]: distance: it.gius.pePpe.distance.GjkDistanceWitnessCacheStrategyImpl
+2013-07-25 00:04:23 - INFO - [ConfigurationFactory]: distance2: it.gius.pePpe.distance.GjkDistanceStatelessImpl
+2013-07-25 00:04:24 - INFO - [ConfigurationFactory]: collision: it.gius.pePpe.collision.FullDistanceCollision
+2013-07-25 00:04:24 - INFO - [ConfigurationFactory]: simulator: it.gius.pePpe.simulator.processing.ProcessingSimulator
+2013-07-25 00:04:24 - INFO - [ConfigurationFactory]: singleStepIntegrator: it.gius.pePpe.integrator.RK4Integrator
+2013-07-25 00:04:24 - INFO - [ConfigurationFactory]: doubleStepIntegrator: it.gius.pePpe.integrator.EulerIntegrator
+2013-07-25 00:04:24 - INFO - [ConfigurationFactory]: contactManager: it.gius.pePpe.contact.ContactManager
+2013-07-25 00:04:24 - INFO - [ProcessingSimulator]: starting simulation: Box stacking
+2013-07-25 00:04:38 - DEBUG - [EpaAlgorithm]: max iterations: 5
+2013-07-25 00:04:49 - INFO - [SimpleNotifier]: Simulation Box stacking ended!
+2013-07-25 00:05:08 - INFO - [ConfigurationFactory]: xml file: beans-pePpe.xml
+2013-07-25 00:05:08 - INFO - [ConfigurationFactory]: default properties file: defaultContext.properties
+2013-07-25 00:05:08 - INFO - [XmlBeanDefinitionReader]: Loading XML bean definitions from class path resource [beans-pePpe.xml]
+2013-07-25 00:05:08 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [defaultContext.properties]
+2013-07-25 00:05:08 - INFO - [ConfigurationFactory]: aabbManager: it.gius.pePpe.aabb.sap.AABBSweepAndPrune
+2013-07-25 00:05:08 - INFO - [ConfigurationFactory]: aabbUpdater: it.gius.pePpe.aabb.AABBUpdater
+2013-07-25 00:05:08 - INFO - [ConfigurationFactory]: distance: it.gius.pePpe.distance.GjkDistanceWitnessCacheStrategyImpl
+2013-07-25 00:05:08 - INFO - [ConfigurationFactory]: distance2: it.gius.pePpe.distance.GjkDistanceStatelessImpl
+2013-07-25 00:05:08 - INFO - [ConfigurationFactory]: collision: it.gius.pePpe.collision.FullDistanceCollision
+2013-07-25 00:05:08 - INFO - [ConfigurationFactory]: simulator: it.gius.pePpe.simulator.processing.ProcessingSimulator
+2013-07-25 00:05:08 - INFO - [ConfigurationFactory]: singleStepIntegrator: it.gius.pePpe.integrator.RK4Integrator
+2013-07-25 00:05:08 - INFO - [ConfigurationFactory]: doubleStepIntegrator: it.gius.pePpe.integrator.EulerIntegrator
+2013-07-25 00:05:08 - INFO - [ConfigurationFactory]: contactManager: it.gius.pePpe.contact.ContactManager
+2013-07-25 00:05:08 - INFO - [ProcessingSimulator]: starting simulation: Box stacking
+2013-07-25 00:05:12 - DEBUG - [EpaAlgorithm]: max iterations: 5
+2013-07-25 00:05:22 - DEBUG - [EpaAlgorithm]: max iterations: 6
+2013-07-25 00:05:22 - DEBUG - [EpaAlgorithm]: max iterations: 7
+2013-07-25 00:05:37 - INFO - [ProcessingDrawingApplet]: activating: contacts
+2013-07-25 00:05:38 - INFO - [ProcessingDrawingApplet]: activating: distances
+2013-07-25 00:05:38 - DEBUG - [GjkStandardAlgorithm]: max iterations: 2
+2013-07-25 00:05:42 - INFO - [ProcessingDrawingApplet]: disactivating: distances
+2013-07-25 00:06:36 - INFO - [SimpleNotifier]: Simulation Box stacking ended!
+2013-07-25 01:34:11 - INFO - [ConfigurationFactory]: xml file: beans-pePpe.xml
+2013-07-25 01:34:11 - INFO - [ConfigurationFactory]: default properties file: defaultContext.properties
+2013-07-25 01:34:11 - INFO - [ConfigurationFactory]: user properties file: Moving-pePpe.properties
+2013-07-25 01:34:11 - INFO - [XmlBeanDefinitionReader]: Loading XML bean definitions from class path resource [beans-pePpe.xml]
+2013-07-25 01:34:11 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [defaultContext.properties]
+2013-07-25 01:34:11 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [Moving-pePpe.properties]
+2013-07-25 01:34:11 - INFO - [ConfigurationFactory]: aabbManager: it.gius.pePpe.aabb.sap.AABBSweepAndPrune
+2013-07-25 01:34:11 - INFO - [ConfigurationFactory]: aabbUpdater: it.gius.pePpe.aabb.AABBUpdater
+2013-07-25 01:34:11 - INFO - [ConfigurationFactory]: distance2: it.gius.pePpe.distance.GjkDistanceStatelessImpl
+2013-07-25 01:34:11 - INFO - [ConfigurationFactory]: collision: it.gius.pePpe.collision.FullDistanceCollision
+2013-07-25 01:34:12 - INFO - [ConfigurationFactory]: simulator: it.gius.pePpe.simulator.processing.ProcessingSimulator
+2013-07-25 01:34:12 - INFO - [ConfigurationFactory]: singleStepIntegrator: it.gius.pePpe.integrator.RK4Integrator
+2013-07-25 01:34:12 - INFO - [ConfigurationFactory]: doubleStepIntegrator: it.gius.pePpe.integrator.EulerIntegrator
+2013-07-25 01:34:12 - INFO - [ConfigurationFactory]: contactManager: it.gius.pePpe.contact.ContactManager
+2013-07-25 01:34:12 - INFO - [ProcessingSimulator]: starting simulation: Moving
+2013-07-25 01:34:17 - DEBUG - [GjkStandardAlgorithm]: max iterations: 1
+2013-07-25 01:34:19 - DEBUG - [GjkStandardAlgorithm]: max iterations: 3
+2013-07-25 01:34:21 - DEBUG - [EpaAlgorithm]: max iterations: 5
+2013-07-25 01:39:03 - INFO - [ConfigurationFactory]: xml file: beans-pePpe.xml
+2013-07-25 01:39:03 - INFO - [ConfigurationFactory]: default properties file: defaultContext.properties
+2013-07-25 01:39:03 - INFO - [ConfigurationFactory]: user properties file: Moving-pePpe.properties
+2013-07-25 01:39:03 - INFO - [XmlBeanDefinitionReader]: Loading XML bean definitions from class path resource [beans-pePpe.xml]
+2013-07-25 01:39:04 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [defaultContext.properties]
+2013-07-25 01:39:04 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [Moving-pePpe.properties]
+2013-07-25 01:39:04 - INFO - [ConfigurationFactory]: aabbManager: it.gius.pePpe.aabb.sap.AABBSweepAndPrune
+2013-07-25 01:39:04 - INFO - [ConfigurationFactory]: aabbUpdater: it.gius.pePpe.aabb.AABBUpdater
+2013-07-25 01:39:04 - INFO - [ConfigurationFactory]: distance2: it.gius.pePpe.distance.GjkDistanceStatelessImpl
+2013-07-25 01:39:04 - INFO - [ConfigurationFactory]: collision: it.gius.pePpe.collision.FullDistanceCollision
+2013-07-25 01:39:04 - INFO - [ConfigurationFactory]: simulator: it.gius.pePpe.simulator.processing.ProcessingSimulator
+2013-07-25 01:39:04 - INFO - [ConfigurationFactory]: singleStepIntegrator: it.gius.pePpe.integrator.RK4Integrator
+2013-07-25 01:39:04 - INFO - [ConfigurationFactory]: doubleStepIntegrator: it.gius.pePpe.integrator.EulerIntegrator
+2013-07-25 01:39:04 - INFO - [ConfigurationFactory]: contactManager: it.gius.pePpe.contact.ContactManager
+2013-07-25 01:39:04 - INFO - [ProcessingSimulator]: starting simulation: Moving
+2013-07-25 01:39:09 - DEBUG - [GjkStandardAlgorithm]: max iterations: 1
+2013-07-25 01:39:10 - DEBUG - [GjkStandardAlgorithm]: max iterations: 3
+2013-07-25 01:39:13 - DEBUG - [EpaAlgorithm]: max iterations: 5
+2013-07-25 01:39:16 - INFO - [ProcessingDrawingApplet]: activating: AABB
+2013-07-25 01:39:19 - INFO - [ProcessingDrawingApplet]: disactivating: AABB
+2013-07-25 01:39:23 - INFO - [ProcessingDrawingApplet]: activating: AABB
+2013-07-25 01:39:25 - INFO - [SimpleNotifier]: Simulation Moving ended for time elapsed
+2013-07-29 09:45:50 - INFO - [ConfigurationFactory]: xml file: beans-pePpe.xml
+2013-07-29 09:45:50 - INFO - [ConfigurationFactory]: default properties file: defaultContext.properties
+2013-07-29 09:45:50 - INFO - [ConfigurationFactory]: user properties file: Moving-pePpe.properties
+2013-07-29 09:45:50 - INFO - [XmlBeanDefinitionReader]: Loading XML bean definitions from class path resource [beans-pePpe.xml]
+2013-07-29 09:45:51 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [defaultContext.properties]
+2013-07-29 09:45:51 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [Moving-pePpe.properties]
+2013-07-29 09:45:51 - INFO - [ConfigurationFactory]: aabbManager: it.gius.pePpe.aabb.sap.AABBSweepAndPrune
+2013-07-29 09:45:51 - INFO - [ConfigurationFactory]: aabbUpdater: it.gius.pePpe.aabb.AABBUpdater
+2013-07-29 09:45:51 - INFO - [ConfigurationFactory]: distance2: it.gius.pePpe.distance.GjkDistanceStatelessImpl
+2013-07-29 09:45:51 - INFO - [ConfigurationFactory]: collision: it.gius.pePpe.collision.FullDistanceCollision
+2013-07-29 09:45:51 - INFO - [ConfigurationFactory]: simulator: it.gius.pePpe.simulator.processing.ProcessingSimulator
+2013-07-29 09:45:51 - INFO - [ConfigurationFactory]: singleStepIntegrator: it.gius.pePpe.integrator.RK4Integrator
+2013-07-29 09:45:51 - INFO - [ConfigurationFactory]: doubleStepIntegrator: it.gius.pePpe.integrator.EulerIntegrator
+2013-07-29 09:45:51 - INFO - [ConfigurationFactory]: contactManager: it.gius.pePpe.contact.ContactManager
+2013-07-29 09:45:52 - INFO - [ProcessingSimulator]: starting simulation: Moving
+2013-07-29 09:45:57 - INFO - [ProcessingDrawingApplet]: activating: AABB
+2013-07-29 09:45:57 - DEBUG - [GjkStandardAlgorithm]: max iterations: 1
+2013-07-29 09:45:58 - DEBUG - [GjkStandardAlgorithm]: max iterations: 3
+2013-07-29 09:46:01 - DEBUG - [EpaAlgorithm]: max iterations: 5
+2013-07-29 09:46:08 - INFO - [ProcessingDrawingApplet]: activating: contacts
+2013-07-29 09:46:11 - INFO - [ProcessingDrawingApplet]: activating: distances
+2013-07-29 09:46:13 - INFO - [SimpleNotifier]: Simulation Moving ended for time elapsed
+2013-07-31 09:06:11 - INFO - [ConfigurationFactory]: xml file: beans-pePpe.xml
+2013-07-31 09:06:11 - INFO - [ConfigurationFactory]: default properties file: defaultContext.properties
+2013-07-31 09:06:11 - INFO - [XmlBeanDefinitionReader]: Loading XML bean definitions from class path resource [beans-pePpe.xml]
+2013-07-31 09:06:11 - INFO - [PropertyPlaceholderConfigurer]: Loading properties file from class path resource [defaultContext.properties]
+2013-07-31 09:06:12 - INFO - [ConfigurationFactory]: aabbManager: it.gius.pePpe.aabb.sap.AABBSweepAndPrune
+2013-07-31 09:06:12 - INFO - [ConfigurationFactory]: aabbUpdater: it.gius.pePpe.aabb.AABBUpdater
+2013-07-31 09:06:12 - INFO - [ConfigurationFactory]: distance2: it.gius.pePpe.distance.GjkDistanceStatelessImpl
+2013-07-31 09:06:12 - INFO - [ConfigurationFactory]: collision: it.gius.pePpe.collision.FullDistanceCollision
+2013-07-31 09:06:12 - INFO - [ConfigurationFactory]: simulator: it.gius.pePpe.simulator.processing.ProcessingSimulator
+2013-07-31 09:06:12 - INFO - [ConfigurationFactory]: singleStepIntegrator: it.gius.pePpe.integrator.RK4Integrator
+2013-07-31 09:06:12 - INFO - [ConfigurationFactory]: doubleStepIntegrator: it.gius.pePpe.integrator.EulerIntegrator
+2013-07-31 09:06:12 - INFO - [ConfigurationFactory]: contactManager: it.gius.pePpe.contact.ContactManager
+2013-07-31 09:06:13 - INFO - [ProcessingSimulator]: starting simulation: Single Cloth
+2013-07-31 09:06:25 - INFO - [SimpleNotifier]: Simulation Single Cloth ended before time elapsed

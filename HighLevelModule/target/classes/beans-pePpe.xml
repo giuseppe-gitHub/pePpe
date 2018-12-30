@@ -1,0 +1,160 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-2.5.xsd"
+	default-lazy-init="true">
+
+
+	<!-- classes: it.gius.pePpe.distance.GjkDistanceWitnessCacheStrategyImpl, it.gius.pePpe.distance.GjkDistanceImplCachingGjkShapes (deprecated) -->
+	<bean id="distance"
+		class="it.gius.pePpe.distance.GjkDistanceWitnessCacheStrategyImpl"
+		scope="singleton" />
+
+
+	<!-- classes: it.gius.pePpe.distance.GjkDistanceStatelessImpl -->
+	<bean id="distance2" class="it.gius.pePpe.distance.GjkDistanceStatelessImpl"
+		scope="singleton" />
+		
+	<bean id="collisionInit" class="it.gius.pePpe.collision.CollisionInit"
+		scope="singleton" >
+		<property name="maxContactDistance" value="${collisionInit.maxContactDistance}" />
+	</bean>	
+		
+	<bean id="collision" class="it.gius.pePpe.collision.FullDistanceCollision"
+		scope="singleton">
+		<constructor-arg><ref local="distance2"/></constructor-arg>
+		<constructor-arg><ref local="collisionInit"/></constructor-arg>
+	</bean>
+	
+	<bean id="contactManagerInit" class="it.gius.pePpe.contact.ContactManagerInit"
+		scope="singleton">
+		<property name="caching" value="${contactManagerInit.caching}" />
+		<property name="warmStart" value="${contactManagerInit.warmStart}" />
+		<property name="translationThreshold" value="${contactManagerInit.translationThreshold}" />
+		<property name="removeOldPointsInUpdate" value="${contactManagerInit.removeOldPointsInUpdate}" />
+		<property name="poolStackSize" value="${contactManagerInit.poolStackSize}" />
+	</bean>
+	
+	<bean id="contactManager" class="it.gius.pePpe.contact.ContactManager"
+		scope="singleton">
+		<constructor-arg><ref local="collision"/></constructor-arg>
+		<constructor-arg><ref local="contactManagerInit"/></constructor-arg>
+	</bean>
+
+	
+	<!-- classes: it.gius.pePpe.aabb.sap.AABBSweepAndPrune, it.gius.pePpe.aabb.nullImpl.VoidAABBManager -->
+	<bean id="aabbManager" class="it.gius.pePpe.aabb.sap.AABBSweepAndPrune"
+		scope="singleton" />
+		
+	<bean id="aabbUpdaterInit" class="it.gius.pePpe.aabb.AABBUpdaterInit"
+		scope="singleton">
+		<property name="useEnlargeAABB" value="${aabbUpdaterInit.useEnlargeAABB}" />
+		<property name="enlargeFactor" value="${aabbUpdaterInit.enlargeFactor}" />
+	</bean>
+		
+	<bean id="aabbUpdater" class="it.gius.pePpe.aabb.AABBUpdater"
+		scope="singleton">
+		<constructor-arg><ref local="aabbManager"/></constructor-arg>
+		<constructor-arg><ref local="aabbUpdaterInit"/></constructor-arg>
+	</bean>
+
+
+	<!-- classes: it.gius.pePpe.integrator.EulerIntegrator -->
+	<bean id="doubleStepIntegrator" class="it.gius.pePpe.integrator.EulerIntegrator"
+		scope="singleton" />
+
+
+	<!-- classes: it.gius.pePpe.integrator.RK4Integrator, it.gius.pePpe.integrator.EulerIntegrator -->
+	<bean id="singleStepIntegrator" class="it.gius.pePpe.integrator.RK4Integrator"
+		scope="singleton" />
+
+
+	<!--  <bean id="simulator" class="it.gius.pePpe.simulator.noview.NoViewSimulator">
+		<property name="enableMonitor" value="${enableMonitor}" />
+	</bean>   -->
+
+	<bean id="drawerProperties" class="it.gius.pePpe.drawer.DrawerProperties"
+		scope="singleton">
+		<property name="colorBackground" value="${colors.background}" />
+		<property name="colorFillShapes" value="${colors.fill.shapes}" />
+		<property name="colorStrokeShapes" value="${colors.stroke.shapes}" />
+		<property name="colorSprings" value="${colors.springs}" />
+		<property name="colorAABB" value="${colors.aabb}" />
+		<property name="colorBoundCircles" value="${colors.bound.circles}" />
+		<property name="colorDistances" value="${colors.distances}" />
+	</bean>
+
+
+	<bean id="simulator" class="it.gius.pePpe.simulator.processing.ProcessingSimulator"
+		scope="singleton">
+		<property name="manualStart" value="${manualStart}" />
+		<property name="enableMonitor" value="${enableMonitor}" />
+		<property name="processingDrawContext">
+			<bean class="it.gius.pePpe.simulator.processing.ProcessingDrawContext"
+				scope="prototype">
+				<property name="renderer">
+					<bean class="it.gius.pePpe.drawer.DefaultRenderer" />
+				</property>
+				<property name="frameRate" value="${framerate}" />
+				<property name="xSize" value="${width}" />
+				<property name="ySize" value="${height}" />
+
+				<property name="drawerProperties">
+					<ref local="drawerProperties" />
+				</property>
+
+				<property name="drawers">
+
+					<list value-type="it.gius.pePpe.drawer.processing.IProcessingDrawer">
+
+						<bean class="it.gius.pePpe.drawer.processing.ProcessingStandardDrawer">
+							<property name="name" value="standard" />
+							<property name="enable"
+								value="${processingSimulator.drawers.standard.enable}" />
+						</bean>
+						<bean class="it.gius.pePpe.drawer.processing.ProcessingAABBDrawer">
+							<property name="name" value="AABB" />
+							<property name="enable"
+								value="${processingSimulator.drawers.AABB.enable}" />
+						</bean>
+						<bean
+							class="it.gius.pePpe.drawer.processing.ProcessingAllDistancesDrawer">
+							<property name="name" value="distances" />
+							<property name="enable"
+								value="${processingSimulator.drawers.distances.enable}" />
+						</bean>
+						<bean
+							class="it.gius.pePpe.drawer.processing.ProcessingShapeCircleBoundDrawer">
+							<property name="name" value="shapesCircle" />
+							<property name="enable"
+								value="${processingSimulator.drawers.shapesCircle.enable}" />
+						</bean>
+						<bean
+							class="it.gius.pePpe.drawer.processing.ProcessingBodyCircleBoundDrawer">
+							<property name="name" value="bodiesCircle" />
+							<property name="enable"
+								value="${processingSimulator.drawers.bodiesCircle.enable}" />
+						</bean>
+						<bean class="it.gius.pePpe.drawer.processing.ProcessingOverlapDrawer">
+							<property name="name" value="overlap" />
+							<property name="enable"
+								value="${processingSimulator.drawers.overlap.enable}" />
+						</bean>
+						<bean class="it.gius.pePpe.drawer.processing.ProcessingContactsDrawer">
+							<property name="name" value="contacts" />
+							<property name="enable"
+								value="${processingSimulator.drawers.contacts.enable}" />
+						</bean>
+					</list>
+
+				</property>
+			</bean>
+		</property>
+	</bean>
+
+</beans>

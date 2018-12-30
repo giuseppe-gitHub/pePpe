@@ -1,0 +1,537 @@
+2012-04-27 18:12:56,084 [Worker-5] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|http://repo1.maven.org/maven2
+2012-04-27 18:14:59,555 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for it.gius:ProcessingUtilsModule:jar:1.0-SNAPSHOT is missing, no dependency information available
+2012-04-27 18:15:00,532 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo1.maven.org/maven2/org/jbox2d-modified/jbox2d.common-modified/1.1/jbox2d.common-modified-1.1.pom
+2012-04-27 18:15:00,552 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.1 is missing, no dependency information available
+2012-04-27 18:15:01,759 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo1.maven.org/maven2/org/jbox2d-modified/jbox2d.common-modified/1.1/jbox2d.common-modified-1.1.jar
+2012-04-27 18:15:02,241 [New I/O client worker #3-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar
+2012-04-27 18:15:03,335 [New I/O client worker #3-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar
+2018-12-29 17:32:13,235 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-12-29 17:35:58,893 [Worker-8] ERROR o.e.m.c.i.p.r.ProjectRegistryReader - Can't read workspace state
+java.io.InvalidClassException: org.eclipse.m2e.core.internal.project.registry.BasicProjectRegistry; local class incompatible: stream classdesc serialVersionUID = 5542512601401896748, local class serialVersionUID = 6232274446642339434
+	at java.io.ObjectStreamClass.initNonProxy(Unknown Source) ~[na:1.8.0_144]
+	at java.io.ObjectInputStream.readNonProxyDesc(Unknown Source) ~[na:1.8.0_144]
+	at java.io.ObjectInputStream.readClassDesc(Unknown Source) ~[na:1.8.0_144]
+	at java.io.ObjectInputStream.readNonProxyDesc(Unknown Source) ~[na:1.8.0_144]
+	at java.io.ObjectInputStream.readClassDesc(Unknown Source) ~[na:1.8.0_144]
+	at java.io.ObjectInputStream.readOrdinaryObject(Unknown Source) ~[na:1.8.0_144]
+	at java.io.ObjectInputStream.readObject0(Unknown Source) ~[na:1.8.0_144]
+	at java.io.ObjectInputStream.readObject(Unknown Source) ~[na:1.8.0_144]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader.readWorkspaceState(ProjectRegistryReader.java:100) ~[org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.<init>(ProjectRegistryManager.java:164) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.MavenPluginActivator.start(MavenPluginActivator.java:211) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_144]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.container.Module.start(Module.java:449) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:442) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [na:1.8.0_144]
+	at java.lang.Class.getDeclaredConstructors0(Native Method) [na:1.8.0_144]
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source) [na:1.8.0_144]
+	at java.lang.Class.getConstructor0(Unknown Source) [na:1.8.0_144]
+	at java.lang.Class.newInstance(Unknown Source) [na:1.8.0_144]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:763) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:716) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.container.Module.start(Module.java:449) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [na:1.8.0_144]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174) [org.eclipse.equinox.registry_3.7.0.v20170222-1344.jar:na]
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905) [org.eclipse.equinox.registry_3.7.0.v20170222-1344.jar:na]
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243) [org.eclipse.equinox.registry_3.7.0.v20170222-1344.jar:na]
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55) [org.eclipse.equinox.registry_3.7.0.v20170222-1344.jar:na]
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3595) [org.eclipse.jdt.core_3.13.100.v20171123-1049.jar:na]
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3571) [org.eclipse.jdt.core_3.13.100.v20171123-1049.jar:na]
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3093) [org.eclipse.jdt.core_3.13.100.v20171123-1049.jar:na]
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3018) [org.eclipse.jdt.core_3.13.100.v20171123-1049.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3058) [org.eclipse.jdt.core_3.13.100.v20171123-1049.jar:na]
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2056) [org.eclipse.jdt.core_3.13.100.v20171123-1049.jar:na]
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3548) [org.eclipse.jdt.core_3.13.100.v20171123-1049.jar:na]
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2986) [org.eclipse.jdt.core_3.13.100.v20171123-1049.jar:na]
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3150) [org.eclipse.jdt.core_3.13.100.v20171123-1049.jar:na]
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2255) [org.eclipse.jdt.core_3.13.100.v20171123-1049.jar:na]
+	at org.eclipse.jdt.internal.core.DynamicProjectReferences.getDependentProjects(DynamicProjectReferences.java:34) [org.eclipse.jdt.core_3.13.100.v20171123-1049.jar:na]
+	at org.eclipse.core.internal.resources.ProjectDescription.computeDynamicReferencesForProject(ProjectDescription.java:950) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.resources.ProjectDescription.getAllBuildConfigReferences(ProjectDescription.java:265) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.resources.ProjectDescription.getAllReferences(ProjectDescription.java:221) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:469) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.ui.actions.OpenResourceAction$1.doOpenWithReferences(OpenResourceAction.java:231) [org.eclipse.ui.ide_3.13.1.v20170822-1526.jar:na]
+	at org.eclipse.ui.actions.OpenResourceAction$1.runInWorkspace(OpenResourceAction.java:276) [org.eclipse.ui.ide_3.13.1.v20170822-1526.jar:na]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.2.v20171030-1027.jar:na]
+2018-12-29 17:36:02,875 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+2018-12-29 17:36:03,005 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+2018-12-29 17:36:03,460 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+2018-12-29 17:36:03,556 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+2018-12-29 17:36:04,102 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+2018-12-29 17:36:04,289 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+2018-12-29 17:36:04,847 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+2018-12-29 17:36:04,936 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+2018-12-29 17:36:05,262 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar
+2018-12-29 17:36:05,342 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar
+2018-12-29 17:36:05,634 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar
+2018-12-29 17:36:05,700 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar
+2018-12-29 17:36:05,824 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.jar
+2018-12-29 17:36:06,004 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.jar
+2018-12-29 17:36:07,250 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar
+2018-12-29 17:36:07,315 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar
+2018-12-29 17:36:07,358 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.jar
+2018-12-29 17:36:07,540 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.jar
+2018-12-29 17:36:07,586 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar
+2018-12-29 17:36:07,643 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar
+2018-12-29 17:36:07,689 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.jar
+2018-12-29 17:36:07,808 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.jar
+2018-12-29 17:36:08,548 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:ProcessingUtilsModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\ProcessingUtilsModule\pom.xml.
+2018-12-29 17:36:08,551 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:DataModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\DataModule\pom.xml.
+2018-12-29 17:36:08,599 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for it.gius:ProcessingUtilsModule:jar:1.0-SNAPSHOT is missing, no dependency information available
+2018-12-29 17:36:09,276 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jbox2d-modified/jbox2d.common-modified/1.2/jbox2d.common-modified-1.2.pom
+2018-12-29 17:36:09,280 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:36:09,491 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16.pom
+2018-12-29 17:36:09,574 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16.pom
+2018-12-29 17:36:09,729 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jbox2d-modified/jbox2d.common-modified/1.2/jbox2d.common-modified-1.2.jar
+2018-12-29 17:36:09,904 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16.jar
+2018-12-29 17:36:09,972 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/processing/processing.core/1.5.1/processing.core-1.5.1.pom
+2018-12-29 17:36:09,975 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:36:10,314 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/processing/processing.core/1.5.1/processing.core-1.5.1.jar
+2018-12-29 17:36:10,322 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16.jar
+2018-12-29 17:36:10,525 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16.jar
+2018-12-29 17:36:10,948 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16.jar
+2018-12-29 17:36:11,344 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+2018-12-29 17:36:11,399 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+2018-12-29 17:36:11,452 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+2018-12-29 17:36:11,509 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+2018-12-29 17:36:11,558 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom
+2018-12-29 17:36:11,661 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom
+2018-12-29 17:36:11,724 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom
+2018-12-29 17:36:11,780 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom
+2018-12-29 17:36:12,093 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+2018-12-29 17:36:12,147 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+2018-12-29 17:36:12,238 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+2018-12-29 17:36:12,297 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+2018-12-29 17:36:12,355 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+2018-12-29 17:36:12,402 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+2018-12-29 17:36:13,606 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom
+2018-12-29 17:36:13,661 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom
+2018-12-29 17:36:13,712 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom
+2018-12-29 17:36:13,773 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom
+2018-12-29 17:36:14,248 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.pom
+2018-12-29 17:36:14,330 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.pom
+2018-12-29 17:36:14,384 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.pom
+2018-12-29 17:36:14,453 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.pom
+2018-12-29 17:36:14,503 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom
+2018-12-29 17:36:14,556 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom
+2018-12-29 17:36:14,610 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom
+2018-12-29 17:36:14,808 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom
+2018-12-29 17:36:14,860 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/16/spice-parent-16.pom
+2018-12-29 17:36:14,915 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/16/spice-parent-16.pom
+2018-12-29 17:36:14,966 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/5/forge-parent-5.pom
+2018-12-29 17:36:15,143 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/5/forge-parent-5.pom
+2018-12-29 17:36:15,218 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.pom
+2018-12-29 17:36:15,322 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.pom
+2018-12-29 17:36:15,370 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.19/plexus-components-1.1.19.pom
+2018-12-29 17:36:15,418 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.19/plexus-components-1.1.19.pom
+2018-12-29 17:36:15,464 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.0.1/plexus-3.0.1.pom
+2018-12-29 17:36:15,573 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.0.1/plexus-3.0.1.pom
+2018-12-29 17:36:15,628 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.pom
+2018-12-29 17:36:15,688 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.pom
+2018-12-29 17:36:15,857 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar
+2018-12-29 17:36:15,912 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar
+2018-12-29 17:36:15,946 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar
+2018-12-29 17:36:16,077 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar
+2018-12-29 17:36:16,112 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar
+2018-12-29 17:36:16,184 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar
+2018-12-29 17:36:16,219 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar
+2018-12-29 17:36:16,287 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar
+2018-12-29 17:36:16,324 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar
+2018-12-29 17:36:16,414 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar
+2018-12-29 17:36:16,452 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar
+2018-12-29 17:36:16,512 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar
+2018-12-29 17:36:16,549 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar
+2018-12-29 17:36:16,609 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar
+2018-12-29 17:36:16,648 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar
+2018-12-29 17:36:16,811 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar
+2018-12-29 17:36:16,866 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar
+2018-12-29 17:36:16,959 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar
+2018-12-29 17:36:16,997 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.jar
+2018-12-29 17:36:17,358 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.jar
+2018-12-29 17:36:17,421 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar
+2018-12-29 17:36:17,493 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar
+2018-12-29 17:36:17,549 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.jar
+2018-12-29 17:36:17,673 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.jar
+2018-12-29 17:36:17,750 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.jar
+2018-12-29 17:36:17,801 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.jar
+2018-12-29 17:36:17,835 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.jar
+2018-12-29 17:36:17,890 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.jar
+2018-12-29 17:36:17,924 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar
+2018-12-29 17:36:17,992 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar
+2018-12-29 17:36:18,029 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.jar
+2018-12-29 17:36:18,078 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.jar
+2018-12-29 17:36:18,113 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.jar
+2018-12-29 17:36:18,207 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.jar
+2018-12-29 17:36:18,254 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.jar
+2018-12-29 17:36:18,407 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.jar
+2018-12-29 17:36:18,442 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar
+2018-12-29 17:36:18,530 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar
+2018-12-29 17:36:18,581 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar
+2018-12-29 17:36:18,766 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar
+2018-12-29 17:36:23,251 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.pom
+2018-12-29 17:36:23,315 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.pom
+2018-12-29 17:36:23,835 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1/classworlds-1.1.jar
+2018-12-29 17:36:23,952 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1/classworlds-1.1.jar
+2018-12-29 17:36:23,994 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.jar
+2018-12-29 17:36:24,084 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.jar
+2018-12-29 17:36:24,424 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:36:24,426 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\ProcessingUtilsModule\src\main\resources
+2018-12-29 17:36:24,430 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:36:24,437 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\ProcessingUtilsModule\src\test\resources
+2018-12-29 17:36:25,934 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:DataModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\DataModule\pom.xml.
+2018-12-29 17:36:25,982 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:36:26,055 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:36:26,395 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:ProcessingUtilsModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\ProcessingUtilsModule\pom.xml.
+2018-12-29 17:36:26,472 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:DataModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\DataModule\pom.xml.
+2018-12-29 17:36:26,487 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:36:26,516 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:36:26,804 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:36:26,834 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-29 17:36:26,853 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:36:26,886 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-12-29 17:36:28,222 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:DataModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\DataModule\pom.xml.
+2018-12-29 17:36:28,230 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:36:28,279 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:36:28,397 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:ProcessingUtilsModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\ProcessingUtilsModule\pom.xml.
+2018-12-29 17:36:28,497 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:ProcessingUtilsModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\ProcessingUtilsModule\pom.xml.
+2018-12-29 17:36:29,378 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:36:30,827 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:36:30,846 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\ProcessingUtilsModule\src\main\resources
+2018-12-29 17:36:30,850 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:36:30,869 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\ProcessingUtilsModule\src\test\resources
+2018-12-29 17:36:31,277 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:36:31,299 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:36:31,347 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:36:31,352 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-29 17:36:31,354 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:36:31,374 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-29 17:38:14,811 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:HighLevelModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\HighLevelModule\pom.xml.
+2018-12-29 17:38:15,227 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:38:15,769 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:38:15,837 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-12-29 17:38:15,952 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:38:15,986 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\HighLevelModule\src\test\resources
+2018-12-29 17:38:18,045 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:HighLevelModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\HighLevelModule\pom.xml.
+2018-12-29 17:38:18,430 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:38:18,788 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:MoveCollisionModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\MoveCollisionModule\pom.xml.
+2018-12-29 17:38:18,842 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:38:19,054 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:SapModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\SapModule\pom.xml.
+2018-12-29 17:38:19,200 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:SimulatorModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\SimulatorModule\pom.xml.
+2018-12-29 17:38:20,229 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:HighLevelModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\HighLevelModule\pom.xml.
+2018-12-29 17:38:20,497 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:38:20,678 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:38:20,699 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-29 17:38:20,704 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:38:20,724 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\HighLevelModule\src\test\resources
+2018-12-29 17:38:20,848 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:38:20,876 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:38:20,905 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:38:20,926 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-29 17:38:20,928 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:38:20,949 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\MoveCollisionModule\src\test\resources
+2018-12-29 17:38:21,033 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:38:21,061 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:38:21,091 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:38:21,111 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SapModule\src\main\resources
+2018-12-29 17:38:21,114 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:38:21,137 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SapModule\src\test\resources
+2018-12-29 17:38:21,240 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:38:21,264 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:38:21,292 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:38:21,316 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SimulatorModule\src\main\resources
+2018-12-29 17:38:21,318 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:38:21,339 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SimulatorModule\src\test\resources
+2018-12-29 17:38:32,577 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:45:07,108 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-12-29 17:45:08,201 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:DataModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\DataModule\pom.xml.
+2018-12-29 17:45:08,207 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:45:08,215 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:45:08,291 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:HighLevelModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\HighLevelModule\pom.xml.
+2018-12-29 17:45:08,460 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:MoveCollisionModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\MoveCollisionModule\pom.xml.
+2018-12-29 17:45:08,524 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:ProcessingUtilsModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\ProcessingUtilsModule\pom.xml.
+2018-12-29 17:45:08,581 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:SapModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\SapModule\pom.xml.
+2018-12-29 17:45:08,646 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:SimulatorModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\SimulatorModule\pom.xml.
+2018-12-29 17:45:10,140 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DataModule/src/main/java
+2018-12-29 17:45:10,141 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DataModule/src/main/resources
+2018-12-29 17:45:10,143 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DataModule/src/test/java
+2018-12-29 17:45:10,143 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DataModule/src/test/resources
+2018-12-29 17:45:10,287 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HighLevelModule/src/main/java
+2018-12-29 17:45:10,287 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HighLevelModule/src/main/resources
+2018-12-29 17:45:10,289 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HighLevelModule/src/test/java
+2018-12-29 17:45:10,403 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MoveCollisionModule/src/main/java
+2018-12-29 17:45:10,403 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MoveCollisionModule/src/main/resources
+2018-12-29 17:45:10,404 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MoveCollisionModule/src/test/java
+2018-12-29 17:45:10,487 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProcessingUtilsModule/src/main/java
+2018-12-29 17:45:10,488 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProcessingUtilsModule/src/test/java
+2018-12-29 17:45:10,590 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SapModule/src/main/java
+2018-12-29 17:45:10,591 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SapModule/src/test/java
+2018-12-29 17:45:10,715 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimulatorModule/src/main/java
+2018-12-29 17:45:10,716 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimulatorModule/src/test/java
+2018-12-29 17:45:16,628 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 9 sec
+2018-12-29 17:45:16,889 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:45:16,923 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:45:16,943 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\ProcessingUtilsModule\src\main\resources
+2018-12-29 17:45:16,949 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:45:16,969 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\ProcessingUtilsModule\src\test\resources
+2018-12-29 17:45:18,105 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:45:18,125 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:45:18,152 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:45:18,172 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-29 17:45:18,188 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:45:18,209 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-12-29 17:45:18,440 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:45:18,469 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:45:18,490 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2018-12-29 17:45:19,038 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:45:19,071 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\HighLevelModule\src\test\resources
+2018-12-29 17:45:19,295 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:45:19,328 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:45:19,358 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:45:19,378 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-29 17:45:19,381 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:45:19,400 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\MoveCollisionModule\src\test\resources
+2018-12-29 17:45:19,451 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:45:19,483 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:45:19,512 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:45:19,531 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SapModule\src\main\resources
+2018-12-29 17:45:19,534 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:45:19,554 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SapModule\src\test\resources
+2018-12-29 17:45:19,789 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:45:19,813 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:45:19,844 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:45:19,864 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SimulatorModule\src\main\resources
+2018-12-29 17:45:19,867 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:45:19,887 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SimulatorModule\src\test\resources
+2018-12-29 17:49:27,218 [Worker-5] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-12-29 17:49:27,372 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:DataModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\DataModule\pom.xml.
+2018-12-29 17:49:27,379 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:49:27,386 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:49:27,573 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DataModule/src/main/java
+2018-12-29 17:49:27,574 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DataModule/src/main/resources
+2018-12-29 17:49:27,576 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DataModule/src/test/java
+2018-12-29 17:49:27,576 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DataModule/src/test/resources
+2018-12-29 17:49:27,864 [Worker-5] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2018-12-29 17:49:28,070 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:49:28,091 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:49:28,122 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:49:28,142 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-29 17:49:28,149 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:49:28,168 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-12-29 17:50:39,173 [Worker-31] ERROR o.e.m.c.u.i.actions.OpenPomAction - Could not resolve artifact org.jbox2d-modified:jbox2d.common-modified:pom:1.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.jbox2d-modified:jbox2d.common-modified:pom:1.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) ~[org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) ~[org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openPomEditor(OpenPomAction.java:243) [org.eclipse.m2e.core.ui_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openEditor(OpenPomAction.java:218) [org.eclipse.m2e.core.ui_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.editor.xml.PomHyperlinkDetector$6$1.run(PomHyperlinkDetector.java:616) [org.eclipse.m2e.editor.xml_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.2.v20171030-1027.jar:na]
+2018-12-29 17:56:48,226 [Worker-28] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-12-29 17:56:48,461 [Worker-28] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:DataModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\DataModule\pom.xml.
+2018-12-29 17:56:48,469 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:56:48,477 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:56:48,585 [Worker-28] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:HighLevelModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\HighLevelModule\pom.xml.
+2018-12-29 17:56:48,721 [Worker-28] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:MoveCollisionModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\MoveCollisionModule\pom.xml.
+2018-12-29 17:56:48,836 [Worker-28] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:SimulatorModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\SimulatorModule\pom.xml.
+2018-12-29 17:56:48,934 [Worker-28] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:SapModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\SapModule\pom.xml.
+2018-12-29 17:56:49,404 [Worker-28] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DataModule/src/main/java
+2018-12-29 17:56:49,405 [Worker-28] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DataModule/src/main/resources
+2018-12-29 17:56:49,406 [Worker-28] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DataModule/src/test/java
+2018-12-29 17:56:49,407 [Worker-28] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DataModule/src/test/resources
+2018-12-29 17:56:49,952 [Worker-28] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-12-29 17:56:50,146 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:56:50,191 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:56:50,231 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:56:50,263 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-29 17:56:50,272 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:56:50,292 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-12-29 17:56:50,392 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:56:50,427 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:56:50,466 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-29 17:56:50,468 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:56:50,508 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\HighLevelModule\src\test\resources
+2018-12-29 17:56:50,536 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:56:50,565 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:56:50,602 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:56:50,660 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-29 17:56:50,662 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:56:50,691 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\MoveCollisionModule\src\test\resources
+2018-12-29 17:56:50,718 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:56:50,763 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:56:50,806 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:56:50,840 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SapModule\src\main\resources
+2018-12-29 17:56:50,842 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:56:50,870 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SapModule\src\test\resources
+2018-12-29 17:56:50,900 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:56:50,941 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:56:50,973 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:56:50,998 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SimulatorModule\src\main\resources
+2018-12-29 17:56:51,000 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:56:51,021 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SimulatorModule\src\test\resources
+2018-12-29 17:58:02,869 [Worker-37] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-12-29 17:58:03,683 [Worker-37] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:DataModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\DataModule\pom.xml.
+2018-12-29 17:58:03,691 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:58:03,753 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:58:03,869 [Worker-37] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:HighLevelModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\HighLevelModule\pom.xml.
+2018-12-29 17:58:03,982 [Worker-37] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:MoveCollisionModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\MoveCollisionModule\pom.xml.
+2018-12-29 17:58:04,061 [Worker-37] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:ProcessingUtilsModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\ProcessingUtilsModule\pom.xml.
+2018-12-29 17:58:04,133 [Worker-37] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:SapModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\SapModule\pom.xml.
+2018-12-29 17:58:04,216 [Worker-37] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.gius:SimulatorModule:1.0-SNAPSHOT @ C:\Users\giuseppe\pePpe-workspace\SimulatorModule\pom.xml.
+2018-12-29 17:58:05,162 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DataModule/src/main/java
+2018-12-29 17:58:05,162 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DataModule/src/main/resources
+2018-12-29 17:58:05,164 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DataModule/src/test/java
+2018-12-29 17:58:05,164 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DataModule/src/test/resources
+2018-12-29 17:58:05,263 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HighLevelModule/src/main/java
+2018-12-29 17:58:05,263 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HighLevelModule/src/main/resources
+2018-12-29 17:58:05,265 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HighLevelModule/src/test/java
+2018-12-29 17:58:05,387 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MoveCollisionModule/src/main/java
+2018-12-29 17:58:05,387 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MoveCollisionModule/src/main/resources
+2018-12-29 17:58:05,388 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MoveCollisionModule/src/test/java
+2018-12-29 17:58:05,459 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProcessingUtilsModule/src/main/java
+2018-12-29 17:58:05,460 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProcessingUtilsModule/src/test/java
+2018-12-29 17:58:05,559 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SapModule/src/main/java
+2018-12-29 17:58:05,559 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SapModule/src/test/java
+2018-12-29 17:58:05,675 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimulatorModule/src/main/java
+2018-12-29 17:58:05,676 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimulatorModule/src/test/java
+2018-12-29 17:58:06,255 [Worker-37] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2018-12-29 17:58:06,939 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:58:06,991 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:58:07,024 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\ProcessingUtilsModule\src\main\resources
+2018-12-29 17:58:07,027 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:58:07,051 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\ProcessingUtilsModule\src\test\resources
+2018-12-29 17:58:09,314 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:58:09,338 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:58:09,376 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:58:09,397 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-29 17:58:09,414 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:58:09,450 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-12-29 17:58:11,816 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:58:11,830 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:58:11,853 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2018-12-29 17:58:12,078 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:58:12,100 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\HighLevelModule\src\test\resources
+2018-12-29 17:58:12,719 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:58:12,749 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:58:12,782 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:58:12,808 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-29 17:58:12,810 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:58:12,836 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\MoveCollisionModule\src\test\resources
+2018-12-29 17:58:13,148 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:58:13,175 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:58:13,203 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:58:13,223 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SapModule\src\main\resources
+2018-12-29 17:58:13,225 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:58:13,245 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SapModule\src\test\resources
+2018-12-29 17:58:13,725 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:58:13,750 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:58:13,781 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:58:13,803 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SimulatorModule\src\main\resources
+2018-12-29 17:58:13,805 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:58:13,825 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SimulatorModule\src\test\resources
+2018-12-29 17:58:56,780 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:58:56,784 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-29 17:58:56,785 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:58:56,792 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-29 17:59:13,889 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:59:13,980 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:59:14,009 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:59:14,091 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:59:14,104 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:59:14,375 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:59:14,388 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\ProcessingUtilsModule\src\main\resources
+2018-12-29 17:59:14,393 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:59:14,409 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\ProcessingUtilsModule\src\test\resources
+2018-12-29 17:59:15,348 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:59:15,355 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:59:15,369 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:59:15,377 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-29 17:59:15,385 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:59:15,394 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-12-29 17:59:17,723 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:59:17,784 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:59:17,802 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2018-12-29 17:59:18,521 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:59:18,551 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\HighLevelModule\src\test\resources
+2018-12-29 17:59:20,597 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:59:20,643 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:59:20,694 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:59:20,787 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-29 17:59:20,798 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:59:20,810 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\MoveCollisionModule\src\test\resources
+2018-12-29 17:59:21,663 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:59:21,705 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:59:21,740 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:59:21,765 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SapModule\src\main\resources
+2018-12-29 17:59:21,770 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:59:21,785 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SapModule\src\test\resources
+2018-12-29 17:59:23,036 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 17:59:23,087 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 17:59:23,130 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:59:23,145 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SimulatorModule\src\main\resources
+2018-12-29 17:59:23,150 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 17:59:23,164 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SimulatorModule\src\test\resources
+2018-12-29 18:00:22,088 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 18:00:22,102 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-29 18:00:22,126 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 18:00:22,153 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-12-29 18:00:47,267 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 18:00:47,323 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2018-12-29 18:00:47,426 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 18:00:47,443 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\HighLevelModule\src\test\resources
+2018-12-29 18:01:08,882 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 18:01:08,885 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-29 18:01:08,889 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 18:01:08,895 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\MoveCollisionModule\src\test\resources
+2018-12-29 18:01:31,408 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 18:01:31,422 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 18:01:31,429 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\ProcessingUtilsModule\src\main\resources
+2018-12-29 18:01:31,432 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 18:01:31,438 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\ProcessingUtilsModule\src\test\resources
+2018-12-29 18:02:04,123 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 18:02:04,138 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 18:02:04,170 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 18:02:04,170 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SapModule\src\main\resources
+2018-12-29 18:02:04,170 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 18:02:04,185 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SapModule\src\test\resources
+2018-12-29 18:02:15,274 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jbox2d-modified:jbox2d.common-modified:jar:1.2 is missing, no dependency information available
+2018-12-29 18:02:15,290 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.processing:processing.core:jar:1.5.1 is missing, no dependency information available
+2018-12-29 18:02:15,305 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 18:02:15,321 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SimulatorModule\src\main\resources
+2018-12-29 18:02:15,321 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-29 18:02:15,337 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\giuseppe\pePpe-workspace\SimulatorModule\src\test\resources

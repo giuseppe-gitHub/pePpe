@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,org.eclipse.ui.console,3.3.1.v20090128_r342,org.eclipse.ui.console.ConsoleView,1335373155300
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.rename,1335373160916
+activated,view,org.eclipse.jdt.ui,3.4.2.r342_v20090107-0800,org.eclipse.jdt.ui.PackageExplorer,1335373161961
+deactivated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1335373163381
+started,bundle,org.eclipse.jst.jsp.ui,1.1.312.v200901290909,org.eclipse.jst.jsp.ui,1335373167998
+activated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1335373171196
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.rename,1335373171227
+activated,view,org.eclipse.ui.console,3.3.1.v20090128_r342,org.eclipse.ui.console.ConsoleView,1335373171586
+deactivated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1335373189620
+activated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1335373198449
+deactivated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1335373199713
+activated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1335373208839
+deactivated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1335373209791
+activated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1335373293485
+activated,view,org.eclipse.jdt.ui,3.4.2.r342_v20090107-0800,org.eclipse.jdt.ui.PackageExplorer,1335373294889
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.file.refresh,1335373295622
+executed,command,org.eclipse.jdt.debug.ui,3.3.1.v20080730_r341,org.eclipse.jdt.debug.ui.localJavaShortcut.run,1335373299303
+deactivated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1335373299397
+activated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1335373302158
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.file.refresh,1335373304139
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.file.refresh,1335373305122
+executed,command,org.eclipse.jdt.debug.ui,3.3.1.v20080730_r341,org.eclipse.jdt.debug.ui.localJavaShortcut.run,1335373309849
+deactivated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1335373314233
+activated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1335373314248
+deactivated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1335373444836

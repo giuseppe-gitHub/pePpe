@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?> <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key for="node" id="d0" yfiles.type="nodegraphics"/> 
+  <key for="edge" id="d1" yfiles.type="edgegraphics"/> 
+<graph id="dependencies" edgedefault="directed">
+<node id="-789463952"><data key="d0"><y:ShapeNode><y:NodeLabel>it.gius:pePpe:pom:1.0-SNAPSHOT</y:NodeLabel></y:ShapeNode></data></node>
+<node id="-1241595764"><data key="d0"><y:ShapeNode><y:NodeLabel>junit:junit:jar:3.8.1:test</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="-789463952" target="-1241595764"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>test</y:EdgeLabel></y:PolyLineEdge></data></edge>
+</graph></graphml>

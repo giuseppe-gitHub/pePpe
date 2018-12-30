@@ -1,0 +1,237 @@
+2013-07-19 05:44:25 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-19 05:44:39 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Moving ended before time elapsed
+2013-07-19 05:46:18 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-19 05:46:24 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Moving ended before time elapsed
+2013-07-19 18:29:24 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-19 18:30:05 - INFO - Animation Thread - [SimpleNotifier]: Simulation Moving ended for time elapsed
+2013-07-19 18:32:31 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-19 18:32:44 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Moving ended before time elapsed
+2013-07-19 18:34:46 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-19 18:35:14 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Moving ended before time elapsed
+2013-07-19 18:39:19 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-19 18:39:32 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Moving ended before time elapsed
+2013-07-19 18:47:15 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-19 18:47:22 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Moving ended before time elapsed
+2013-07-19 18:48:45 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-19 18:48:59 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Moving ended!
+2013-07-19 18:50:36 - INFO - main - [ProcessingSimulator]: starting simulation: Void
+2013-07-19 19:00:28 - INFO - main - [ProcessingSimulator]: starting simulation: External Void
+2013-07-19 19:15:29 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-19 19:15:37 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Moving ended before time elapsed
+2013-07-19 19:15:52 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-19 19:16:19 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Moving ended!
+2013-07-19 19:16:35 - INFO - main - [ProcessingSimulator]: starting simulation: Void
+2013-07-19 19:17:54 - INFO - main - [ProcessingSimulator]: starting simulation: Void
+2013-07-19 19:31:38 - INFO - main - [ProcessingSimulator]: starting simulation: Void
+2013-07-19 19:52:53 - INFO - main - [ProcessingSimulator]: starting simulation: Box stacking
+2013-07-19 19:53:11 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Box stacking ended!
+2013-07-19 20:00:07 - INFO - main - [ProcessingSimulator]: starting simulation: Box stacking
+2013-07-19 20:00:21 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Box stacking ended!
+2013-07-19 20:00:43 - INFO - main - [ProcessingSimulator]: starting simulation: Box stacking
+2013-07-19 20:00:49 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Box stacking ended!
+2013-07-19 20:00:58 - INFO - main - [ProcessingSimulator]: starting simulation: Void
+2013-07-19 20:13:40 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-19 20:14:14 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-19 20:14:18 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Moving ended before time elapsed
+2013-07-19 20:15:47 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-19 20:15:58 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Moving ended before time elapsed
+2013-07-19 20:16:47 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-19 20:17:03 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Moving ended before time elapsed
+2013-07-19 20:17:45 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-19 20:17:50 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Moving ended before time elapsed
+2013-07-19 20:19:49 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-19 20:20:11 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Moving ended before time elapsed
+2013-07-19 20:21:13 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-19 20:21:23 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Moving ended before time elapsed
+2013-07-19 20:24:26 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-19 20:24:33 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Moving ended before time elapsed
+2013-07-20 00:52:27 - INFO - main - [ProcessingSimulator]: starting simulation: Box stacking
+2013-07-20 00:53:04 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Box stacking ended!
+2013-07-20 00:53:15 - INFO - main - [ProcessingSimulator]: starting simulation: Void
+2013-07-20 00:53:54 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-20 00:54:07 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Moving ended before time elapsed
+2013-07-20 01:14:17 - INFO - main - [ProcessingSimulator]: starting simulation: Single Cloth
+2013-07-20 01:14:37 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Single Cloth ended before time elapsed
+2013-07-20 01:15:28 - INFO - main - [ProcessingSimulator]: starting simulation: Single Cloth
+2013-07-20 01:16:12 - INFO - Animation Thread - [SimpleNotifier]: Simulation Single Cloth ended for time elapsed
+2013-07-20 01:17:47 - INFO - main - [ProcessingSimulator]: starting simulation: Box stacking
+2013-07-20 01:18:23 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Box stacking ended!
+2013-07-20 01:18:40 - INFO - main - [ProcessingSimulator]: starting simulation: Single Cloth
+2013-07-20 01:19:20 - INFO - Animation Thread - [SimpleNotifier]: Simulation Single Cloth ended for time elapsed
+2013-07-21 03:12:06 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-21 03:12:25 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Distance ended before time elapsed
+2013-07-21 03:14:26 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-21 03:15:41 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Distance ended!
+2013-07-21 03:18:22 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-21 03:18:32 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Distance ended before time elapsed
+2013-07-21 03:21:27 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-21 03:21:34 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Distance ended before time elapsed
+2013-07-24 21:46:17 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 21:46:31 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Distance ended before time elapsed
+2013-07-24 21:47:58 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 21:48:08 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Distance ended before time elapsed
+2013-07-24 23:21:55 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:22:19 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Distance ended before time elapsed
+2013-07-24 23:30:39 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:30:51 - DEBUG - Animation Thread - [Processing-Monitor]: monitoring    : engine.step
+2013-07-24 23:30:51 - DEBUG - Animation Thread - [Processing-Monitor]: average time  : 132537.88848920862 ns
+2013-07-24 23:30:51 - DEBUG - Animation Thread - [Processing-Monitor]: max time      : 4.7201879E7 ns, with the firsts 0 max dropped
+2013-07-24 23:30:51 - DEBUG - Animation Thread - [Processing-Monitor]: min time      : 28565.0 ns, with the firsts 2 min dropped
+2013-07-24 23:30:51 - DEBUG - Animation Thread - [Processing-Monitor]: deviation time: 1998265.897683727 ns
+2013-07-24 23:30:51 - DEBUG - Animation Thread - [Processing-Monitor]: iterations    : 556
+2013-07-24 23:30:51 - DEBUG - Animation Thread - [Processing-Monitor]: monitoring    : draw
+2013-07-24 23:30:51 - DEBUG - Animation Thread - [Processing-Monitor]: average time  : 754178.473967684 ns
+2013-07-24 23:30:51 - DEBUG - Animation Thread - [Processing-Monitor]: max time      : 1.2356459E7 ns, with the firsts 0 max dropped
+2013-07-24 23:30:51 - DEBUG - Animation Thread - [Processing-Monitor]: min time      : 571721.0 ns, with the firsts 2 min dropped
+2013-07-24 23:30:51 - DEBUG - Animation Thread - [Processing-Monitor]: deviation time: 547092.1611067231 ns
+2013-07-24 23:30:51 - DEBUG - Animation Thread - [Processing-Monitor]: iterations    : 557
+2013-07-24 23:30:51 - INFO - Animation Thread - [SimpleNotifier]: Simulation Distance ended for time elapsed
+2013-07-24 23:31:08 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:31:23 - DEBUG - Animation Thread - [Processing-Monitor]: monitoring    : engine.step
+2013-07-24 23:31:23 - DEBUG - Animation Thread - [Processing-Monitor]: average time  : 37118.02877697842 ns
+2013-07-24 23:31:23 - DEBUG - Animation Thread - [Processing-Monitor]: max time      : 260578.0 ns, with the firsts 0 max dropped
+2013-07-24 23:31:23 - DEBUG - Animation Thread - [Processing-Monitor]: min time      : 23816.0 ns, with the firsts 2 min dropped
+2013-07-24 23:31:23 - DEBUG - Animation Thread - [Processing-Monitor]: deviation time: 20917.20446865081 ns
+2013-07-24 23:31:23 - DEBUG - Animation Thread - [Processing-Monitor]: iterations    : 556
+2013-07-24 23:31:23 - DEBUG - Animation Thread - [Processing-Monitor]: monitoring    : draw
+2013-07-24 23:31:23 - DEBUG - Animation Thread - [Processing-Monitor]: average time  : 453153.2347670251 ns
+2013-07-24 23:31:23 - DEBUG - Animation Thread - [Processing-Monitor]: max time      : 7986629.0 ns, with the firsts 0 max dropped
+2013-07-24 23:31:23 - DEBUG - Animation Thread - [Processing-Monitor]: min time      : 333492.0 ns, with the firsts 2 min dropped
+2013-07-24 23:31:23 - DEBUG - Animation Thread - [Processing-Monitor]: deviation time: 391558.5776794633 ns
+2013-07-24 23:31:23 - DEBUG - Animation Thread - [Processing-Monitor]: iterations    : 558
+2013-07-24 23:31:23 - INFO - Animation Thread - [SimpleNotifier]: Simulation Distance ended for time elapsed
+2013-07-24 23:32:17 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:33:38 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Distance ended before time elapsed
+2013-07-24 23:34:10 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:34:30 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Distance ended before time elapsed
+2013-07-24 23:35:04 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:35:12 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Distance ended before time elapsed
+2013-07-24 23:35:27 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:36:10 - DEBUG - Animation Thread - [Processing-Monitor]: monitoring    : engine.step
+2013-07-24 23:36:10 - DEBUG - Animation Thread - [Processing-Monitor]: average time  : 26962.6632 ns
+2013-07-24 23:36:10 - DEBUG - Animation Thread - [Processing-Monitor]: max time      : 1849118.0 ns, with the firsts 0 max dropped
+2013-07-24 23:36:10 - DEBUG - Animation Thread - [Processing-Monitor]: min time      : 11384.0 ns, with the firsts 2 min dropped
+2013-07-24 23:36:10 - DEBUG - Animation Thread - [Processing-Monitor]: deviation time: 39308.52224367847 ns
+2013-07-24 23:36:10 - DEBUG - Animation Thread - [Processing-Monitor]: iterations    : 2500
+2013-07-24 23:36:10 - DEBUG - Animation Thread - [Processing-Monitor]: monitoring    : draw
+2013-07-24 23:36:10 - DEBUG - Animation Thread - [Processing-Monitor]: average time  : 260431.15153938424 ns
+2013-07-24 23:36:10 - DEBUG - Animation Thread - [Processing-Monitor]: max time      : 8404211.0 ns, with the firsts 0 max dropped
+2013-07-24 23:36:10 - DEBUG - Animation Thread - [Processing-Monitor]: min time      : 50216.0 ns, with the firsts 2 min dropped
+2013-07-24 23:36:10 - DEBUG - Animation Thread - [Processing-Monitor]: deviation time: 281185.9706190423 ns
+2013-07-24 23:36:10 - DEBUG - Animation Thread - [Processing-Monitor]: iterations    : 2501
+2013-07-24 23:36:10 - INFO - Animation Thread - [SimpleNotifier]: Simulation Distance ended for time elapsed
+2013-07-24 23:40:10 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:40:12 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Distance ended before time elapsed
+2013-07-24 23:40:56 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:41:10 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Distance ended before time elapsed
+2013-07-24 23:41:21 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:41:36 - DEBUG - Animation Thread - [Processing-Monitor]: monitoring    : engine.step
+2013-07-24 23:41:36 - DEBUG - Animation Thread - [Processing-Monitor]: average time  : 32076.526992287916 ns
+2013-07-24 23:41:36 - DEBUG - Animation Thread - [Processing-Monitor]: max time      : 144571.0 ns, with the firsts 0 max dropped
+2013-07-24 23:41:36 - DEBUG - Animation Thread - [Processing-Monitor]: min time      : 21023.0 ns, with the firsts 2 min dropped
+2013-07-24 23:41:36 - DEBUG - Animation Thread - [Processing-Monitor]: deviation time: 14423.774509029092 ns
+2013-07-24 23:41:36 - DEBUG - Animation Thread - [Processing-Monitor]: iterations    : 778
+2013-07-24 23:41:36 - DEBUG - Animation Thread - [Processing-Monitor]: monitoring    : draw
+2013-07-24 23:41:36 - DEBUG - Animation Thread - [Processing-Monitor]: average time  : 530775.1655969191 ns
+2013-07-24 23:41:36 - DEBUG - Animation Thread - [Processing-Monitor]: max time      : 1.0963265E7 ns, with the firsts 0 max dropped
+2013-07-24 23:41:36 - DEBUG - Animation Thread - [Processing-Monitor]: min time      : 288514.0 ns, with the firsts 2 min dropped
+2013-07-24 23:41:36 - DEBUG - Animation Thread - [Processing-Monitor]: deviation time: 421221.9439981567 ns
+2013-07-24 23:41:36 - DEBUG - Animation Thread - [Processing-Monitor]: iterations    : 779
+2013-07-24 23:41:36 - INFO - Animation Thread - [SimpleNotifier]: Simulation Distance ended for time elapsed
+2013-07-24 23:41:53 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:42:08 - DEBUG - Animation Thread - [Processing-Monitor]: monitoring    : engine.step
+2013-07-24 23:42:08 - DEBUG - Animation Thread - [Processing-Monitor]: average time  : 28315.86375321337 ns
+2013-07-24 23:42:08 - DEBUG - Animation Thread - [Processing-Monitor]: max time      : 434692.0 ns, with the firsts 0 max dropped
+2013-07-24 23:42:08 - DEBUG - Animation Thread - [Processing-Monitor]: min time      : 13410.0 ns, with the firsts 2 min dropped
+2013-07-24 23:42:08 - DEBUG - Animation Thread - [Processing-Monitor]: deviation time: 17688.66079234607 ns
+2013-07-24 23:42:08 - DEBUG - Animation Thread - [Processing-Monitor]: iterations    : 778
+2013-07-24 23:42:08 - DEBUG - Animation Thread - [Processing-Monitor]: monitoring    : draw
+2013-07-24 23:42:08 - DEBUG - Animation Thread - [Processing-Monitor]: average time  : 636356.8679487179 ns
+2013-07-24 23:42:08 - DEBUG - Animation Thread - [Processing-Monitor]: max time      : 7.3293603E7 ns, with the firsts 0 max dropped
+2013-07-24 23:42:08 - DEBUG - Animation Thread - [Processing-Monitor]: min time      : 410248.0 ns, with the firsts 2 min dropped
+2013-07-24 23:42:08 - DEBUG - Animation Thread - [Processing-Monitor]: deviation time: 2614161.921533296 ns
+2013-07-24 23:42:08 - DEBUG - Animation Thread - [Processing-Monitor]: iterations    : 780
+2013-07-24 23:42:08 - INFO - Animation Thread - [SimpleNotifier]: Simulation Distance ended for time elapsed
+2013-07-24 23:42:24 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:42:31 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Distance ended before time elapsed
+2013-07-24 23:42:42 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:42:55 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Distance ended before time elapsed
+2013-07-24 23:43:08 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:43:23 - DEBUG - Animation Thread - [Processing-Monitor]: monitoring    : engine.step
+2013-07-24 23:43:23 - DEBUG - Animation Thread - [Processing-Monitor]: average time  : 20128.55526992288 ns
+2013-07-24 23:43:23 - DEBUG - Animation Thread - [Processing-Monitor]: max time      : 116635.0 ns, with the firsts 0 max dropped
+2013-07-24 23:43:23 - DEBUG - Animation Thread - [Processing-Monitor]: min time      : 10756.0 ns, with the firsts 2 min dropped
+2013-07-24 23:43:23 - DEBUG - Animation Thread - [Processing-Monitor]: deviation time: 13532.953660662908 ns
+2013-07-24 23:43:23 - DEBUG - Animation Thread - [Processing-Monitor]: iterations    : 778
+2013-07-24 23:43:23 - DEBUG - Animation Thread - [Processing-Monitor]: monitoring    : draw
+2013-07-24 23:43:23 - DEBUG - Animation Thread - [Processing-Monitor]: average time  : 500659.3273427471 ns
+2013-07-24 23:43:23 - DEBUG - Animation Thread - [Processing-Monitor]: max time      : 6.0581583E7 ns, with the firsts 0 max dropped
+2013-07-24 23:43:23 - DEBUG - Animation Thread - [Processing-Monitor]: min time      : 253664.0 ns, with the firsts 2 min dropped
+2013-07-24 23:43:23 - DEBUG - Animation Thread - [Processing-Monitor]: deviation time: 2158128.940075417 ns
+2013-07-24 23:43:23 - DEBUG - Animation Thread - [Processing-Monitor]: iterations    : 779
+2013-07-24 23:43:23 - INFO - Animation Thread - [SimpleNotifier]: Simulation Distance ended for time elapsed
+2013-07-24 23:44:57 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:45:05 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Distance ended before time elapsed
+2013-07-24 23:45:28 - INFO - main - [ProcessingSimulator]: starting simulation: Distance
+2013-07-24 23:45:42 - DEBUG - Animation Thread - [Processing-Monitor]: monitoring    : engine.step
+2013-07-24 23:45:42 - DEBUG - Animation Thread - [Processing-Monitor]: average time  : 31331.154241645243 ns
+2013-07-24 23:45:42 - DEBUG - Animation Thread - [Processing-Monitor]: max time      : 367923.0 ns, with the firsts 0 max dropped
+2013-07-24 23:45:42 - DEBUG - Animation Thread - [Processing-Monitor]: min time      : 19485.0 ns, with the firsts 2 min dropped
+2013-07-24 23:45:42 - DEBUG - Animation Thread - [Processing-Monitor]: deviation time: 18188.08121849737 ns
+2013-07-24 23:45:42 - DEBUG - Animation Thread - [Processing-Monitor]: iterations    : 778
+2013-07-24 23:45:42 - DEBUG - Animation Thread - [Processing-Monitor]: monitoring    : draw
+2013-07-24 23:45:42 - DEBUG - Animation Thread - [Processing-Monitor]: average time  : 563504.46084724 ns
+2013-07-24 23:45:42 - DEBUG - Animation Thread - [Processing-Monitor]: max time      : 1.1990561E7 ns, with the firsts 0 max dropped
+2013-07-24 23:45:42 - DEBUG - Animation Thread - [Processing-Monitor]: min time      : 253733.0 ns, with the firsts 2 min dropped
+2013-07-24 23:45:42 - DEBUG - Animation Thread - [Processing-Monitor]: deviation time: 510022.90938876633 ns
+2013-07-24 23:45:42 - DEBUG - Animation Thread - [Processing-Monitor]: iterations    : 779
+2013-07-24 23:45:42 - INFO - Animation Thread - [SimpleNotifier]: Simulation Distance ended for time elapsed
+2013-07-24 23:51:59 - INFO - main - [ProcessingSimulator]: starting simulation: Single Cloth
+2013-07-24 23:52:44 - DEBUG - Animation Thread - [Processing-Monitor]: monitoring    : engine.step
+2013-07-24 23:52:44 - DEBUG - Animation Thread - [Processing-Monitor]: average time  : 264953.4105 ns
+2013-07-24 23:52:44 - DEBUG - Animation Thread - [Processing-Monitor]: max time      : 5768541.0 ns, with the firsts 0 max dropped
+2013-07-24 23:52:44 - DEBUG - Animation Thread - [Processing-Monitor]: min time      : 208616.0 ns, with the firsts 2 min dropped
+2013-07-24 23:52:44 - DEBUG - Animation Thread - [Processing-Monitor]: deviation time: 161557.13090531013 ns
+2013-07-24 23:52:44 - DEBUG - Animation Thread - [Processing-Monitor]: iterations    : 2000
+2013-07-24 23:52:44 - DEBUG - Animation Thread - [Processing-Monitor]: monitoring    : draw
+2013-07-24 23:52:44 - DEBUG - Animation Thread - [Processing-Monitor]: average time  : 2398232.639782286 ns
+2013-07-24 23:52:44 - DEBUG - Animation Thread - [Processing-Monitor]: max time      : 2.0553101E7 ns, with the firsts 0 max dropped
+2013-07-24 23:52:44 - DEBUG - Animation Thread - [Processing-Monitor]: min time      : 2156838.0 ns, with the firsts 2 min dropped
+2013-07-24 23:52:44 - DEBUG - Animation Thread - [Processing-Monitor]: deviation time: 667254.2012330263 ns
+2013-07-24 23:52:44 - DEBUG - Animation Thread - [Processing-Monitor]: iterations    : 2021
+2013-07-24 23:52:44 - INFO - Animation Thread - [SimpleNotifier]: Simulation Single Cloth ended for time elapsed
+2013-07-25 00:04:24 - INFO - main - [ProcessingSimulator]: starting simulation: Box stacking
+2013-07-25 00:04:49 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Box stacking ended!
+2013-07-25 00:05:08 - INFO - main - [ProcessingSimulator]: starting simulation: Box stacking
+2013-07-25 00:06:36 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Box stacking ended!
+2013-07-25 01:34:12 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-25 01:39:04 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-25 01:39:25 - DEBUG - Animation Thread - [Processing-Monitor]: monitoring    : engine.step
+2013-07-25 01:39:25 - DEBUG - Animation Thread - [Processing-Monitor]: average time  : 91742.83416583417 ns
+2013-07-25 01:39:25 - DEBUG - Animation Thread - [Processing-Monitor]: max time      : 4861442.0 ns, with the firsts 0 max dropped
+2013-07-25 01:39:25 - DEBUG - Animation Thread - [Processing-Monitor]: min time      : 34850.0 ns, with the firsts 2 min dropped
+2013-07-25 01:39:25 - DEBUG - Animation Thread - [Processing-Monitor]: deviation time: 168421.79228148627 ns
+2013-07-25 01:39:25 - DEBUG - Animation Thread - [Processing-Monitor]: iterations    : 1001
+2013-07-25 01:39:25 - DEBUG - Animation Thread - [Processing-Monitor]: monitoring    : draw
+2013-07-25 01:39:25 - DEBUG - Animation Thread - [Processing-Monitor]: average time  : 893027.5702891327 ns
+2013-07-25 01:39:25 - DEBUG - Animation Thread - [Processing-Monitor]: max time      : 7584553.0 ns, with the firsts 0 max dropped
+2013-07-25 01:39:25 - DEBUG - Animation Thread - [Processing-Monitor]: min time      : 656927.0 ns, with the firsts 2 min dropped
+2013-07-25 01:39:25 - DEBUG - Animation Thread - [Processing-Monitor]: deviation time: 422834.9006421934 ns
+2013-07-25 01:39:25 - DEBUG - Animation Thread - [Processing-Monitor]: iterations    : 1003
+2013-07-25 01:39:25 - INFO - Animation Thread - [SimpleNotifier]: Simulation Moving ended for time elapsed
+2013-07-29 09:45:52 - INFO - main - [ProcessingSimulator]: starting simulation: Moving
+2013-07-29 09:46:13 - DEBUG - Animation Thread - [Processing-Monitor]: monitoring    : engine.step
+2013-07-29 09:46:13 - DEBUG - Animation Thread - [Processing-Monitor]: average time  : 94446.33866133867 ns
+2013-07-29 09:46:13 - DEBUG - Animation Thread - [Processing-Monitor]: max time      : 5336642.0 ns, with the firsts 0 max dropped
+2013-07-29 09:46:13 - DEBUG - Animation Thread - [Processing-Monitor]: min time      : 35130.0 ns, with the firsts 2 min dropped
+2013-07-29 09:46:13 - DEBUG - Animation Thread - [Processing-Monitor]: deviation time: 183818.3247270785 ns
+2013-07-29 09:46:13 - DEBUG - Animation Thread - [Processing-Monitor]: iterations    : 1001
+2013-07-29 09:46:13 - DEBUG - Animation Thread - [Processing-Monitor]: monitoring    : draw
+2013-07-29 09:46:13 - DEBUG - Animation Thread - [Processing-Monitor]: average time  : 1050153.1796407185 ns
+2013-07-29 09:46:13 - DEBUG - Animation Thread - [Processing-Monitor]: max time      : 2.8845984E7 ns, with the firsts 0 max dropped
+2013-07-29 09:46:13 - DEBUG - Animation Thread - [Processing-Monitor]: min time      : 696946.0 ns, with the firsts 2 min dropped
+2013-07-29 09:46:13 - DEBUG - Animation Thread - [Processing-Monitor]: deviation time: 1003599.2125142819 ns
+2013-07-29 09:46:13 - DEBUG - Animation Thread - [Processing-Monitor]: iterations    : 1002
+2013-07-29 09:46:13 - INFO - Animation Thread - [SimpleNotifier]: Simulation Moving ended for time elapsed
+2013-07-31 09:06:13 - INFO - main - [ProcessingSimulator]: starting simulation: Single Cloth
+2013-07-31 09:06:25 - INFO - AWT-EventQueue-0 - [SimpleNotifier]: Simulation Single Cloth ended before time elapsed

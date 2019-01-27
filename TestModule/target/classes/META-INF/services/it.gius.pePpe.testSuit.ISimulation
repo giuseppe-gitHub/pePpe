@@ -3,3 +3,4 @@ it.gius.pePpe.testSuit.simulations.train.TrainSimulation
 it.gius.pePpe.testSuit.simulations.distance.DistanceSimulation
 it.gius.pePpe.testSuit.simulations.ClothSimulation
 it.gius.pePpe.testSuit.simulations.VoidSimulation
+it.gius.pePpe.testSuit.simulations.GravitySimulation
